@@ -9,4 +9,7 @@
   (lib (name "M.2-Key-E-Footprints-master")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/M.2-Key-E-Footprints-master")(options "")(descr ""))
   (lib (name "NSIM_5_B (1)")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/NSIM_5_B (1)")(options "")(descr ""))
   (lib (name "ESP32_C6")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/ESP32_C6_MINI_1U_N4/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "CRImier NGFF master libs-NGFF")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/CRImier NGFF master libs-NGFF.pretty")(options "")(descr ""))
+  (lib (name "1.8V LDO")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/LP5910_1_825YKAR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "new 1.8 LDO")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/LP5910_1_8DRVR/KiCADv6/footprints.pretty")(options "")(descr ""))
 )

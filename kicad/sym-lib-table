@@ -7,4 +7,6 @@
   (lib (name "2024-10-22_09-22-32")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/CONUFL001_SMD_T (1)/KiCADv6/2024-10-22_09-22-32.kicad_sym")(options "")(descr ""))
   (lib (name "NSIM-5-B")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/NSIM_5_B/NSIM-5-B.kicad_sym")(options "")(descr ""))
   (lib (name "2024-10-28_08-18-13")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/PTS815_SJM_250_SMTR_LFS/KiCADv6/2024-10-28_08-18-13.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-11-15_10-14-04")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/LP5910_1_825YKAR/KiCADv6/2024-11-15_10-14-04.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-11-15_11-36-08")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/LP5910_1_8DRVR/KiCADv6/2024-11-15_11-36-08.kicad_sym")(options "")(descr ""))
 )

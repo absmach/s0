@@ -1,4 +1,4 @@
-24305261281345723
+24315650850328128
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2575,6 +2575,48 @@ CONUFL001-SMD-T
 0
 3
 3
+CRImier NGFF master libs-NGFF
+NGFF_A
+
+
+0
+67
+67
+CRImier NGFF master libs-NGFF
+NGFF_A+E
+
+
+0
+59
+59
+CRImier NGFF master libs-NGFF
+NGFF_B
+
+
+0
+67
+67
+CRImier NGFF master libs-NGFF
+NGFF_B+M
+
+
+0
+59
+59
+CRImier NGFF master libs-NGFF
+NGFF_E
+
+
+0
+67
+67
+CRImier NGFF master libs-NGFF
+NGFF_M
+
+
+0
+67
+67
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
