@@ -12,4 +12,6 @@
   (lib (name "CRImier NGFF master libs-NGFF")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/CRImier NGFF master libs-NGFF.pretty")(options "")(descr ""))
   (lib (name "1.8V LDO")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/LP5910_1_825YKAR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "new 1.8 LDO")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/LP5910_1_8DRVR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Switch")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/ul_TS-1187A-B-A-B/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ESP32-C3-MINI-1U-H4")(type "KiCad")(uri "/home/r0x6f736f646f/Downloads/ul_ESP32-C3-MINI-1U-H4/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
