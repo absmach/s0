@@ -3007,6 +3007,28 @@
 		)
 		(uuid 935a7ce0-fc2f-440a-999a-c980c6002532)
 	)
+	(global_label "VOUT"
+		(shape input)
+		(at 226.06 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01c6ab32-f548-4852-afec-9d520abb0f80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.7624 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PROG"
 		(shape input)
 		(at 41.91 64.77 180)
@@ -3095,6 +3117,28 @@
 			)
 		)
 	)
+	(global_label "CE"
+		(shape input)
+		(at 203.2 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73035dc0-1226-4738-b568-539e84f06d5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7958 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VSS"
 		(shape input)
 		(at 41.91 69.85 180)
@@ -3139,31 +3183,9 @@
 			)
 		)
 	)
-	(global_label "CE"
-		(shape input)
-		(at 158.75 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bac23644-0724-478c-a1a5-d1c829fecc4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.3458 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VIN"
 		(shape input)
-		(at 158.75 95.25 180)
+		(at 203.2 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3171,9 +3193,9 @@
 			)
 			(justify right)
 		)
-		(uuid "be1f18c8-6d92-4df7-b072-dc50f7e56282")
+		(uuid "bf5c8095-19ca-472f-b4df-b92b23b1fc7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.7409 95.25 0)
+			(at 197.1909 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,28 +3227,6 @@
 			)
 		)
 	)
-	(global_label "VOUT"
-		(shape input)
-		(at 181.61 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1efd7be-0a1c-4ebc-9b3b-6e2a44f59456")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.3124 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VIN"
 		(shape input)
 		(at 195.58 62.23 0)
@@ -3246,73 +3246,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 158.75 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07cb571b-5924-4a36-96ff-d11785236fd5")
-		(property "Reference" "#PWR030"
-			(at 152.4 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 158.75 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d29b378e-8b24-4249-b2cc-3b94909e09bf")
-		)
-		(instances
-			(project "e-key-slot"
-				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
-					(reference "#PWR030")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3728,33 +3661,35 @@
 		)
 	)
 	(symbol
-		(lib_id "XC6220B331PR-G:XC6220B331PR-G")
-		(at 170.18 97.79 0)
+		(lib_id "power:GND1")
+		(at 203.2 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "428c8881-cf1b-4170-abb2-5c3c29d77746")
-		(property "Reference" "U3"
-			(at 170.18 87.63 0)
+		(uuid "3db56111-c199-438c-aa1c-62c45cd45648")
+		(property "Reference" "#PWR041"
+			(at 196.85 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "XC6220B331PR-G"
-			(at 170.18 90.17 0)
+		(property "Value" "GND"
+			(at 199.39 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 97.79 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 97.79 0)
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,184 +3706,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 97.79 0)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 203.2 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Torex"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-89-5\n                        \n"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "COPYRIGHT" "Copyright (C) 2022 Ultra Librarian. All rights reserved."
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-89 Torex"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/XC6220B331PR-G/Torex/view-part/?ref=eda"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XC6220B331PR-G/Torex/view-part/?ref=snap"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGI-KEY_PART_NUMBER_1" "893-1128-1-ND"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGI-KEY_PART_NUMBER_2" "893-1128-2-ND"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGI-KEY_PART_NUMBER_3" "893-1128-2-NDL"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DIGI-KEY_PART_NUMBER_4" "893-1128-6-ND"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "XC6220B331PR-G"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "Torex Semiconductor"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "XC6220B331PR-G"
-			(at 170.18 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "0c17515b-22fe-404d-ad73-50349f5f85e5")
-		)
-		(pin "4"
-			(uuid "205dbe75-156f-407a-bc8f-1b4bb2e97beb")
-		)
-		(pin "5"
-			(uuid "78169605-29f4-437c-957c-bf28e771823a")
-		)
-		(pin "3"
-			(uuid "9d9f8a83-46cb-43d8-a1df-db2ea95d76a3")
-		)
-		(pin "2"
-			(uuid "02fee062-72f8-4f9a-b2ec-fe10c0d785a6")
+			(uuid "eb5108d7-8919-4dee-b601-22313706a5ff")
 		)
 		(instances
-			(project ""
+			(project "e-key-slot"
 				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
-					(reference "U3")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4218,6 +3991,233 @@
 			(project "e-key-slot"
 				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XC6220B331PR-G:XC6220B331PR-G")
+		(at 214.63 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b671dd2-bc83-4f6d-af1d-1db56c74db83")
+		(property "Reference" "U5"
+			(at 214.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6220B331PR-G"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Torex"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-89-5\n                        \n"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "COPYRIGHT" "Copyright (C) 2022 Ultra Librarian. All rights reserved."
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-89 Torex"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XC6220B331PR-G/Torex/view-part/?ref=eda"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XC6220B331PR-G/Torex/view-part/?ref=snap"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGI-KEY_PART_NUMBER_1" "893-1128-1-ND"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGI-KEY_PART_NUMBER_2" "893-1128-2-ND"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGI-KEY_PART_NUMBER_3" "893-1128-2-NDL"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DIGI-KEY_PART_NUMBER_4" "893-1128-6-ND"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XC6220B331PR-G"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Torex Semiconductor"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "XC6220B331PR-G"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "575e78fc-a92b-42cd-acfe-d05359b82498")
+		)
+		(pin "4"
+			(uuid "b4fde4d9-33b2-4ad4-b638-5d38ddba3068")
+		)
+		(pin "2"
+			(uuid "290ef316-5a25-456f-b47c-61bbbeabf57a")
+		)
+		(pin "1"
+			(uuid "c47a61b3-bd8e-4655-89bf-b064ed00fc5d")
+		)
+		(pin "3"
+			(uuid "83b0ae09-9932-49fa-b913-63f10a7ab2b7")
+		)
+		(instances
+			(project ""
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "U5")
 					(unit 1)
 				)
 			)
