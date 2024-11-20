@@ -578,6 +578,14 @@
     [
       "c124244a-3c1c-475d-932f-950445d8391e",
       "Root"
+    ],
+    [
+      "db23d5e1-a70c-4fb7-9aaa-94502e21acbf",
+      "Power Input"
+    ],
+    [
+      "406ba3c8-764a-4179-b5f0-e390fa571c75",
+      "BMS"
     ]
   ],
   "text_variables": {}
