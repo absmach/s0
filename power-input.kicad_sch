@@ -4644,7 +4644,7 @@
 	)
 	(text "3v3 DC to 5v DC boost converter"
 		(exclude_from_sim no)
-		(at 63.754 24.384 0)
+		(at 64.516 19.304 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -6047,7 +6047,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "2.2k"
 			(at 86.36 72.3899 0)
 			(effects
 				(font
@@ -9353,7 +9353,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "22k"
 			(at 86.36 60.9599 0)
 			(effects
 				(font
