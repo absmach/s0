@@ -4696,7 +4696,7 @@
 		)
 		(uuid "1c883b58-d83a-4896-9c29-a412a5c708f6")
 	)
-	(text "3v3 DC to 5v DC boost converter"
+	(text "3v3 DC to 4.2v DC boost converter"
 		(exclude_from_sim no)
 		(at 64.516 19.304 0)
 		(effects

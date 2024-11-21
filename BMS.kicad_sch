@@ -359,15 +359,15 @@
 				)
 			)
 		)
-		(symbol "BAT-HLD-006-SMT:BAT-HLD-006-SMT"
+		(symbol "BM02B-SRSS-TB_LF__SN_:BM02B-SRSS-TB_LF__SN_"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at -3.81 3.81 0)
+			(property "Reference" "J"
+				(at -5.08 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -375,8 +375,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "BAT-HLD-006-SMT"
-				(at -3.81 -5.08 0)
+			(property "Value" "BM02B-SRSS-TB_LF__SN_"
+				(at -5.08 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -384,7 +384,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "BAT-HLD-006-SMT:BAT_BAT-HLD-006-SMT"
+			(property "Footprint" "BM02B-SRSS-TB_LF__SN_:JST_BM02B-SRSS-TB_LF__SN_"
 				(at 0 0 0)
 				(effects
 					(font
@@ -412,7 +412,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=snap"
+			(property "MF" "JST Sales America Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -422,7 +422,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=eda"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -432,7 +432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Package" "Package"
+			(property "Package" "None"
 				(at 0 0 0)
 				(effects
 					(font
@@ -452,7 +452,7 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Linx"
+			(property "Check_prices" "https://www.snapeda.com/parts/BM02B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -462,7 +462,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "BAT-HLD-006-SMT"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(effects
 					(font
@@ -472,7 +472,47 @@
 					(hide yes)
 				)
 			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6609949&manufacturer=Linx&part_name=BAT-HLD-006-SMT&search_term=None"
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM02B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BM02B-SRSS-TB(LF)(SN)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Conn Shrouded Header (4 Sides) HDR 2 POS 1mm Solder ST Top Entry SMD T/R\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JST Sales America Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -492,7 +532,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            Battery Holder Coin 24.5 SMT Nickel\n                        \n"
+			(property "SNAPEDA_PN" "BM02B-SRSS-TB(LF)(SN)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -502,114 +542,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT-HLD-006-SMT_0_0"
-				(polyline
-					(pts
-						(xy -3.81 1.905) (xy -2.54 1.905)
-					)
+			(symbol "BM02B-SRSS-TB_LF__SN__0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 7.62)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 2.54) (xy -3.175 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -10.16 5.08 0)
 					(length 5.08)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "N"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -618,16 +573,16 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
-					(name "~"
+					(name "2"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "P1"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -636,16 +591,34 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
-					(name "~"
+					(name "SHIELD"
 						(effects
 							(font
 								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "P2"
+					(number "S1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "S2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -2837,6 +2810,12 @@
 		(color 0 0 0 0)
 		(uuid "d4c06134-e932-49b4-978e-b7e7f773653d")
 	)
+	(junction
+		(at 67.31 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1846801-8a8a-4f16-a03d-6b969fc0a575")
+	)
 	(wire
 		(pts
 			(xy 143.51 62.23) (xy 143.51 53.34)
@@ -2989,6 +2968,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 106.68) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb6ac09-1c27-47d8-8848-ed23978d97b4")
+	)
+	(wire
+		(pts
 			(xy 179.07 74.93) (xy 179.07 71.12)
 		)
 		(stroke
@@ -2996,6 +2985,16 @@
 			(type default)
 		)
 		(uuid "5414a379-8125-4f02-82f2-d788935b36c8")
+	)
+	(wire
+		(pts
+			(xy 67.31 106.68) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564d51da-19b8-4849-aacb-cf2e6586ca55")
 	)
 	(wire
 		(pts
@@ -3059,13 +3058,13 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 114.3) (xy 44.45 114.3)
+			(xy 67.31 111.76) (xy 67.31 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9958e8b2-9b62-4ebc-a564-d262f2fde85d")
+		(uuid "92f6c931-0345-4f64-9cf0-1e0b445ff9da")
 	)
 	(wire
 		(pts
@@ -3159,16 +3158,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 114.3) (xy 63.5 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd202c8-6606-42fc-9bdc-3d743c722cf8")
-	)
-	(wire
-		(pts
 			(xy 143.51 74.93) (xy 165.1 74.93)
 		)
 		(stroke
@@ -3196,6 +3185,26 @@
 			(type default)
 		)
 		(uuid "dbda5f2c-153d-4c92-84c8-a4067e51216d")
+	)
+	(wire
+		(pts
+			(xy 69.85 111.76) (xy 67.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde1f033-c483-4e59-b9dc-d139b659446a")
+	)
+	(wire
+		(pts
+			(xy 63.5 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e01f205e-1211-4f71-9955-35dd2a65fd2c")
 	)
 	(wire
 		(pts
@@ -4189,6 +4198,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 63.5 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50d4c19c-4afc-4cae-b9a3-5a0458e9cefd")
+		(property "Reference" "#PWR042"
+			(at 67.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 59.69 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 63.5 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d61a43ea-d1fe-45f7-8fa5-551785ee188c")
+		)
+		(instances
+			(project "e-key-slot"
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 110.49 55.88 0)
 		(unit 1)
@@ -4550,73 +4626,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 39.37 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d9e45e5-d060-4e89-86c3-4ef7d0d9815a")
-		(property "Reference" "#PWR042"
-			(at 43.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 35.56 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 39.37 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97585a04-9f83-4f1e-bed3-52b2dd1a5e9c")
-		)
-		(instances
-			(project "e-key-slot"
-				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 55.88 92.71 0)
 		(unit 1)
@@ -4677,73 +4686,6 @@
 			(project "e-key-slot"
 				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
 					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 63.5 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88cc42d4-940e-4834-9483-473c4f2b8038")
-		(property "Reference" "#PWR043"
-			(at 69.85 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 114.2999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 63.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bb7bcbe-e416-44a9-93ff-87d3832168f4")
-		)
-		(instances
-			(project "e-key-slot"
-				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5494,6 +5436,213 @@
 		)
 	)
 	(symbol
+		(lib_id "BM02B-SRSS-TB_LF__SN_:BM02B-SRSS-TB_LF__SN_")
+		(at 80.01 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a42aad03-92ab-4c2f-89f2-618420e12ba2")
+		(property "Reference" "J3"
+			(at 86.36 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM02B-SRSS-TB_LF__SN_"
+			(at 86.36 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BM02B-SRSS-TB_LF__SN_:JST_BM02B-SRSS-TB_LF__SN_"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales America Inc."
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BM02B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM02B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BM02B-SRSS-TB(LF)(SN)"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Conn Shrouded Header (4 Sides) HDR 2 POS 1mm Solder ST Top Entry SMD T/R\n                        \n"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST Sales America Inc."
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "BM02B-SRSS-TB(LF)(SN)"
+			(at 80.01 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "134de00e-3cb8-47eb-b105-626612816e00")
+		)
+		(pin "S2"
+			(uuid "55d6e443-fbdb-4d5f-b387-016196ec8498")
+		)
+		(pin "1"
+			(uuid "df2c793a-21c6-462c-86b7-01b236d1ac69")
+		)
+		(pin "S1"
+			(uuid "f70adf9a-e6a9-4d86-af4a-ec10ccb31399")
+		)
+		(instances
+			(project ""
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 165.1 78.74 0)
 		(unit 1)
@@ -5560,6 +5709,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND1")
+		(at 63.5 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd2cc88-a13c-4022-80cd-5205ba8ec0d4")
+		(property "Reference" "#PWR043"
+			(at 57.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 63.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "329c015c-166d-4545-9579-0744725d8168")
+		)
+		(instances
+			(project "e-key-slot"
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 25.4 53.34 0)
 		(unit 1)
@@ -5620,168 +5836,6 @@
 			(project ""
 				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BAT-HLD-006-SMT:BAT-HLD-006-SMT")
-		(at 52.07 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c54f555e-bf30-4af6-bf8c-b5e25c9d9a34")
-		(property "Reference" "BT1"
-			(at 51.435 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT-HLD-006-SMT"
-			(at 51.435 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BAT-HLD-006-SMT:BAT_BAT-HLD-006-SMT"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=snap"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=eda"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Linx"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "BAT-HLD-006-SMT"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6609949&manufacturer=Linx&part_name=BAT-HLD-006-SMT&search_term=None"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            Battery Holder Coin 24.5 SMT Nickel\n                        \n"
-			(at 52.07 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "N"
-			(uuid "aa3ccfc2-1abf-425c-8c40-a3d63e952363")
-		)
-		(pin "P2"
-			(uuid "245b687d-52d2-48f9-ab17-d1a84a9df7df")
-		)
-		(pin "P1"
-			(uuid "18092db5-e602-4b1a-8d56-2415d5c8bfdd")
-		)
-		(instances
-			(project ""
-				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
