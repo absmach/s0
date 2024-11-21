@@ -359,6 +359,302 @@
 				)
 			)
 		)
+		(symbol "BAT-HLD-006-SMT:BAT-HLD-006-SMT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at -3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "BAT-HLD-006-SMT"
+				(at -3.81 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "BAT-HLD-006-SMT:BAT_BAT-HLD-006-SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Linx"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BAT-HLD-006-SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6609949&manufacturer=Linx&part_name=BAT-HLD-006-SMT&search_term=None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Battery Holder Coin 24.5 SMT Nickel\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BAT-HLD-006-SMT_0_0"
+				(polyline
+					(pts
+						(xy -3.81 1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 2.54) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2488,7 +2784,7 @@
 		(uuid "20860cf7-cf20-491c-b796-eb19eff157d6")
 	)
 	(junction
-		(at 77.47 156.21)
+		(at 100.33 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "260b6cf3-90dc-45f6-a2b0-0eaec278c4fc")
@@ -2583,7 +2879,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 156.21) (xy 77.47 156.21)
+			(xy 92.71 156.21) (xy 100.33 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2703,7 +2999,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 172.72) (xy 77.47 182.88)
+			(xy 100.33 172.72) (xy 100.33 182.88)
 		)
 		(stroke
 			(width 0)
@@ -2713,7 +3009,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 132.08) (xy 77.47 140.97)
+			(xy 100.33 132.08) (xy 100.33 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2773,6 +3069,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 114.3) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9958e8b2-9b62-4ebc-a564-d262f2fde85d")
+	)
+	(wire
+		(pts
 			(xy 82.55 64.77) (xy 77.47 64.77)
 		)
 		(stroke
@@ -2793,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 148.59) (xy 77.47 156.21)
+			(xy 100.33 148.59) (xy 100.33 156.21)
 		)
 		(stroke
 			(width 0)
@@ -2853,6 +3159,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 114.3) (xy 63.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd202c8-6606-42fc-9bdc-3d743c722cf8")
+	)
+	(wire
+		(pts
 			(xy 143.51 74.93) (xy 165.1 74.93)
 		)
 		(stroke
@@ -2863,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 156.21) (xy 77.47 165.1)
+			(xy 100.33 156.21) (xy 100.33 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +3523,7 @@
 	)
 	(global_label "BATT_MON"
 		(shape input)
-		(at 69.85 156.21 180)
+		(at 92.71 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3217,7 +3533,7 @@
 		)
 		(uuid "d2c97b96-dbf2-4fbd-9ec6-efa0173f8b93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.491 156.21 0)
+			(at 80.351 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,6 +4540,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 39.37 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d9e45e5-d060-4e89-86c3-4ef7d0d9815a")
+		(property "Reference" "#PWR042"
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 35.56 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 39.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97585a04-9f83-4f1e-bed3-52b2dd1a5e9c")
+		)
+		(instances
+			(project "e-key-slot"
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 55.88 93.98 0)
 		(unit 1)
@@ -4284,6 +4667,73 @@
 			(project "e-key-slot"
 				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 63.5 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88cc42d4-940e-4834-9483-473c4f2b8038")
+		(property "Reference" "#PWR043"
+			(at 69.85 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 63.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bb7bcbe-e416-44a9-93ff-87d3832168f4")
+		)
+		(instances
+			(project "e-key-slot"
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4969,7 +5419,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 77.47 182.88 0)
+		(at 100.33 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4978,7 +5428,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2c73eee-4974-4568-b01c-7ca794c77bde")
 		(property "Reference" "#PWR034"
-			(at 77.47 189.23 0)
+			(at 100.33 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,7 +5437,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 187.96 0)
+			(at 100.33 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 77.47 182.88 0)
+			(at 100.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,6 +5616,168 @@
 		)
 	)
 	(symbol
+		(lib_id "BAT-HLD-006-SMT:BAT-HLD-006-SMT")
+		(at 52.07 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c54f555e-bf30-4af6-bf8c-b5e25c9d9a34")
+		(property "Reference" "BT1"
+			(at 51.435 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT-HLD-006-SMT"
+			(at 51.435 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BAT-HLD-006-SMT:BAT_BAT-HLD-006-SMT"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=snap"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BAT-HLD-006-SMT/Linx/view-part/?ref=eda"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Linx"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BAT-HLD-006-SMT"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=6609949&manufacturer=Linx&part_name=BAT-HLD-006-SMT&search_term=None"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Battery Holder Coin 24.5 SMT Nickel\n                        \n"
+			(at 52.07 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "aa3ccfc2-1abf-425c-8c40-a3d63e952363")
+		)
+		(pin "P2"
+			(uuid "245b687d-52d2-48f9-ab17-d1a84a9df7df")
+		)
+		(pin "P1"
+			(uuid "18092db5-e602-4b1a-8d56-2415d5c8bfdd")
+		)
+		(instances
+			(project ""
+				(path "/c124244a-3c1c-475d-932f-950445d8391e/406ba3c8-764a-4179-b5f0-e390fa571c75"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 179.07 67.31 0)
 		(unit 1)
@@ -5236,7 +5848,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 77.47 132.08 0)
+		(at 100.33 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5245,7 +5857,7 @@
 		(fields_autoplaced yes)
 		(uuid "c94d0860-86f4-4c89-b1ad-6a18399b2967")
 		(property "Reference" "#PWR033"
-			(at 77.47 135.89 0)
+			(at 100.33 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5866,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 77.47 127 0)
+			(at 100.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 132.08 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 132.08 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5892,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 77.47 132.08 0)
+			(at 100.33 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +6120,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 168.91 180)
+		(at 100.33 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5517,7 +6129,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd6b2b80-ebab-46d1-a12b-d253ed630129")
 		(property "Reference" "R16"
-			(at 80.01 167.6399 0)
+			(at 102.87 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +6138,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 80.01 170.1799 0)
+			(at 102.87 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +6147,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 79.248 168.91 90)
+			(at 102.108 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +6156,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 168.91 0)
+			(at 100.33 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +6165,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 168.91 0)
+			(at 100.33 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +6190,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 144.78 180)
+		(at 100.33 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5587,7 +6199,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea9e3b55-af57-43a3-ae96-e1e297386935")
 		(property "Reference" "R15"
-			(at 80.01 143.5099 0)
+			(at 102.87 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +6208,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 80.01 146.0499 0)
+			(at 102.87 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +6217,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 79.248 144.78 90)
+			(at 102.108 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +6226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 144.78 0)
+			(at 100.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +6235,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 144.78 0)
+			(at 100.33 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
