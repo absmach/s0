@@ -3029,16 +3029,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 88.9) (xy 55.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b43b18c-e836-4b85-ab72-61654451340b")
-	)
-	(wire
-		(pts
 			(xy 191.77 62.23) (xy 195.58 62.23)
 		)
 		(stroke
@@ -3126,6 +3116,16 @@
 			(type default)
 		)
 		(uuid "abfb669f-cd13-4a97-a112-23b895070230")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1d969b-167b-4913-a0c3-48de2379b767")
 	)
 	(wire
 		(pts
@@ -3249,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 55.88 88.9)
+			(xy 55.88 92.71) (xy 55.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3323,6 +3323,16 @@
 		)
 		(uuid 935a7ce0-fc2f-440a-999a-c980c6002532)
 	)
+	(text "Charging Circuit"
+		(exclude_from_sim no)
+		(at 68.072 34.544 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "fa81de49-9b81-40d5-b8cc-fd73690e1452")
+	)
 	(global_label "VOUT"
 		(shape input)
 		(at 226.06 99.06 0)
@@ -3391,7 +3401,7 @@
 	)
 	(global_label "VSS"
 		(shape input)
-		(at 59.69 88.9 0)
+		(at 55.88 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3401,7 +3411,7 @@
 		)
 		(uuid "45cd7365-46c4-4f9a-9f9d-824fa8e906f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.1828 88.9 0)
+			(at 55.88 79.8672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 55.88 93.98 0)
+		(at 55.88 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4617,7 +4627,7 @@
 		(fields_autoplaced yes)
 		(uuid "8813d345-66b9-4ba3-8f4c-13f3ff195646")
 		(property "Reference" "#PWR027"
-			(at 55.88 100.33 0)
+			(at 55.88 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 99.06 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 93.98 0)
+			(at 55.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 93.98 0)
+			(at 55.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 55.88 93.98 0)
+			(at 55.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
