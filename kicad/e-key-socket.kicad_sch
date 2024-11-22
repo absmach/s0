@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "e81d48b1-4aa0-45d7-8f14-99a0c696f580")
 	(paper "A4")
+	(title_block
+		(title "M.2 E-Key Socket")
+		(date "22 NOV 2024")
+		(rev "4")
+		(company "Abstract Machines")
+		(comment 1 "Drawn by: Jeff Mboya")
+		(comment 2 "Approved by:")
+	)
 	(lib_symbols
 		(symbol "AZ1117IH-3.3TRG1:AZ1117IH-3.3TRG1"
 			(pin_names
