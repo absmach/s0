@@ -21,21 +21,16 @@ The schematic represents the electrical design for interfacing the M.2 E-key com
    - **Description**: A 12V Zener diode connected to the input line.
    - **Purpose**: Protects the circuit from voltage spikes or surges by clamping the voltage to a safe level.
 
-4. **D3 - LED**
-
-   - **Description**: A power indicator LED connected in series with a 100-ohm resistor (R2).
-   - **Purpose**: Provides a visual indication that the circuit is powered and functioning correctly.
-
-5. **C8 & C9 - Decoupling Capacitors**
+4. **C8 & C9 - Decoupling Capacitors**
 
    - **Description**: 10µF capacitors positioned across the power supply lines.
    - **Purpose**: Filters noise and stabilizes the power supply, ensuring smooth operation of the M.2 module.
 
-6. **J2 - M.2 Socket (MDT20E03002)**
+5. **J2 - M.2 Socket (MDT20E03002)**
 
    - **Description**: A 75-pin socket designed for M.2 E-key modules.
    - **Purpose**: Acts as the interface for the compute module.
 
-7. **U2 - Voltage Regulator (AZ1117H-3.3TRG1)**
+6. **U2 - Voltage Regulator (AZ1117H-3.3TRG1)**
    - **Description**: A linear voltage regulator that steps down the input voltage to `+3.3V`.
    - **Purpose**: Provides a stable 3.3V supply to power the M.2 socket and connected components.
