@@ -4026,6 +4026,50 @@
 		)
 		(uuid "fc9b820e-1b0a-4f2b-907c-57d811b22d9e")
 	)
+	(text "Capacitors\n\nC8\n-CL21A106KOQNNNE\n-C1713\n-X5R ±10%\n\nC9\n-CL10A106MQ8NNNC\n-C1691\n-X5R ±20%"
+		(exclude_from_sim no)
+		(at 233.68 44.45 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "7992b0b0-28d1-439f-8ad5-86a15474d7e0")
+	)
+	(text "Resistors\n-0402WGJ0361TCE\n-C25162 Copy\n-±5% 360Ω"
+		(exclude_from_sim no)
+		(at 175.768 97.79 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "8459a1e9-cf47-4e0b-a869-e3b7714f2cf0")
+	)
+	(text "Fuse (F1)\n-BSMD0805-100-12V \n-C910823 \n-12V 1A \n\nZener diode (D2)\n-BZT52C12S\n-C14643\n-11.4V~12.7V 200mW 12V"
+		(exclude_from_sim no)
+		(at 173.736 40.894 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "b4c88f93-f485-4e55-aff3-0ac4c91d36e1")
+	)
+	(text "LED\n-XL-1608UGC-04\n-C965804\n-Description\n-20mA 810mcd "
+		(exclude_from_sim no)
+		(at 173.482 73.66 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "e7be7387-621d-4a37-81ca-c09a39f5137c")
+	)
 	(global_label "INPUT"
 		(shape input)
 		(at 80.01 83.82 0)
@@ -4350,7 +4394,7 @@
 		(dnp no)
 		(uuid "29f4bc42-090e-40f6-a35e-deedf84f422c")
 		(property "Reference" "C8"
-			(at 49.022 89.916 0)
+			(at 51.054 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4403,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 49.276 96.012 0)
+			(at 50.292 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
