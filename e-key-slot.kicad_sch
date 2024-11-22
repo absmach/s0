@@ -15,7 +15,7 @@
 	(lib_symbols)
 	(text "E-key Socket"
 		(exclude_from_sim no)
-		(at 80.772 45.466 0)
+		(at 215.392 49.276 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -23,20 +23,31 @@
 		)
 		(uuid "0b8a833c-f4a8-46ff-ab1d-43aca1a65033")
 	)
+	(text "Power Input"
+		(exclude_from_sim no)
+		(at 71.628 52.578 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "62edc94f-d942-43b4-9a26-4059099dfa41")
+	)
 	(sheet
-		(at 22.86 21.59)
-		(size 123.19 46.99)
+		(at 158.75 25.4)
+		(size 121.92 55.88)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 107 83 255 1.0000)
+			(color 110 39 255 1.0000)
 		)
 		(uuid "10804591-8ca0-4971-bd60-3851aa5ed597")
 		(property "Sheetname" "e-key-socket"
-			(at 22.86 20.8784 0)
+			(at 158.75 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +56,7 @@
 			)
 		)
 		(property "Sheetfile" "e-key-socket.kicad_sch"
-			(at 22.86 69.1646 0)
+			(at 158.75 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,6 +68,53 @@
 			(project "e-key-slot"
 				(path "/c124244a-3c1c-475d-932f-950445d8391e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 24.13)
+		(size 125.73 57.15)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 150 55 37 1.0000)
+		)
+		(uuid "db23d5e1-a70c-4fb7-9aaa-94502e21acbf")
+		(property "Sheetname" "Power Input"
+			(at 17.78 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power-input.kicad_sch"
+			(at 17.78 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 17.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "e-key-slot"
+				(path "/c124244a-3c1c-475d-932f-950445d8391e"
+					(page "2")
 				)
 			)
 		)
