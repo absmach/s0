@@ -1,1 +1,8 @@
-.lck
+# Ignore all KiCad autosave files
+*autosave*
+
+# Ignore all lock files
+*.lck
+
+# Ignore all temporary files
+*~ 
