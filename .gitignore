@@ -4,11 +4,12 @@
 # Ignore all lock files
 *.lck
 
-# Ignore temporary files ending in ~
+# Ignore all backup files and directories
+*/backups/
 *~ 
 *.*~
 
-# Ignore all KiCad specific temporary files (excluding backups)
+# Ignore all KiCad specific temporary files
 *.kicad_sch-bak
 *.kicad_pcb-bak
 *.kicad_pro-bak
