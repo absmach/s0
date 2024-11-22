@@ -4037,7 +4037,7 @@
 		)
 		(uuid "7992b0b0-28d1-439f-8ad5-86a15474d7e0")
 	)
-	(text "Resistors\n-0402WGJ0361TCE\n-C25162 Copy\n-±5% 360Ω"
+	(text "Resistors\n\nR2\n-RTT026200FTH\n-C103122\n-±1% 620Ω"
 		(exclude_from_sim no)
 		(at 175.768 97.79 0)
 		(effects
@@ -4058,6 +4058,16 @@
 			(justify left)
 		)
 		(uuid "b4c88f93-f485-4e55-aff3-0ac4c91d36e1")
+	)
+	(text "V(s)=9V\nV(f)=2.7V\nR=620\nI(f)=10.2mA"
+		(exclude_from_sim no)
+		(at 98.044 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6bf6a01-60d1-4475-abcd-9ab6e9c479d7")
 	)
 	(text "LED\n-XL-1608UGC-04\n-C965804\n-Description\n-20mA 810mcd "
 		(exclude_from_sim no)
