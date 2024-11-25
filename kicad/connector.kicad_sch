@@ -2378,6 +2378,19 @@
 		)
 		(uuid "67b5d288-bb22-4cc1-b6bf-31521a50beac")
 	)
+	(text "M2 E-Key"
+		(exclude_from_sim no)
+		(at 98.552 26.67 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcc9cdc6-a232-46ed-8e16-d8eff18a1b9f")
+	)
 	(text "V(s)=3.3V\nV(f)=2V\nR=100\nI(f)=13mA\n\n150060VS75000"
 		(exclude_from_sim no)
 		(at 237.236 129.54 0)
