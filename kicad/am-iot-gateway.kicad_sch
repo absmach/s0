@@ -47,7 +47,7 @@
 		(instances
 			(project "am-iot-gateway"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
@@ -86,44 +86,6 @@
 			(project "am-iot-gateway"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 26.924 85.09)
-		(size 90.678 43.942)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 132 0 0.5000)
-		)
-		(uuid "94c14ccb-5c77-443e-a742-84763e7b200f")
-		(property "Sheetname" "mcu"
-			(at 57.15 113.284 0)
-			(effects
-				(font
-					(size 10 10)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mcu.kicad_sch"
-			(at 26.924 129.6166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "am-iot-gateway"
-				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
-					(page "3")
 				)
 			)
 		)

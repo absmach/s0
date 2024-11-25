@@ -9,7 +9,7 @@
 		(date "2024-10-15")
 		(rev "v0.1.0")
 		(company "Abstract Machines")
-		(comment 1 "Designed By: Rodney Osodo")
+		(comment 1 "Designed By: Jeff Mboya")
 		(comment 2 "Approved By:")
 	)
 	(lib_symbols
@@ -4891,6 +4891,10 @@
 		(uuid "17969c4f-6e2e-4817-a4e7-401ff75747d8")
 	)
 	(no_connect
+		(at 81.28 92.71)
+		(uuid "1f85f754-fded-4132-ba43-759cc3931e8d")
+	)
+	(no_connect
 		(at 81.28 80.01)
 		(uuid "1f9039ac-5f06-4325-887c-9d62909abf97")
 	)
@@ -4909,6 +4913,14 @@
 	(no_connect
 		(at 132.08 115.57)
 		(uuid "3d1aaa9a-abbe-48f1-acfa-a4d0ccab5cbc")
+	)
+	(no_connect
+		(at 336.55 153.67)
+		(uuid "3fc856a7-e616-4ce2-9e98-f8463b173a83")
+	)
+	(no_connect
+		(at 336.55 151.13)
+		(uuid "4722acab-6845-4949-85dd-aa9b8d4571ce")
 	)
 	(no_connect
 		(at 356.87 161.29)
@@ -4939,12 +4951,12 @@
 		(uuid "7565700b-dcef-4567-a22c-43f92a468597")
 	)
 	(no_connect
-		(at 356.87 218.44)
-		(uuid "7b9c8a86-538e-4387-8307-c3f0a128052b")
+		(at 356.87 151.13)
+		(uuid "77defd1b-83a2-4fc4-82f8-a7c7c9629e0a")
 	)
 	(no_connect
-		(at 81.28 92.71)
-		(uuid "86c823a3-bb98-4e75-bacc-73afcdce219b")
+		(at 356.87 218.44)
+		(uuid "7b9c8a86-538e-4387-8307-c3f0a128052b")
 	)
 	(no_connect
 		(at 132.08 90.17)
@@ -4973,6 +4985,10 @@
 	(no_connect
 		(at 132.08 87.63)
 		(uuid "ab6e948d-26e7-4f92-a64c-f60d262edaa0")
+	)
+	(no_connect
+		(at 356.87 153.67)
+		(uuid "ae99a8ed-4203-4dab-83cf-19d4cc4ffe62")
 	)
 	(no_connect
 		(at 132.08 100.33)
@@ -5004,7 +5020,7 @@
 	)
 	(no_connect
 		(at 81.28 90.17)
-		(uuid "e3d81aab-31ae-4747-956d-36b4e06366e4")
+		(uuid "e29e5516-ebe1-47b9-88af-cffcf9394788")
 	)
 	(no_connect
 		(at 81.28 120.65)
@@ -5836,16 +5852,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 151.13) (xy 336.55 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c78efbf-d556-4b52-9f07-d81b627d41eb")
-	)
-	(wire
-		(pts
 			(xy 142.24 62.23) (xy 132.08 62.23)
 		)
 		(stroke
@@ -5856,16 +5862,6 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 151.13) (xy 356.87 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "801a6055-1504-4f95-b8d6-1f04bbd6f714")
-	)
-	(wire
-		(pts
 			(xy 331.47 146.05) (xy 336.55 146.05)
 		)
 		(stroke
@@ -5873,16 +5869,6 @@
 			(type default)
 		)
 		(uuid "82d6e3a2-afd8-454d-bc15-395fd40984dd")
-	)
-	(wire
-		(pts
-			(xy 364.49 153.67) (xy 356.87 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83fb20b4-42aa-4d95-bb01-3a784913ccef")
 	)
 	(wire
 		(pts
@@ -6333,16 +6319,6 @@
 			(type default)
 		)
 		(uuid "bf67b712-8930-4c59-ad0c-5969cc8a8772")
-	)
-	(wire
-		(pts
-			(xy 331.47 153.67) (xy 336.55 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c235f42d-bc92-4e58-9627-7df9a1fea19d")
 	)
 	(wire
 		(pts
@@ -7179,28 +7155,6 @@
 			)
 		)
 	)
-	(global_label "M2_TXD(3v3)"
-		(shape input)
-		(at 364.49 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f5d61d5-3ea6-4a5d-a6fe-c0c3e1fa99b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.6308 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SIM7080G_TXD"
 		(shape input)
 		(at 364.49 143.51 0)
@@ -7285,50 +7239,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M2_TXD"
-		(shape input)
-		(at 331.47 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "50f620d3-715b-4fbc-bc88-8e436ed0dcf1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.4092 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M2_RXD(3v3)"
-		(shape input)
-		(at 364.49 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "51fffe84-acd1-4cfa-93e9-7985bf731259")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.9332 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7522,28 +7432,6 @@
 		(uuid "7e299850-8fa1-4f96-b524-2507a31c0d1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 31.1234 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "M2_RXD"
-		(shape input)
-		(at 331.47 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9767fccb-21d6-40ed-ac36-c3a1ba660373")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.1068 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
