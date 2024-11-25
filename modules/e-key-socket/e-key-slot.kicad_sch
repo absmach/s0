@@ -10,7 +10,7 @@
 		(rev "2")
 		(company "Abstract Machines")
 		(comment 1 "Drawn By: Jeff Mboya")
-		(comment 2 "Approved By:")
+		(comment 2 "Approved By: Rodney Osodo")
 	)
 	(lib_symbols)
 	(text "E-key Socket"
@@ -32,7 +32,7 @@
 			(type solid)
 		)
 		(fill
-			(color 110 39 255 1.0000)
+			(color 160 171 255 1.0000)
 		)
 		(uuid "10804591-8ca0-4971-bd60-3851aa5ed597")
 		(property "Sheetname" "e-key-socket"
