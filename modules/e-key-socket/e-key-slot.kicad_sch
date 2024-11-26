@@ -1,0 +1,71 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c124244a-3c1c-475d-932f-950445d8391e")
+	(paper "A4")
+	(title_block
+		(title "E-Key-Socket")
+		(date "18 Nove 2024")
+		(rev "2")
+		(company "Abstract Machines")
+		(comment 1 "Drawn By: Jeff Mboya")
+		(comment 2 "Approved By: Rodney Osodo")
+	)
+	(lib_symbols)
+	(text "E-key Socket"
+		(exclude_from_sim no)
+		(at 90.932 50.546 0)
+		(effects
+			(font
+				(size 8 8)
+				(thickness 1.6)
+				(bold yes)
+			)
+		)
+		(uuid "0b8a833c-f4a8-46ff-ab1d-43aca1a65033")
+	)
+	(sheet
+		(at 34.29 26.67)
+		(size 121.92 55.88)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 160 171 255 1.0000)
+		)
+		(uuid "10804591-8ca0-4971-bd60-3851aa5ed597")
+		(property "Sheetname" "e-key-socket"
+			(at 34.29 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "e-key-socket.kicad_sch"
+			(at 34.29 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "e-key-slot"
+				(path "/c124244a-3c1c-475d-932f-950445d8391e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

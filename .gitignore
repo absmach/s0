@@ -1,0 +1,19 @@
+# Ignore all KiCad autosave files
+*autosave*
+
+# Ignore all lock files
+*.lck
+
+# Ignore all backup files and directories
+*backups/
+
+# Ignore all KiCad specific temporary files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*.kicad_prl-bak
+
+# Modules
+fp-lib-table
+
+fp-info-cache
