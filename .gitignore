@@ -5,10 +5,7 @@
 *.lck
 
 # Ignore all backup files and directories
-*/backups/
-*backups*
-*~ 
-*.*~
+*backups/
 
 # Ignore all KiCad specific temporary files
 *.kicad_sch-bak
@@ -16,5 +13,7 @@
 *.kicad_pro-bak
 *.kicad_prl-bak
 
-# Ignore KiCad file cache
-fp-info-cache/
+# Modules
+fp-lib-table
+
+fp-info-cache

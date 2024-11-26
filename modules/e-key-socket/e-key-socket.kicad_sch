@@ -2999,13 +2999,13 @@
 		)
 	)
 	(junction
-		(at 55.88 88.9)
+		(at 59.69 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1db5675a-d79e-4c7e-a357-c963e3db3284")
 	)
 	(junction
-		(at 64.77 104.14)
+		(at 68.58 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ff901c7-b0f0-4789-81b0-086b6d001d9d")
@@ -3023,13 +3023,13 @@
 		(uuid "59a6842b-63e5-423c-a5dd-1b8bea3ee33a")
 	)
 	(junction
-		(at 76.2 88.9)
+		(at 80.01 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cfc2702-1723-4739-ba80-c7db275f4cdb")
 	)
 	(junction
-		(at 66.04 44.45)
+		(at 82.55 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e92b386-a453-4e56-b761-cb2ab9a286be")
@@ -3041,7 +3041,7 @@
 		(uuid "7954fc92-1f80-4e15-9f87-4c6e0a6d5e3b")
 	)
 	(junction
-		(at 142.24 88.9)
+		(at 146.05 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a015e65-7b64-4c99-bfeb-2e6b3869c7bd")
@@ -3281,7 +3281,7 @@
 		(uuid "cf5fec5a-9c83-4aa0-b50f-65f5fa79bf70")
 	)
 	(no_connect
-		(at 130.81 93.98)
+		(at 134.62 105.41)
 		(uuid "d0faa40f-fa0d-4b11-aeed-310d903ac666")
 	)
 	(no_connect
@@ -3344,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 78.74) (xy 38.1 88.9)
+			(xy 41.91 90.17) (xy 41.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3394,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 53.34 88.9)
+			(xy 59.69 100.33) (xy 57.15 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3414,7 +3414,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 55.88 104.14)
+			(xy 59.69 113.03) (xy 59.69 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 76.2 92.71)
+			(xy 80.01 100.33) (xy 80.01 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3484,7 +3484,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 142.24 88.9)
+			(xy 146.05 95.25) (xy 146.05 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3494,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 104.14) (xy 64.77 104.14)
+			(xy 80.01 115.57) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3514,7 +3514,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 104.14) (xy 64.77 104.14)
+			(xy 59.69 115.57) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 95.25 88.9)
+			(xy 80.01 100.33) (xy 99.06 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3594,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 88.9) (xy 45.72 88.9)
+			(xy 41.91 100.33) (xy 49.53 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3604,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 130.81 99.06)
+			(xy 137.16 110.49) (xy 134.62 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3614,7 +3614,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 66.04 44.45)
+			(xy 82.55 59.69) (xy 82.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3644,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 39.37) (xy 66.04 44.45)
+			(xy 82.55 49.53) (xy 82.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3664,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 55.88 91.44)
+			(xy 59.69 100.33) (xy 59.69 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3694,7 +3694,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 66.04 36.83)
+			(xy 80.01 46.99) (xy 82.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3704,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 88.9) (xy 142.24 88.9)
+			(xy 134.62 100.33) (xy 146.05 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3734,7 +3734,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 102.87) (xy 133.35 99.06)
+			(xy 137.16 114.3) (xy 137.16 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3754,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 76.2 88.9)
+			(xy 59.69 100.33) (xy 80.01 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3764,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 100.33) (xy 76.2 104.14)
+			(xy 80.01 111.76) (xy 80.01 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3794,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 107.95) (xy 64.77 104.14)
+			(xy 68.58 119.38) (xy 68.58 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3804,29 +3804,40 @@
 	)
 	(text "Capacitors\n\nC8\n-CL21A106KOQNNNE\n-C1713\n-X5R ±10%\n"
 		(exclude_from_sim no)
-		(at 98.806 164.592 0)
+		(at 81.534 176.022 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "7992b0b0-28d1-439f-8ad5-86a15474d7e0")
 	)
-	(text "Fuse (F1)\n-BSMD0805-100-12V \n-C910823 \n-12V 1A \n\nZener diode (D2)\n-BZT52C12S\n-C14643\n-11.4V~12.7V 200mW 12V"
+	(text "Fuse (F1)\n-BSMD0805-100-12V \n-C910823 \n-12V 1A \n"
 		(exclude_from_sim no)
-		(at 32.004 164.084 0)
+		(at 56.388 88.138 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "b4c88f93-f485-4e55-aff3-0ac4c91d36e1")
 	)
+	(text "Zener diode (D2)\n-BZT52C12S\n-C14643\n-11.4V~12.7V 200mW 12V"
+		(exclude_from_sim no)
+		(at 31.496 112.268 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d30da526-80e3-4836-8345-cf1d1163bb8e")
+	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 142.24 83.82 0)
+		(at 146.05 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3834,7 +3845,7 @@
 		(dnp no)
 		(uuid "0001024c-5d72-4e72-9c50-c20532a4e8af")
 		(property "Reference" "#PWR02"
-			(at 142.24 87.63 0)
+			(at 146.05 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +3854,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 139.954 78.486 0)
+			(at 143.764 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +3863,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 83.82 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,7 +3872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 83.82 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 83.82 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 107.95 0)
+		(at 68.58 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3901,7 +3912,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c50c5df-fbbd-45b1-bdf6-67bd504a68aa")
 		(property "Reference" "#PWR06"
-			(at 64.77 114.3 0)
+			(at 68.58 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +3921,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 113.03 0)
+			(at 68.58 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +3929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 107.95 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 107.95 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,7 +3947,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 107.95 0)
+			(at 68.58 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,7 +4035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 76.2 96.52 0)
+		(at 80.01 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4032,7 +4043,7 @@
 		(dnp no)
 		(uuid "29f4bc42-090e-40f6-a35e-deedf84f422c")
 		(property "Reference" "C8"
-			(at 80.264 95.25 0)
+			(at 84.074 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4052,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 79.502 97.028 0)
+			(at 83.312 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4050,7 +4061,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 77.1652 100.33 0)
+			(at 80.9752 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 96.52 0)
+			(at 80.01 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4079,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 76.2 96.52 0)
+			(at 80.01 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 66.04 49.53 0)
+		(at 82.55 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4101,7 +4112,7 @@
 		(dnp no)
 		(uuid "2ebefd2e-92b4-4fc7-a528-966e4cd0cae9")
 		(property "Reference" "#PWR01"
-			(at 66.04 55.88 0)
+			(at 82.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4121,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.008 53.594 0)
+			(at 80.518 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 49.53 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 49.53 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4137,7 +4148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 66.04 49.53 0)
+			(at 82.55 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4237,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 63.5 36.83 0)
+		(at 80.01 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4234,7 +4245,7 @@
 		(dnp no)
 		(uuid "4a9d6d33-d9dd-45e0-bff7-52e7fd095261")
 		(property "Reference" "#PWR07"
-			(at 63.5 40.64 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4254,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 61.722 32.512 0)
+			(at 78.232 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,7 +4263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 36.83 0)
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 36.83 0)
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 63.5 36.83 0)
+			(at 80.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4303,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 92.71 0)
+		(at 146.05 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4300,7 +4311,7 @@
 		(dnp no)
 		(uuid "4dbf6dc7-8025-4e34-997f-d5ea5fb1bcf0")
 		(property "Reference" "C9"
-			(at 144.272 89.916 0)
+			(at 148.082 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4320,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 144.526 96.012 0)
+			(at 148.336 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4329,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 143.2052 96.52 0)
+			(at 147.0152 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 92.71 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4347,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 92.71 0)
+			(at 146.05 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4372,7 @@
 	)
 	(symbol
 		(lib_id "BZT52C12S:BZT52C12S")
-		(at 55.88 96.52 90)
+		(at 59.69 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4369,7 +4380,7 @@
 		(dnp no)
 		(uuid "53773a90-5968-4072-aa23-38dce7893ef3")
 		(property "Reference" "D2"
-			(at 58.42 95.2499 90)
+			(at 62.23 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4389,7 @@
 			)
 		)
 		(property "Value" "BZT52C12S"
-			(at 58.42 97.282 90)
+			(at 62.23 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4398,7 @@
 			)
 		)
 		(property "Footprint" "BZT52C12S:DIO_BZT52C12S"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +4408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +4417,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +4426,7 @@
 			)
 		)
 		(property "MF" "Taiwan Semiconductor"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4436,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4446,7 @@
 			)
 		)
 		(property "Package" "SOD-323F-2 Taiwan Semiconductor"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +4456,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4466,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BZT52C12S/Taiwan+Semiconductor/view-part/?ref=eda"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4476,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4486,7 @@
 			)
 		)
 		(property "PARTREV" "H2212"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4496,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BZT52C12S/Taiwan+Semiconductor/view-part/?ref=snap"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4506,7 @@
 			)
 		)
 		(property "MP" "BZT52C12S"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +4516,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Zener Diode Single 12V 5% 25Ohm 200mW 2-Pin SOD-323F T/R\n                        \n"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +4526,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "UDZS3V6B RRG"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,7 +4536,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4546,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Taiwan Semiconductor"
-			(at 55.88 96.52 0)
+			(at 59.69 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 96.52 0)
+		(at 146.05 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4570,7 +4581,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ca62480-bb50-4ff5-8336-f6e6f71afc8f")
 		(property "Reference" "#PWR05"
-			(at 142.24 102.87 0)
+			(at 146.05 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,7 +4590,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 101.6 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 96.52 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +4607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 96.52 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 96.52 0)
+			(at 146.05 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5021,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 49.53 88.9 90)
+		(at 53.34 100.33 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5019,7 +5030,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac2945a1-4fda-4405-8f29-28128dcb6e4b")
 		(property "Reference" "F1"
-			(at 49.53 82.55 90)
+			(at 53.34 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5038,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 49.53 85.09 90)
+			(at 53.34 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5046,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
-			(at 49.53 90.678 90)
+			(at 53.34 102.108 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5055,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 88.9 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5064,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 49.53 88.9 0)
+			(at 53.34 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5078,7 +5089,7 @@
 	)
 	(symbol
 		(lib_id "BM02B-SRSS-TB_LF__SN_:BM02B-SRSS-TB_LF__SN_")
-		(at 76.2 41.91 0)
+		(at 92.71 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5087,7 +5098,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6f3f28c-4c5e-41e5-b1c7-13dfb238252d")
 		(property "Reference" "J1"
-			(at 82.55 39.3699 0)
+			(at 99.06 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5107,7 @@
 			)
 		)
 		(property "Value" "BM02B-SRSS-TB_LF__SN_"
-			(at 82.55 41.9099 0)
+			(at 99.06 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,7 +5116,7 @@
 			)
 		)
 		(property "Footprint" "BM02B-SRSS-TB_LF__SN_:JST_BM02B-SRSS-TB_LF__SN_"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5135,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5144,7 @@
 			)
 		)
 		(property "MF" "JST Sales America Inc."
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5143,7 +5154,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "6.3 mm"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5164,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5174,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5184,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BM02B-SRSS-TB(LF)(SN)/JST/view-part/?ref=eda"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5194,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5204,7 @@
 			)
 		)
 		(property "PARTREV" "N/A"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5214,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BM02B-SRSS-TB(LF)(SN)/JST/view-part/?ref=snap"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5224,7 @@
 			)
 		)
 		(property "MP" "BM02B-SRSS-TB(LF)(SN)"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5234,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Conn Shrouded Header (4 Sides) HDR 2 POS 1mm Solder ST Top Entry SMD T/R\n                        \n"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,7 +5244,7 @@
 			)
 		)
 		(property "MANUFACTURER" "JST Sales America Inc."
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5254,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5264,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "BM02B-SRSS-TB(LF)(SN)"
-			(at 76.2 41.91 0)
+			(at 92.71 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5296,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 133.35 102.87 0)
+		(at 137.16 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5293,7 +5304,7 @@
 		(dnp no)
 		(uuid "cd91039d-3e5c-44dd-bee3-6eb7b4a499f3")
 		(property "Reference" "#PWR04"
-			(at 133.35 109.22 0)
+			(at 137.16 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5313,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 106.934 0)
+			(at 135.89 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 102.87 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 102.87 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5340,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 133.35 102.87 0)
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5362,7 @@
 	)
 	(symbol
 		(lib_id "AZ1117IH-3.3TRG1:AZ1117IH-3.3TRG1")
-		(at 113.03 93.98 0)
+		(at 116.84 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5360,7 +5371,7 @@
 		(fields_autoplaced yes)
 		(uuid "d932954e-1230-4aa7-b0d0-8ddacba79d0e")
 		(property "Reference" "U2"
-			(at 113.03 81.28 0)
+			(at 116.84 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,7 +5379,7 @@
 			)
 		)
 		(property "Value" "AZ1117IH-3.3TRG1"
-			(at 113.03 83.82 0)
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" "AZ1117IH-3.3TRG1:SOT230P700X185-4N"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,7 +5406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5404,7 +5415,7 @@
 			)
 		)
 		(property "MF" "Diodes Inc."
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5425,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "6532"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5435,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.85 mm"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5434,7 +5445,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5444,7 +5455,7 @@
 			)
 		)
 		(property "Package" "SOT-223 Diodes Inc."
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,7 +5465,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=eda"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5475,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5485,7 @@
 			)
 		)
 		(property "PARTREV" "2-2"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5495,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AZ1117IH-3.3TRG1/Diodes+Inc./view-part/?ref=snap"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5505,7 @@
 			)
 		)
 		(property "MP" "AZ1117IH-3.3TRG1"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5515,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Linear Voltage Regulator IC Positive Fixed 1 Output  1A SOT-223-3\n                        \n"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5514,7 +5525,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Diodes Inc."
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5535,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +5545,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "AZ1117IH-3.3TRG1"
-			(at 113.03 93.98 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5577,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 38.1 78.74 0)
+		(at 41.91 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5574,7 +5585,7 @@
 		(dnp no)
 		(uuid "dd6888d7-b1bc-4456-82c1-fa5067256cfb")
 		(property "Reference" "#PWR08"
-			(at 38.1 82.55 0)
+			(at 41.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5594,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 35.56 74.168 0)
+			(at 39.37 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5592,7 +5603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 78.74 0)
+			(at 41.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 78.74 0)
+			(at 41.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 38.1 78.74 0)
+			(at 41.91 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
