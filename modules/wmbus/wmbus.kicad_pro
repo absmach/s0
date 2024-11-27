@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 1.0,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -178,7 +178,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.18,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -577,7 +579,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -589,12 +591,8 @@
   },
   "sheets": [
     [
-      "c124244a-3c1c-475d-932f-950445d8391e",
+      "7d65bef4-8973-4970-a60b-83a2870f9062",
       "Root"
-    ],
-    [
-      "10804591-8ca0-4971-bd60-3851aa5ed597",
-      "e-key-socket"
     ]
   ],
   "text_variables": {}

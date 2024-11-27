@@ -4235,14 +4235,6 @@
 		(uuid "11e3d36c-70b5-4edc-922d-aa70cabc8d88")
 	)
 	(no_connect
-		(at 252.73 99.06)
-		(uuid "1282f1fe-8392-4df5-8838-2199976fa15a")
-	)
-	(no_connect
-		(at 252.73 101.6)
-		(uuid "12e3f76d-e9bd-4ec6-8f4f-83b73e8319df")
-	)
-	(no_connect
 		(at 227.33 86.36)
 		(uuid "141fe483-0050-4a0f-9b9b-431e88925eff")
 	)
@@ -4279,20 +4271,8 @@
 		(uuid "2bad490d-1aad-488e-a60e-d49108191b46")
 	)
 	(no_connect
-		(at 252.73 68.58)
-		(uuid "2bddb35f-2917-4658-ba33-b4b5ca1976a9")
-	)
-	(no_connect
-		(at 252.73 86.36)
-		(uuid "32fc32a0-81c3-4e23-b6ec-a7c172897467")
-	)
-	(no_connect
 		(at 227.33 66.04)
 		(uuid "377a9626-11b4-4116-b844-b0dae881112f")
-	)
-	(no_connect
-		(at 252.73 73.66)
-		(uuid "481d86b7-0656-42ee-9cab-e998cf9c5774")
 	)
 	(no_connect
 		(at 227.33 104.14)
@@ -4339,14 +4319,6 @@
 		(uuid "86f4066a-7f02-4dfc-b6fa-ae4c11a3cc9b")
 	)
 	(no_connect
-		(at 252.73 93.98)
-		(uuid "895386bb-6e00-4668-9041-ed662655ace3")
-	)
-	(no_connect
-		(at 252.73 96.52)
-		(uuid "8e7c372c-aa42-4998-aa4b-ecede78f8509")
-	)
-	(no_connect
 		(at 227.33 129.54)
 		(uuid "98b25d0b-9afa-4ec4-b45e-7c2855803a93")
 	)
@@ -4379,10 +4351,6 @@
 		(uuid "c0f3924a-c708-4836-843f-3e4853813b5b")
 	)
 	(no_connect
-		(at 252.73 91.44)
-		(uuid "c204488c-778d-4c71-aa44-9fd4f72dc225")
-	)
-	(no_connect
 		(at 227.33 114.3)
 		(uuid "c9d3c33d-cd1f-4cd1-99a4-ab977ca857da")
 	)
@@ -4391,20 +4359,8 @@
 		(uuid "ca24b6df-48ce-4b4a-b8dd-3c6322806ea0")
 	)
 	(no_connect
-		(at 252.73 104.14)
-		(uuid "cb27bb42-4139-4ff5-a0aa-3440431aa6cb")
-	)
-	(no_connect
 		(at 227.33 83.82)
 		(uuid "cb7aee09-2d15-4232-9b59-08c916713f32")
-	)
-	(no_connect
-		(at 252.73 83.82)
-		(uuid "ce636398-0555-4e60-934e-7da6c2126efd")
-	)
-	(no_connect
-		(at 252.73 71.12)
-		(uuid "d2cd37ba-7ef6-4b1a-a061-cf7dea347761")
 	)
 	(no_connect
 		(at 227.33 142.24)
@@ -5171,6 +5127,94 @@
 	)
 	(global_label "DIO3"
 		(shape input)
+		(at 252.73 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ddccfc1-b552-4b50-9e9a-658f8398acc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.13 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 252.73 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "102bc20e-eba1-4044-a82f-4b77e86a9ed9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4647 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO1"
+		(shape input)
+		(at 252.73 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24e62f0a-21fa-4a86-b0fc-9d747b64b83b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 252.73 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32710a37-155f-4840-b1f8-601991815059")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.4603 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO3"
+		(shape input)
 		(at 124.46 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5182,6 +5226,50 @@
 		(uuid "393d1840-668c-4f60-bdbe-bb0d89ac8d09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.86 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO4"
+		(shape input)
+		(at 252.73 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3940d361-8506-47cd-bc71-2552c47aacf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.13 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NSS"
+		(shape input)
+		(at 252.73 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cf61fe5-828e-409f-b099-1939a858c5dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4647 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,6 +5323,28 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 252.73 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e6244e8-5909-4efc-a601-14ee3f5d36c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.3114 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DIO4"
 		(shape input)
 		(at 124.46 148.59 0)
@@ -5248,6 +5358,28 @@
 		(uuid "6ee51846-7b93-4df7-9fe6-5f0c58a36e16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO2"
+		(shape input)
+		(at 252.73 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92357292-ecae-443e-887e-fde4bdec9cd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.13 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,6 +5490,72 @@
 		(uuid "becab901-8c2f-443f-bdc8-35e36b3922c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO0"
+		(shape input)
+		(at 252.73 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de244681-1d3c-4abb-b3e3-d55f02c85baa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DIO5"
+		(shape input)
+		(at 252.73 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df8b4123-3d44-454a-a516-0c9eaf05df62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 252.73 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4322d49-9035-4d4a-b31b-d9165e3351c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.3114 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071a9a76-4be1-4e2b-b1e3-9cc5a1e5baa7")
-		(property "Reference" "F?"
+		(property "Reference" "F1"
 			(at 90.17 41.91 90)
 			(effects
 				(font
@@ -5539,7 +5737,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "F?")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b4d9d18-96e5-4d05-a156-06d03c0b72e0")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 120.904 54.61 0)
 			(effects
 				(font
@@ -5608,7 +5806,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c697918-8836-471d-a814-49e86cf69928")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -5889,7 +6087,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6369,7 +6567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "848aee76-3ac6-4d5f-9be8-d9002864a3e5")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 43.18 40.6399 0)
 			(effects
 				(font
@@ -6560,7 +6758,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6642,7 +6840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5eaf59e-c1cb-49e3-a500-823042ead3aa")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 41.91 154.9399 0)
 			(effects
 				(font
@@ -6660,7 +6858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONUFL001_SMD_T:CONN1_CONUFL_TEC"
+		(property "Footprint" "CONUFL001_SMD_T:LINX_CONUFL001-SMD-T"
 			(at 55.88 153.67 0)
 			(effects
 				(font
@@ -6701,7 +6899,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b111b32e-b610-4ad4-8f8a-919e1837c2a6")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 99.06 54.6099 90)
 			(effects
 				(font
@@ -6901,7 +7099,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6983,7 +7181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc6f482-cd8d-4d46-ab0d-1e5994328f52")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 101.6 125.73 0)
 			(effects
 				(font
@@ -7168,7 +7366,7 @@
 		(instances
 			(project ""
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7183,7 +7381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7c276ea-6f41-4c93-b6db-e8a5574a37d1")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 240.03 53.34 0)
 			(effects
 				(font
@@ -7551,7 +7749,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe6f2dad-da80-4ba9-abdc-2d62fd41bb4a")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 184.912 49.276 0)
 			(effects
 				(font
@@ -7752,7 +7950,7 @@
 		(instances
 			(project "wmbus"
 				(path "/7d65bef4-8973-4970-a60b-83a2870f9062"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
