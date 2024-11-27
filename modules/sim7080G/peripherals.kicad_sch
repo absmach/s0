@@ -8965,7 +8965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONUFL001_SMD_T:CONN1_CONUFL_TEC"
+		(property "Footprint" "CONUFL001:CONN1_CONUFL_TEC"
 			(at 361.95 34.29 0)
 			(effects
 				(font
@@ -10852,7 +10852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONUFL001_SMD_T:CONN1_CONUFL_TEC"
+		(property "Footprint" "CONUFL001:CONN1_CONUFL_TEC"
 			(at 363.22 69.85 0)
 			(effects
 				(font
