@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9e4c0f80-14bc-451b-8b05-b2f0d1a90e15")
+	(paper "A4")
+	(title_block
+		(title "IoT Gateway")
+		(date "2024-10-15")
+		(rev "v0.1.0")
+		(company "Abstract Machines")
+		(comment 1 "Designed By: Rodney Osodo")
+		(comment 2 "Approved By:")
+	)
+	(lib_symbols)
+	(sheet
+		(at 139.954 26.416)
+		(size 93.472 45.466)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 132 0.5000)
+		)
+		(uuid "6cab89f1-e367-45d3-9508-6366c1d394b8")
+		(property "Sheetname" "SIM7080G"
+			(at 143.51 54.61 0)
+			(effects
+				(font
+					(size 10 10)
+					(thickness 2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 139.954 72.4666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "am-iot-gateway"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.654 25.654)
+		(size 92.456 45.974)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 0 0 0.5000)
+		)
+		(uuid "83e4a99f-78ba-41d9-bb2e-d560aa576bd6")
+		(property "Sheetname" "M2 Connector"
+			(at 28.194 54.356 0)
+			(effects
+				(font
+					(size 8 8)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 25.654 72.2126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "am-iot-gateway"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
