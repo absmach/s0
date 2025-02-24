@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9e4c0f80-14bc-451b-8b05-b2f0d1a90e15")
+	(paper "A4")
+	(title_block
+		(title "IoT Gateway")
+		(date "2025-02-19")
+		(rev "v0.1.0")
+		(company "Abstract Machines")
+		(comment 1 "Designed By: Jones Kisaka")
+		(comment 2 "Approved By: Rodney Osodo")
+	)
+	(lib_symbols)
+	(text "CUSTOM \nHOST \nBOARD"
+		(exclude_from_sim no)
+		(at 131.318 121.412 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 1.5875)
+			)
+		)
+		(uuid "b203f549-d263-4b46-9fb5-cf792bcd8c5d")
+	)
+	(sheet
+		(at 143.764 26.416)
+		(size 93.472 45.466)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 132 132 0.5000)
+		)
+		(uuid "6cab89f1-e367-45d3-9508-6366c1d394b8")
+		(property "Sheetname" "SIM7080G"
+			(at 152.146 55.88 0)
+			(effects
+				(font
+					(size 10 10)
+					(thickness 2)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 143.764 72.4666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "am-iot-gateway"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 83.82)
+		(size 207.01 73.66)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 142 140 255 1)
+		)
+		(fill
+			(color 255 185 179 1.0000)
+		)
+		(uuid "86937199-a2bd-4617-9e2a-b866c6060b92")
+		(property "Sheetname" "CUSTOM HOST BOARD"
+			(at 30.48 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "customboard.kicad_sch"
+			(at 30.48 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "am-iot-gateway"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 26.67)
+		(size 92.71 45.72)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 148 193 255 1.0000)
+		)
+		(uuid "cdef2bac-038c-4116-b54a-46de00c40de1")
+		(property "Sheetname" "MCU"
+			(at 49.784 56.642 0)
+			(effects
+				(font
+					(size 12.54 12.54)
+					(thickness 2.508)
+					(bold yes)
+					(color 174 255 232 1)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../compute/mcu.kicad_sch"
+			(at 27.94 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "am-iot-gateway"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
