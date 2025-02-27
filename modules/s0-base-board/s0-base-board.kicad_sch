@@ -1,0 +1,144 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "30a07aa9-a4c6-42ad-8aa6-f5766a70e64f")
+	(paper "A4")
+	(title_block
+		(title "S0 Base Board")
+		(date "2025-02-26")
+		(rev "v0.1.0")
+		(company "Abstract Machines")
+		(comment 1 "Deigned By: Rodney Osodo")
+		(comment 2 "Approved By:")
+	)
+	(lib_symbols)
+	(sheet
+		(at 152.4 29.21)
+		(size 107.95 57.15)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 202 255 1.0000)
+		)
+		(uuid "5fd7a6a7-9e92-4e1d-8156-8c064725d4fa")
+		(property "Sheetname" "Connectors"
+			(at 169.164 62.738 0)
+			(effects
+				(font
+					(size 8 8)
+					(thickness 1.6)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 151.638 89.154 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 118.11)
+		(size 91.44 54.61)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 196 255 163 1.0000)
+		)
+		(uuid "b1694f27-1acf-4a7e-8289-2ed952927141")
+		(property "Sheetname" "Ethernet"
+			(at 43.942 152.908 0)
+			(effects
+				(font
+					(size 10 10)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 30.48 174.3206 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 29.21)
+		(size 92.71 54.61)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 178 183 1.0000)
+		)
+		(uuid "c8f0bed1-a3c6-4de4-ad0b-f2169564ca41")
+		(property "Sheetname" "power"
+			(at 53.848 59.436 0)
+			(effects
+				(font
+					(size 8 8)
+					(thickness 1.016)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 29.21 85.4206 0)
+			(effects
+				(font
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
