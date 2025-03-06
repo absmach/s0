@@ -1,40 +1,34 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"L2";"L_Chilisin_BMRB00060624";1;"47uH/2A";;;
-2;"D4,D3";"D_SMA-SMB_Universal_Handsoldering";2;"40V 3A 550mV@3A Schottky";;;
-3;"C22,C15";"C_0603_1608Metric";2;"10nF";;;
-4;"C21";"C_0805_2012Metric";1;"10uF";;;
-5;"C17,C1,C3,C2";"C_0603_1608Metric";4;"4.7uF";;;
-6;"C16,C13,C10,C9";"C_0402_1005Metric";4;"0.1uF";;;
-7;"C7";"C_1206_3216Metric";1;"220uF";;;
-8;"U6";"BB_Cape";1;"BEAGLEBONEBLACK";;;
-9;"U2";"SOIC-8_3.9x4.9mm_P1.27mm";1;"XL1509-5.0";;;
-10;"L1";"L_0201_0603Metric";1;"47uH/2A";;;
-11;"D2";"D_0603_1608Metric";1;"40V 3A 550mV@3A Schottky";;;
-12;"C6";"C_0603_1608Metric";1;"220uF";;;
-13;"C4,C5";"C_0603_1608Metric";2;"680uF";;;
-14;"J5,J6";"PinHeader_2x23_P2.54mm_Vertical";2;"Conn_02x23_Odd_Even";;;
-15;"Y1";"Crystal_SMD_2520-4Pin_2.5x2.0mm";1;"25MHz";;;
-16;"U4";"LQFP-48_7x7mm_P0.5mm";1;"W5500";;;
-17;"R12,R15,R17,R16";"R_0603_1608Metric";4;"49.9";;;
-18;"J3";"JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical";1;"BAT_JST_01x02";;;
-19;"C11,C8";"C_0603_1608Metric";2;"18pF";;;
-20;"R9";"R_0603_1608Metric";1;"12K 1%";;;
-21;"U1";"SOT-23-5";1;"MCP73831-2-OT";;;
-22;"U3";"TO-263-5_TabPin3";1;"LM2575S-3.3(UMW)";;;
-23;"R6,R7,R5";"R_0603_1608Metric";3;"10K";;;
-24;"R14,R10,R13,R11";"R_0603_1608Metric";4;"33";;;
-25;"C12";"C_0603_1608Metric";1;"10uF";;;
-26;"R18";"R_0603_1608Metric";1;"10";;;
-27;"L3";"L_0201_0603Metric";1;"L_Ferrite";;;
-28;"R4";"R_0603_1608Metric";1;"100";;;
-29;"C20";"C_0603_1608Metric";1;"22nF";;;
-30;"Q1";"SOT-23";1;"PMOS";;;
-31;"J4";"RJ45_Bel_SI-60062-F";1;"RJ45_Bel_SI-60062-F JLC";;;
-32;"C14";"C_0603_1608Metric";1;"0.1uF";;;
-33;"R19";"R_0603_1608Metric";1;"100k";;;
-34;"U5";"SOT-363_SC-70-6";1;"NUP4202";;;
-35;"J2";"TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal";1;"Screw_Terminal_01x02";;;
-36;"D1";"LED_1206_3216Metric";1;"LED";;;
-37;"R1";"R_0603_1608Metric";1;"2k";;;
-38;"C18,C19";"C_0603_1608Metric";2;"6.8nF";;;
-39;"R8";"R_0603_1608Metric";1;"1M";;;
+"Designator","Value","Footprint","Qty","DNP","JLCPCB Part "
+"C1,C2,C3,C17","4.7uF","Capacitor_SMD:C_0603_1608Metric","4","","C19666"
+"C4,C5,C12,C21","10uF","Capacitor_SMD:C_0805_2012Metric","4","","C15850"
+"C6,C7","220uF","Capacitor_SMD:C_1206_3216Metric","2","","C412252"
+"C8,C11","18pF","Capacitor_SMD:C_0603_1608Metric","2","","C1647"
+"C9,C10,C13,C14,C16","0.1uF","Capacitor_SMD:C_0402_1005Metric","5","","C1525"
+"C15,C22","10nF","Capacitor_SMD:C_0603_1608Metric","2","","C57112"
+"C18,C19","6.8nF","Capacitor_SMD:C_0603_1608Metric","2","","C1631"
+"C20","22nF","Capacitor_SMD:C_0603_1608Metric","1","","C21122"
+"D1","LED","LED_SMD:LED_0603_1608Metric","1","","C6848499"
+"D2,D3,D4","40V 3A 550mV@3A Schottky","Diode_SMD:D_SMA-SMB_Universal_Handsoldering","3","","C8678"
+"J2","Screw_Terminal_01x02","TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm","1","","C8404"
+"J3","BAT_JST_01x02","Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical","1","","C20079"
+"J4","RJ45_Bel_SI-60062-F JLC","Connector_RJ:RJ45_Bel_SI-60062-F","1","","C34677"
+"J5,J6","Conn_02x23_Odd_Even","Connector_PinSocket_2.54mm:PinSocket_2x23_P2.54mm_Vertical","2","",""
+"L1,L2","47uH/2A","Inductor_SMD:L_Chilisin_BMRB00060624","2","","C5189938"
+"L3","L_Ferrite","Inductor_SMD:L_0603_1608Metric","1","","C85834"
+"Q1","PMOS","Package_TO_SOT_SMD:SOT-23","1","","C10487"
+"R1","2k","Resistor_SMD:R_0402_1005Metric","1","","C4109"
+"R4","100","Resistor_SMD:R_0402_1005Metric","1","","C22775"
+"R5,R6,R7","10K","Resistor_SMD:R_0603_1608Metric","3","","C25804"
+"R8","1M","Resistor_SMD:R_0603_1608Metric","1","","C22935"
+"R9","12K 1%","Resistor_SMD:R_0603_1608Metric","1","","C22790"
+"R10,R11,R13,R14","33","Resistor_SMD:R_0603_1608Metric","4","","C23140"
+"R12,R15,R16,R17","49.9","Resistor_SMD:R_0603_1608Metric","4","","C23197"
+"R18","10","Resistor_SMD:R_0603_1608Metric","1","","C22859"
+"R19","100k","Resistor_SMD:R_0402_1005Metric","1","","C25741"
+"U1","MCP73831-2-OT","Package_TO_SOT_SMD:SOT-23-5","1","","C14879"
+"U2","XL1509-5.0","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","1","","C61063"
+"U3","LM2575S-3.3(UMW)","Package_TO_SOT_SMD:TO-263-5_TabPin3","1","","C347404"
+"U4","W5500","Package_QFP:LQFP-48_7x7mm_P0.5mm","1","","C32843"
+"U5","NUP4202","Package_TO_SOT_SMD:SOT-363_SC-70-6","1","","C21713972"
+"U6","BEAGLEBONEBLACK","modules:BB_Cape","1","",""
+"Y1","25MHz","Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm","1","","C2925590"
