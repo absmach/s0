@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "BEAGLEBONEBLACK")(type "KiCad")(uri "${KIPRJMOD}/modules/BEAGLEBONEBLACK.kicad_sym")(options "")(descr ""))
 )
