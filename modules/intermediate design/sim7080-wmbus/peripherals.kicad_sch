@@ -10,7 +10,11 @@
 		(rev "v0.1.0")
 		(company "Abstract Machines")
 		(comment 1 "Designed By: Jones Kisaka")
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(comment 2 "Approved By: ")
+=======
 		(comment 2 "Approved By: Rodney Osodo")
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	)
 	(lib_symbols
 		(symbol "2024-10-22_09-22-32:CONUFL001-SMD-T"
@@ -5316,12 +5320,15 @@
 		(uuid "55d219ce-9e9b-4f08-a54a-f6d917e8a36b")
 	)
 	(junction
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 		(at 363.22 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59ba0bde-d85d-4422-97ab-ca36c0a2a835")
 	)
 	(junction
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(at 134.62 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5544,6 +5551,13 @@
 		(uuid "fdbe05a8-b859-47c2-83bb-65023b2af978")
 	)
 	(no_connect
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(at 168.91 229.87)
+		(uuid "0c5b7b87-a165-4557-a34c-ae0488b1dd26")
+	)
+	(no_connect
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(at 83.82 82.55)
 		(uuid "1f85f754-fded-4132-ba43-759cc3931e8d")
 	)
@@ -5556,6 +5570,13 @@
 		(uuid "263701a1-1f00-4383-b161-838180dcfba0")
 	)
 	(no_connect
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(at 168.91 234.95)
+		(uuid "28832c9b-df56-4b1b-86d8-de16df42b62c")
+	)
+	(no_connect
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(at 134.62 107.95)
 		(uuid "3347cd03-6c40-403f-be4f-794ca620f4bd")
 	)
@@ -5584,6 +5605,13 @@
 		(uuid "5c4a3133-5ef4-4adc-8962-c1201fd462a3")
 	)
 	(no_connect
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(at 168.91 240.03)
+		(uuid "6987f26d-139b-41d3-ac01-e187966527ae")
+	)
+	(no_connect
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(at 83.82 59.69)
 		(uuid "7150e9f5-6d04-4800-af87-00b207c76e4e")
 	)
@@ -5596,6 +5624,13 @@
 		(uuid "7b9c8a86-538e-4387-8307-c3f0a128052b")
 	)
 	(no_connect
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(at 168.91 232.41)
+		(uuid "890deabc-11c5-4f5e-828d-b0907fff36be")
+	)
+	(no_connect
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(at 134.62 80.01)
 		(uuid "8d5c4d33-ddba-4e23-930e-50b8a3511090")
 	)
@@ -5640,6 +5675,17 @@
 		(uuid "b994f5ef-f59d-49dc-8e26-681fc8818253")
 	)
 	(no_connect
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(at 168.91 237.49)
+		(uuid "be42bfeb-8232-40cb-897f-b31137d99966")
+	)
+	(no_connect
+		(at 168.91 227.33)
+		(uuid "c95237bb-7b6e-4d49-9674-2a8c4ba4bf15")
+	)
+	(no_connect
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(at 336.55 161.29)
 		(uuid "caa801ed-a6dc-4d19-b843-9b076b76a3ac")
 	)
@@ -5833,6 +5879,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 363.22 203.2) (xy 383.54 203.2)
 		)
 		(stroke
@@ -5843,6 +5891,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 364.49 146.05) (xy 356.87 146.05)
 		)
 		(stroke
@@ -5903,6 +5952,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 176.53 232.41) (xy 168.91 232.41)
 		)
 		(stroke
@@ -5913,6 +5964,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 234.95 81.28) (xy 234.95 67.31)
 		)
 		(stroke
@@ -6253,6 +6305,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 176.53 234.95) (xy 168.91 234.95)
 		)
 		(stroke
@@ -6263,6 +6317,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 364.49 143.51) (xy 356.87 143.51)
 		)
 		(stroke
@@ -6453,6 +6508,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 176.53 240.03) (xy 168.91 240.03)
 		)
 		(stroke
@@ -6463,6 +6520,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 234.95 231.14) (xy 234.95 217.17)
 		)
 		(stroke
@@ -6673,6 +6731,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 176.53 237.49) (xy 168.91 237.49)
 		)
 		(stroke
@@ -6683,6 +6743,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 240.03 154.94) (xy 234.95 154.94)
 		)
 		(stroke
@@ -6703,6 +6764,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 176.53 227.33) (xy 168.91 227.33)
 		)
 		(stroke
@@ -6713,6 +6776,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 134.62 161.29) (xy 134.62 163.83)
 		)
 		(stroke
@@ -7153,6 +7217,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 176.53 229.87) (xy 168.91 229.87)
 		)
 		(stroke
@@ -7163,6 +7229,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 147.32 44.45) (xy 147.32 31.75)
 		)
 		(stroke
@@ -7193,7 +7260,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+			(xy 356.87 203.2) (xy 383.54 203.2)
+=======
 			(xy 356.87 203.2) (xy 363.22 203.2)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		)
 		(stroke
 			(width 0)
@@ -7313,6 +7384,8 @@
 	)
 	(wire
 		(pts
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 			(xy 363.22 200.66) (xy 363.22 203.2)
 		)
 		(stroke
@@ -7323,6 +7396,7 @@
 	)
 	(wire
 		(pts
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(xy 74.93 41.91) (xy 83.82 41.91)
 		)
 		(stroke
@@ -7799,6 +7873,8 @@
 		)
 		(uuid "2217138f-66a8-4d78-87e0-233f2b16fb9d")
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(text "done"
 		(exclude_from_sim no)
 		(at 299.212 242.316 0)
@@ -7811,6 +7887,7 @@
 		)
 		(uuid "251cba4f-3d5e-4923-8550-930c4bb67458")
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(text "The input and output impedance are matched\n"
 		(exclude_from_sim no)
 		(at 129.286 250.19 0)
@@ -7875,6 +7952,8 @@
 		)
 		(uuid "79263705-3e95-4395-8465-08cb811691b9")
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(text "done"
 		(exclude_from_sim no)
 		(at 299.466 93.218 0)
@@ -7899,6 +7978,7 @@
 		)
 		(uuid "8eb206c3-a3e4-4188-9f28-738a654516d4")
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(text "V(s)=1.8V\nV(f)=1.2V\nR=50\nI(f)=12mA\n\nHAN1102W-1-TR"
 		(exclude_from_sim no)
 		(at 264.668 58.42 0)
@@ -7968,6 +8048,8 @@
 		)
 		(uuid "f8aebafa-328f-4947-a650-2035697ca0dd")
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(text "done"
 		(exclude_from_sim no)
 		(at 299.466 168.91 0)
@@ -7980,6 +8062,7 @@
 		)
 		(uuid "fc566abd-761c-4aa0-bd1e-1debb390cf87")
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(text "50Ω"
 		(exclude_from_sim no)
 		(at 369.316 82.804 0)
@@ -8123,6 +8206,8 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(global_label "DIO5"
 		(shape input)
 		(at 176.53 240.03 0)
@@ -8167,6 +8252,7 @@
 			)
 		)
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(global_label "SIM_DATA"
 		(shape input)
 		(at 361.95 213.36 0)
@@ -8211,6 +8297,8 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(global_label "DIO2"
 		(shape input)
 		(at 176.53 232.41 0)
@@ -8233,6 +8321,7 @@
 			)
 		)
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(global_label "ESP_BEAGLEV_TX"
 		(shape input)
 		(at 359.41 156.21 0)
@@ -8255,7 +8344,11 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+	(global_label "WM_MISO"
+=======
 	(global_label "MISO"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(shape input)
 		(at 133.35 237.49 180)
 		(fields_autoplaced yes)
@@ -8267,7 +8360,11 @@
 		)
 		(uuid "38d8f208-b78a-4e25-973b-5d258fb9a20a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+			(at 121.8982 237.49 0)
+=======
 			(at 125.7686 237.49 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8572,11 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+	(global_label "WM_CS"
+=======
 	(global_label "NSS"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(shape input)
 		(at 133.35 229.87 180)
 		(fields_autoplaced yes)
@@ -8487,7 +8588,11 @@
 		)
 		(uuid "63f723d3-08ff-4aeb-aaf6-d366ed4ae088")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+			(at 124.0149 229.87 0)
+=======
 			(at 126.6153 229.87 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,6 +8778,8 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(global_label "DIO4"
 		(shape input)
 		(at 176.53 237.49 0)
@@ -8717,6 +8824,7 @@
 			)
 		)
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(global_label "RESET"
 		(shape input)
 		(at 133.35 222.25 180)
@@ -8739,6 +8847,8 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(global_label "DIO1"
 		(shape input)
 		(at 176.53 229.87 0)
@@ -8761,6 +8871,7 @@
 			)
 		)
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(global_label "SIM7080G_SDA"
 		(shape input)
 		(at 364.49 151.13 0)
@@ -8893,7 +9004,11 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+	(global_label "WM_MOSI"
+=======
 	(global_label "MOSI"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(shape input)
 		(at 133.35 234.95 180)
 		(fields_autoplaced yes)
@@ -8905,7 +9020,11 @@
 		)
 		(uuid "b546eea3-9404-4ddb-9b0e-1d503e355bcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+			(at 121.8982 234.95 0)
+=======
 			(at 125.7686 234.95 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +9034,11 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+	(global_label "WM_SCK"
+=======
 	(global_label "SCK"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(shape input)
 		(at 133.35 232.41 180)
 		(fields_autoplaced yes)
@@ -8927,7 +9050,11 @@
 		)
 		(uuid "b57c0ba6-d5fe-4122-a9b9-5fef689fe539")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+			(at 122.7449 232.41 0)
+=======
 			(at 126.6153 232.41 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9262,11 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+	(global_label "SIM_PWR"
+=======
 	(global_label "GPIO4"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(shape input)
 		(at 364.49 153.67 0)
 		(fields_autoplaced yes)
@@ -9147,7 +9278,11 @@
 		)
 		(uuid "eb43d167-1648-4e38-9c23-f00da45db8f1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+			(at 375.6999 153.67 0)
+=======
 			(at 373.16 153.67 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9223,6 +9358,8 @@
 			)
 		)
 	)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+=======
 	(global_label "5V"
 		(shape input)
 		(at 363.22 200.66 90)
@@ -9245,6 +9382,7 @@
 			)
 		)
 	)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 	(symbol
 		(lib_id "Device:L")
 		(at 328.93 43.18 0)
@@ -9300,6 +9438,34 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 328.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 328.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 328.93 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77237698-fe8b-407b-8483-115a6c10d236")
 		)
@@ -9311,6 +9477,19 @@
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/6cab89f1-e367-45d3-9508-6366c1d394b8"
 					(reference "L1")
 					(unit 1)
+=======
+		(pin "1"
+			(uuid "77237698-fe8b-407b-8483-115a6c10d236")
+		)
+		(pin "2"
+			(uuid "0f4ead31-277e-4032-a23d-2bfa193e40f4")
+		)
+		(instances
+			(project ""
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/6cab89f1-e367-45d3-9508-6366c1d394b8"
+					(reference "L1")
+					(unit 1)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 				)
 			)
 		)
@@ -9409,6 +9588,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 339.09 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 339.09 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 339.09 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "G5"
 			(uuid "e7e3b32d-5c5a-457a-8805-a47dbc15dc5b")
 		)
@@ -9653,6 +9862,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 349.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 349.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 349.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "3ff96a7b-f1e5-4fc6-a7e7-bde5fadae7b5")
 		)
@@ -9855,6 +10094,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 251.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "024cef03-1a51-4811-a23d-b63e5632ca4f")
 		)
@@ -9928,6 +10197,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 248.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 248.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 248.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "5ce75baa-c0b4-4b9f-866c-8b97c0bbe84b")
 		)
@@ -10001,6 +10300,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 251.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "dbb964fe-c6b7-45a2-aae8-8d4bcfdecc55")
 		)
@@ -10336,6 +10665,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 361.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 361.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 361.95 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "3"
 			(uuid "2c8b358a-5257-44fc-a238-cc0d1914f2f7")
 		)
@@ -10408,6 +10767,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 383.54 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 383.54 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 383.54 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "b30fd478-b9f0-4fdb-9ed9-0746485ae640")
 		)
@@ -10542,6 +10931,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "d942590e-5296-4ec0-b8c1-119fa48400d4")
 		)
@@ -10615,6 +11034,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 248.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "4a0b12ea-5d15-4dc8-a199-4caba6dcfee6")
 		)
@@ -10691,6 +11140,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 245.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 245.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 245.11 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "05acce0b-47ca-4233-bcf3-156fc80f80ae")
 		)
@@ -10762,6 +11241,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 228.6 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 228.6 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 228.6 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "66c643f5-6099-413a-b080-bd34f223879e")
 		)
@@ -10830,6 +11339,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 339.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 339.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 339.09 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "4aa860aa-439a-46f7-943d-cb3bd42b2648")
 		)
@@ -10965,6 +11504,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 389.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 389.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 389.89 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "227592e3-69ae-4bea-ab5a-976f5d9e2d77")
 		)
@@ -11098,6 +11667,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 59.69 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "83490dda-ea87-47a0-badc-e5fb7be3b25a")
 		)
@@ -11232,6 +11831,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 243.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 243.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "2b7796f8-e0a7-47a4-82ba-a404babebde3")
 		)
@@ -11301,6 +11930,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 330.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 330.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 330.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "23e01879-7378-430f-8dbf-bfbaf87362a6")
 		)
@@ -11371,6 +12030,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "9d3d95c0-d104-46f8-bed7-3dc19fa2ee30")
 		)
@@ -11480,6 +12169,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 109.22 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "34"
 			(uuid "6c4eb745-8231-4393-b7a9-3a42ad70775a")
 		)
@@ -11746,6 +12465,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "daab2fa2-9957-4164-940f-a7b2c72fb546")
 		)
@@ -11816,6 +12565,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "3f4beacf-7b81-4941-bb0a-e7183d652035")
 		)
@@ -11887,6 +12666,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 363.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 363.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 363.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "3"
 			(uuid "0254cbc2-a84b-42f6-9962-a74442bc11b7")
 		)
@@ -11958,6 +12767,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 224.79 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "b6e216a0-f29e-4618-b709-1307f77915bd")
 		)
@@ -12028,6 +12867,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "3"
 			(uuid "1eed4305-28a2-4102-8c8e-9b288ea3a5d1")
 		)
@@ -12106,6 +12975,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 339.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 339.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 339.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "f1206823-93d1-4bf2-8778-d1109d72207a")
 		)
@@ -12175,6 +13074,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 311.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 311.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 311.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "63cc9806-19d8-4d3b-bced-a02d0f91f168")
 		)
@@ -12198,6 +13127,7 @@
 		(in_bom no)
 		(on_board no)
 		(dnp no)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
 		(uuid "bb194543-68e8-4250-a1b2-80889b0cbc71")
 		(property "Reference" "C4"
 			(at 345.694 73.66 0)
@@ -12228,6 +13158,45 @@
 		)
 		(property "Datasheet" "~"
 			(at 349.25 76.2 0)
+=======
+		(uuid "bb194543-68e8-4250-a1b2-80889b0cbc71")
+		(property "Reference" "C4"
+			(at 345.694 73.66 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 349.25 76.2 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Value" "NC"
+			(at 344.424 78.994 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+				(hide yes)
+			)
+		)
+		(property "JLC Part" ""
+			(at 349.25 76.2 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 350.2152 80.01 0)
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12235,7 +13204,24 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "LCSC Part" ""
+=======
+		(property "Datasheet" "~"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
+			(at 349.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "Manufacturer" ""
+=======
 		(property "Description" "Unpolarized capacitor"
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 			(at 349.25 76.2 0)
 			(effects
 				(font
@@ -12512,6 +13498,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 346.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 346.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 346.71 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "6"
 			(uuid "78f7291c-684b-4fe0-a34b-c880f2ee0ebe")
 		)
@@ -12794,6 +13810,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 153.67 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 153.67 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 153.67 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "7"
 			(uuid "5af4a0fd-5365-4a1e-8595-b5a82f1f325e")
 		)
@@ -13036,6 +14082,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 241.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 241.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 241.3 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "6fb5a9fe-113f-47a9-bbc7-f9c58e6cbdf2")
 		)
@@ -13169,6 +14245,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "38b23d30-e576-4a03-a17c-f05bc9e77bb8")
 		)
@@ -13239,6 +14345,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 251.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "df3793a7-570a-4fa2-9180-baac202e03e7")
 		)
@@ -13439,6 +14575,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 260.35 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 260.35 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 260.35 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "C"
 			(uuid "8d47b22a-b06d-4f70-9c5d-ffb4c5ea6916")
 		)
@@ -13506,6 +14672,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 151.13 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "74b7bd80-36cd-4242-a646-99f8cdd0cad8")
 		)
@@ -13573,6 +14769,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "1"
 			(uuid "164d4564-09e8-4fab-9649-9ac3e50b47f2")
 		)
@@ -13645,6 +14871,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 107.95 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 107.95 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 107.95 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "3"
 			(uuid "f40a9560-eee1-4fc5-80bc-13a874a65a11")
 		)
@@ -13718,6 +14974,36 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD:modules/sim7080-wmbus/peripherals.kicad_sch
+		(property "JLC Part" ""
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+=======
+>>>>>>> ee4f122f8a6d8d35fc0b851fac632aad85d3ed60:modules/intermediate design/sim7080-wmbus/peripherals.kicad_sch
 		(pin "2"
 			(uuid "225358f6-19bc-41e6-aee4-f7fb623281ea")
 		)
