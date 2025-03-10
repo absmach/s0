@@ -3,33 +3,32 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "9e4c0f80-14bc-451b-8b05-b2f0d1a90e15")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "IoT Gateway")
 		(date "2024-10-15")
 		(rev "v0.1.0")
 		(company "Abstract Machines")
 		(comment 1 "Designed By: Rodney Osodo")
-		(comment 2 "Approved By:")
+		(comment 2 "Approved By: Jones Kisaka")
 	)
 	(lib_symbols)
 	(sheet
 		(at 21.59 138.43)
 		(size 93.98 43.18)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 226 178 1.0000)
 		)
 		(uuid "3bbb84ad-503a-4b2d-9543-6ed81c985ce9")
-		(property "Sheetname" "wmbus"
-			(at 21.59 137.7184 0)
+		(property "Sheetname" "WMBUS"
+			(at 47.244 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 8 8)
 				)
 				(justify left bottom)
 			)
@@ -54,20 +53,19 @@
 	(sheet
 		(at 21.59 78.74)
 		(size 92.71 46.99)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 179 215 255 1.0000)
 		)
 		(uuid "5c610c02-cc6e-495f-915f-5f97a877cabd")
 		(property "Sheetname" "MCU"
-			(at 21.59 78.0284 0)
+			(at 52.07 107.188 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 8 8)
 				)
 				(justify left bottom)
 			)
@@ -169,20 +167,19 @@
 	(sheet
 		(at 139.7 76.2)
 		(size 92.71 52.07)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 163 255 202 1.0000)
 		)
 		(uuid "a38a5424-854a-4628-876d-ce694417db1d")
 		(property "Sheetname" "LoRa"
-			(at 139.7 75.4884 0)
+			(at 170.18 105.664 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 8 8)
 				)
 				(justify left bottom)
 			)

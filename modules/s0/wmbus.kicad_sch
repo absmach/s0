@@ -3,14 +3,14 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "992ea0d1-428a-48b7-a85e-0a33a73f5599")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "IoT Gateway")
 		(date "2024-10-15")
 		(rev "v0.1.0")
 		(company "Abstract Machines")
 		(comment 1 "Designed By: Rodney Osodo")
-		(comment 2 "Approved By:")
+		(comment 2 "Approved By: Jones Kisaka")
 	)
 	(lib_symbols
 		(symbol "COMM-SMD_30P-L25.4-W12.7-P1.27_RC1180-MBUS3:RC1180-MBUS3"
