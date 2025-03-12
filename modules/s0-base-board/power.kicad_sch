@@ -10,7 +10,7 @@
 		(rev "v0.1.0")
 		(company "Abstract Machines")
 		(comment 1 "Deigned By: Rodney Osodo")
-		(comment 2 "Approved By:")
+		(comment 2 "Approved By: Jones Kisaka")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
@@ -3409,12 +3409,12 @@
 		)
 		(uuid "05d7fa0e-99ad-43e7-83d5-966ad2a1f493")
 	)
-	(text "Max 24V\n"
+	(text "3.7V\n"
 		(exclude_from_sim no)
 		(at 134.112 51.054 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
 			)
 		)
 		(uuid "3de1df7b-1dc4-4691-b7f0-85bf71eb5b2c")
@@ -3428,6 +3428,16 @@
 			)
 		)
 		(uuid "43b324a3-4210-4655-b540-3d5cc73ea959")
+	)
+	(text "Sources power from both battery and 5V supply\n"
+		(exclude_from_sim no)
+		(at 170.942 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5410cc8a-d360-401b-8bec-353770e9dd8d")
 	)
 	(text "VIN - 5V CONV"
 		(exclude_from_sim no)
@@ -3452,6 +3462,7 @@
 				(bold yes)
 			)
 			(justify left bottom)
+			(href "#2")
 		)
 		(uuid "694ebe1c-99b2-49cf-a1a4-96fea3428f0a")
 	)
@@ -3467,6 +3478,16 @@
 			(justify left bottom)
 		)
 		(uuid "70f3b3ee-699c-4942-8a71-98089d5327ab")
+	)
+	(text "Charging battery"
+		(exclude_from_sim no)
+		(at 109.728 146.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92c1d392-d24d-41c4-8703-11ce0cee7676")
 	)
 	(text "5V - 3.3V CONV"
 		(exclude_from_sim no)

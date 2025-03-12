@@ -10,7 +10,7 @@
 		(rev "v0.1.0")
 		(company "Abstract Machines")
 		(comment 1 "Deigned By: Rodney Osodo")
-		(comment 2 "Approved By:")
+		(comment 2 "Approved By: Jones Kisaka")
 	)
 	(lib_symbols
 		(symbol "BEAGLEBONEBLACK:BEAGLEBONEBLACK"
@@ -4109,6 +4109,26 @@
 			(type default)
 		)
 		(uuid "f12fffb8-650e-431a-a25c-b49a6af4df6e")
+	)
+	(text "BeagleBone Cape Board"
+		(exclude_from_sim no)
+		(at 133.858 31.496 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "555415e6-04ee-4ab5-91ad-806705f32db1")
+	)
+	(text "Female Pin Headers connected to the BeagleBone Cape"
+		(exclude_from_sim no)
+		(at 203.962 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b54aa252-aa3d-492a-94e5-597d80fd0ce3")
 	)
 	(global_label "CS"
 		(shape input)
