@@ -1956,12 +1956,6 @@
 		(uuid "7fdb9b78-e339-42b8-884b-0e91c720114d")
 	)
 	(junction
-		(at 48.26 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90ab7519-e91c-4a71-8bb0-942264f1d29b")
-	)
-	(junction
 		(at 125.73 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2067,16 +2061,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 109.22) (xy 85.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00bfbc3f-c2f6-4a21-b739-cb28a8f7d368")
-	)
-	(wire
-		(pts
 			(xy 125.73 119.38) (xy 125.73 121.92)
 		)
 		(stroke
@@ -2137,6 +2121,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 110.49) (xy 72.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1638b8b8-b221-4049-8eb0-baa768aefc6b")
+	)
+	(wire
+		(pts
 			(xy 72.39 134.62) (xy 85.09 134.62)
 		)
 		(stroke
@@ -2144,6 +2138,26 @@
 			(type default)
 		)
 		(uuid "1c3cab4a-dfa2-4d24-8622-961d0d56cb29")
+	)
+	(wire
+		(pts
+			(xy 72.39 115.57) (xy 72.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd1ac54-738d-432d-88ea-ad6a51c1fc7a")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 85.09 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9163e7-d482-4a00-b76f-a07b5b25d691")
 	)
 	(wire
 		(pts
@@ -2174,6 +2188,16 @@
 			(type default)
 		)
 		(uuid "27fa57c0-18c2-4dc3-8b6a-d6ad4f104543")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 85.09 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283d34db-6f55-4736-b49e-4aace77b5a1f")
 	)
 	(wire
 		(pts
@@ -2327,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 128.27) (xy 48.26 121.92)
+			(xy 48.26 121.92) (xy 48.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2367,16 +2391,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 134.62) (xy 48.26 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5dbcbdd2-4686-4fd0-ade2-d72e5a53bfaa")
-	)
-	(wire
-		(pts
 			(xy 205.74 132.08) (xy 205.74 127)
 		)
 		(stroke
@@ -2384,6 +2398,16 @@
 			(type default)
 		)
 		(uuid "5e74588d-6132-4ad3-afb6-8c0df796a30d")
+	)
+	(wire
+		(pts
+			(xy 72.39 83.82) (xy 85.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d4716de-28dd-496c-94cc-52804120f2fc")
 	)
 	(wire
 		(pts
@@ -2417,16 +2441,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 83.82) (xy 85.09 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ffda77d-4273-4b36-9748-e6a245ac2cdf")
-	)
-	(wire
-		(pts
 			(xy 125.73 114.3) (xy 125.73 116.84)
 		)
 		(stroke
@@ -2457,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 114.3) (xy 85.09 114.3)
+			(xy 66.04 110.49) (xy 72.39 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2507,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 119.38) (xy 85.09 119.38)
+			(xy 66.04 119.38) (xy 85.09 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2547,6 +2561,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 116.84) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeab4a43-a5c8-4837-a826-ec943a989e44")
+	)
+	(wire
+		(pts
 			(xy 81.28 104.14) (xy 81.28 162.56)
 		)
 		(stroke
@@ -2567,7 +2591,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 116.84) (xy 85.09 116.84)
+			(xy 66.04 115.57) (xy 72.39 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2604,16 +2628,6 @@
 			(type default)
 		)
 		(uuid "c3a46372-7ddd-49be-9de4-1e9c9a927b8e")
-	)
-	(wire
-		(pts
-			(xy 44.45 128.27) (xy 48.26 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4733cf7-af21-45b6-bf68-1e312994731b")
 	)
 	(wire
 		(pts
@@ -2677,16 +2691,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 81.28) (xy 85.09 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63cb4dd-9db9-4ef4-8cec-3148bd23875c")
-	)
-	(wire
-		(pts
 			(xy 125.73 106.68) (xy 125.73 109.22)
 		)
 		(stroke
@@ -2704,16 +2708,6 @@
 			(type default)
 		)
 		(uuid "de268b82-0a0f-4bd8-a078-022f5dd3b317")
-	)
-	(wire
-		(pts
-			(xy 72.39 127) (xy 85.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf4edd1-e5b0-4e9f-95c4-4a46356e01c9")
 	)
 	(wire
 		(pts
@@ -2831,72 +2825,6 @@
 		)
 		(uuid "cb5c5899-69c8-48e9-8722-2e5b0d98f852")
 	)
-	(global_label "WMBUS_CTS"
-		(shape input)
-		(at 72.39 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "015a3fbe-2f5c-44d0-a5cc-8ae5195f90a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.2773 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WMBUS_RX"
-		(shape input)
-		(at 72.39 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1b21d77f-c4cf-4d00-92f4-bd10ac26ccdc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.2449 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "WMBUS_RTS"
-		(shape input)
-		(at 72.39 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "233aa537-e3af-4a4e-b7b4-249cb63d84b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.2773 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MCU_RST"
 		(shape input)
 		(at 72.39 88.9 180)
@@ -3007,31 +2935,9 @@
 			)
 		)
 	)
-	(global_label "WMBUS_TX"
-		(shape input)
-		(at 72.39 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f9dcd94-9953-4efc-8f5d-1dbaf747df64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.5473 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MISO"
 		(shape input)
-		(at 72.39 116.84 180)
+		(at 66.04 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3041,7 +2947,7 @@
 		)
 		(uuid "74b964af-5b7c-4445-9c54-fa58365e8b07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.8086 116.84 0)
+			(at 58.4586 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,9 +3023,9 @@
 			)
 		)
 	)
-	(global_label "WMBUS_CFG"
+	(global_label "RC_CS"
 		(shape input)
-		(at 44.45 128.27 180)
+		(at 72.39 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3127,9 +3033,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b8a2d9ba-677a-4161-a26b-7ea95c4d227e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.1558 128.27 0)
+		(uuid "c5f32c7c-8474-4793-9be6-22176813db59")
+		(property "Intersheetrefs" "RC_CS"
+			(at 63.4177 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3069,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 72.39 114.3 180)
+		(at 66.04 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3173,7 +3079,7 @@
 		)
 		(uuid "db642374-727d-475d-9d5d-cbb02b7f076b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.8086 114.3 0)
+			(at 58.4586 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3091,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 72.39 119.38 180)
+		(at 66.04 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3195,7 +3101,29 @@
 		)
 		(uuid "e29ac2fe-854d-430d-9461-3978b1554735")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 119.38 0)
+			(at 59.3053 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RC_SDN"
+		(shape input)
+		(at 72.39 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbac3d86-0558-4ccd-8814-3f3836782898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.0872 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
