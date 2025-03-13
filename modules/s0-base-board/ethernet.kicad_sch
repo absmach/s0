@@ -6389,16 +6389,6 @@
 		)
 		(uuid "0de99dde-ea8b-422c-8769-53ca4b38f17d")
 	)
-	(text "Plug Ethernet Cable here"
-		(exclude_from_sim no)
-		(at 266.192 39.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1a9b3022-4aff-4034-bc12-1abb4df3d0b4")
-	)
 	(text "DECOUPLING CAPS"
 		(exclude_from_sim no)
 		(at 38.862 27.94 0)
@@ -6465,16 +6455,6 @@
 			)
 		)
 		(uuid "7067fab6-ac76-4f00-b811-b7fe1b5e1a4a")
-	)
-	(text "Clocking Circuit with crystal oscillator"
-		(exclude_from_sim no)
-		(at 40.894 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9a9e569f-a9d8-4044-8941-7e1a2c627aac")
 	)
 	(text "Negotiation of Speed and Connection type ie \nFull or Half Duplex through these pins.\nYou can set:\n-10 Mbps Half-Duplex\n-10 Mbps Full-Duplex\n-100 Mbps Half-Duplex\n-100 Mbps Full-Duplex"
 		(exclude_from_sim no)

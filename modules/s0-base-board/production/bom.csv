@@ -1,4 +1,4 @@
-"Designator","Value","Footprint","Qty","DNP","JLCPCB Part "
+"Reference","Value","Footprint","Qty","DNP","JLCPCB"
 "C1,C2,C3,C17","4.7uF","Capacitor_SMD:C_0603_1608Metric","4","","C19666"
 "C4,C5,C12,C21","10uF","Capacitor_SMD:C_0805_2012Metric","4","","C15850"
 "C6,C7","220uF","Capacitor_SMD:C_1206_3216Metric","2","","C412252"

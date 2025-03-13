@@ -4112,13 +4112,16 @@
 	)
 	(text "BeagleBone Cape Board"
 		(exclude_from_sim no)
-		(at 133.858 31.496 0)
+		(at 94.234 22.606 0)
 		(effects
 			(font
-				(size 2.5 2.5)
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
 			)
+			(justify left bottom)
 		)
-		(uuid "555415e6-04ee-4ab5-91ad-806705f32db1")
+		(uuid "8ac27cf1-c59c-4b7d-b24d-8acaced0d362")
 	)
 	(text "Female Pin Headers connected to the BeagleBone Cape"
 		(exclude_from_sim no)

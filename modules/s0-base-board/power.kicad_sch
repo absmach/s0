@@ -3409,15 +3409,15 @@
 		)
 		(uuid "05d7fa0e-99ad-43e7-83d5-966ad2a1f493")
 	)
-	(text "3.7V\n"
+	(text "Max 3.7V (1 LiPo Battery)"
 		(exclude_from_sim no)
-		(at 134.112 51.054 0)
+		(at 143.256 53.594 0)
 		(effects
 			(font
-				(size 2 2)
+				(size 1.27 1.27)
 			)
 		)
-		(uuid "3de1df7b-1dc4-4691-b7f0-85bf71eb5b2c")
+		(uuid "3794abdb-b6f7-4612-b6b4-9ad074857859")
 	)
 	(text "Max 24V\n"
 		(exclude_from_sim no)
@@ -3428,16 +3428,6 @@
 			)
 		)
 		(uuid "43b324a3-4210-4655-b540-3d5cc73ea959")
-	)
-	(text "Sources power from both battery and 5V supply\n"
-		(exclude_from_sim no)
-		(at 170.942 108.966 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5410cc8a-d360-401b-8bec-353770e9dd8d")
 	)
 	(text "VIN - 5V CONV"
 		(exclude_from_sim no)
@@ -3479,15 +3469,15 @@
 		)
 		(uuid "70f3b3ee-699c-4942-8a71-98089d5327ab")
 	)
-	(text "Charging battery"
+	(text "Switch between BAT and +5V"
 		(exclude_from_sim no)
-		(at 109.728 146.558 0)
+		(at 168.402 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "92c1d392-d24d-41c4-8703-11ce0cee7676")
+		(uuid "887368b0-d01e-44a3-8ea2-a6dd08e23c1a")
 	)
 	(text "5V - 3.3V CONV"
 		(exclude_from_sim no)
@@ -3501,6 +3491,26 @@
 			(justify left bottom)
 		)
 		(uuid "eb6d176e-3947-4346-9aa5-62b3e4a4f2c5")
+	)
+	(text "Max 37V"
+		(exclude_from_sim no)
+		(at 194.056 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6475a67-ad51-4552-bcf4-0a2ceb949db5")
+	)
+	(text "n - 82%"
+		(exclude_from_sim no)
+		(at 214.884 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7283bc7-133c-4f3f-a099-506cabf84070")
 	)
 	(symbol
 		(lib_id "Device:R")
