@@ -17214,7 +17214,7 @@
 		(descr "Hirose U.FL Coaxial https://www.hirose.com/product/en/products/U.FL/U.FL-R-SMT-1%2810%29/")
 		(tags "Hirose U.FL Coaxial")
 		(property "Reference" "J5"
-			(at 0.475 -3.2 0)
+			(at 1.5 -3.3 0)
 			(layer "F.SilkS")
 			(uuid "ca8786da-a2bb-4cc1-bdcb-a7ab26b0151d")
 			(effects
@@ -19119,7 +19119,7 @@
 		(descr "Through hole straight pin header, 2x23, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x23 2.54mm double row")
 		(property "Reference" "J4"
-			(at 1.27 -2.33 0)
+			(at -0.96 -6.96 90)
 			(layer "F.SilkS")
 			(uuid "f9b55576-1a74-458f-b591-d3e4eaca9e93")
 			(effects

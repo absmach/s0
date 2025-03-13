@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "992ea0d1-428a-48b7-a85e-0a33a73f5599")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "IoT Gateway")
 		(date "2024-10-15")
@@ -923,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 129.54) (xy 205.74 129.54)
+			(xy 139.7 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 121.92) (xy 170.18 121.92)
+			(xy 106.68 78.74) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 116.84) (xy 170.18 116.84)
+			(xy 106.68 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 106.68) (xy 200.66 106.68)
+			(xy 143.51 63.5) (xy 139.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -963,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 107.95) (xy 236.22 115.57)
+			(xy 165.1 63.5) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -973,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 123.19) (xy 236.22 128.27)
+			(xy 165.1 78.74) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 104.14) (xy 204.47 106.68)
+			(xy 143.51 60.96) (xy 143.51 63.5)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 170.18 119.38)
+			(xy 106.68 76.2) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 111.76) (xy 170.18 111.76)
+			(xy 106.68 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 129.54) (xy 205.74 130.81)
+			(xy 144.78 86.36) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 124.46) (xy 170.18 124.46)
+			(xy 106.68 81.28) (xy 109.22 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1032,8 +1032,8 @@
 		(uuid "e48dfbfb-172a-4a1a-a3c1-a31fdb93c147")
 	)
 	(rectangle
-		(start 124.46 66.04)
-		(end 271.78 185.42)
+		(start 66.04 26.67)
+		(end 213.36 146.05)
 		(stroke
 			(width 1)
 			(type default)
@@ -1046,7 +1046,7 @@
 	)
 	(text "RC-S2LP-868 WMBUS "
 		(exclude_from_sim no)
-		(at 166.624 82.042 0)
+		(at 133.604 35.306 0)
 		(effects
 			(font
 				(size 4 4)
@@ -1058,7 +1058,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 167.64 124.46 180)
+		(at 106.68 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1068,7 +1068,7 @@
 		)
 		(uuid "0da671ff-0c7b-4988-bf10-543bbfee53e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0586 124.46 0)
+			(at 99.0986 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 	)
 	(global_label "RC_CS"
 		(shape input)
-		(at 167.64 116.84 180)
+		(at 106.68 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1090,7 +1090,7 @@
 		)
 		(uuid "2486c06d-9534-433f-bf3f-f255c91a0c8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.6677 116.84 0)
+			(at 97.7077 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1102,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 167.64 121.92 180)
+		(at 106.68 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1112,7 +1112,7 @@
 		)
 		(uuid "72f9dfe3-091a-4d89-8eee-e916d5b3aa1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.0586 121.92 0)
+			(at 99.0986 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1124,7 @@
 	)
 	(global_label "RC_SDN"
 		(shape input)
-		(at 167.64 111.76 180)
+		(at 106.68 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1134,7 +1134,7 @@
 		)
 		(uuid "864c0682-3fc3-4f19-9738-7cc26f34d2a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.3372 111.76 0)
+			(at 96.3772 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 167.64 119.38 180)
+		(at 106.68 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1156,7 +1156,7 @@
 		)
 		(uuid "b9153802-bca4-4c04-a386-5fd7de22ce31")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.9053 119.38 0)
+			(at 99.9453 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1168,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 130.81 0)
+		(at 144.78 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1177,7 +1177,7 @@
 		(fields_autoplaced yes)
 		(uuid "05dc92df-97a8-45a2-9172-e8cb9e6c8f3c")
 		(property "Reference" "#PWR02"
-			(at 205.74 137.16 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 135.89 0)
+			(at 144.78 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,7 +1194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 130.81 0)
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,7 +1203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 130.81 0)
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,7 +1212,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 130.81 0)
+			(at 144.78 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1234,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 236.22 107.95 0)
+		(at 165.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1243,7 +1243,7 @@
 		(fields_autoplaced yes)
 		(uuid "0da4ab67-b2e8-47f3-9290-2e655c122b34")
 		(property "Reference" "#PWR057"
-			(at 236.22 111.76 0)
+			(at 165.1 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 236.22 102.87 0)
+			(at 165.1 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 107.95 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 107.95 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 107.95 0)
+			(at 165.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1300,7 @@
 	)
 	(symbol
 		(lib_id "BeagleBone Capes:RC-S2LP-868")
-		(at 185.42 119.38 0)
+		(at 124.46 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1309,7 +1309,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bf202c3-1fe5-4f29-8371-5479c0e6b892")
 		(property "Reference" "U6"
-			(at 185.42 99.06 0)
+			(at 124.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1317,7 @@
 			)
 		)
 		(property "Value" "RC-S2LP-868"
-			(at 185.42 101.6 0)
+			(at 124.46 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1325,7 @@
 			)
 		)
 		(property "Footprint" "Module:XCVR_RC-S2LP-868"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1353,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "3206-RC-S2LP-868TR-ND"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1363,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC-S2LP-868/Radio+Controlli/view-part/?ref=snap"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.3mm"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,7 +1383,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1393,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/RC-S2LP-868/Radio+Controlli/view-part/?ref=eda"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1413,7 @@
 			)
 		)
 		(property "PARTREV" "1.6"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "MF" "Radio Controlli"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1433,7 @@
 			)
 		)
 		(property "MP" "RC-S2LP-868"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1443,7 +1443,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            802.15.4 6LoWPAN Transceiver Module 868MHz Antenna Not Included, U.FL Surface Mount\n                        \n"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1453,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Radio Controlli"
-			(at 185.42 119.38 0)
+			(at 124.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 128.27 0)
+		(at 165.1 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1545,7 +1545,7 @@
 		(fields_autoplaced yes)
 		(uuid "b19bc65f-fa56-484d-8653-c705e34106a9")
 		(property "Reference" "#PWR056"
-			(at 236.22 134.62 0)
+			(at 165.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 133.35 0)
+			(at 165.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 128.27 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 128.27 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 128.27 0)
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 104.14 0)
+		(at 143.51 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1611,7 +1611,7 @@
 		(fields_autoplaced yes)
 		(uuid "caca6e4a-58eb-4140-b85f-c29c060b408d")
 		(property "Reference" "#PWR01"
-			(at 204.47 107.95 0)
+			(at 143.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 204.47 99.06 0)
+			(at 143.51 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 104.14 0)
+			(at 143.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 104.14 0)
+			(at 143.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 104.14 0)
+			(at 143.51 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1668,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 236.22 119.38 0)
+		(at 165.1 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1677,7 +1677,7 @@
 		(fields_autoplaced yes)
 		(uuid "d63c6e8a-55aa-4c15-85b8-4c90a4d00c76")
 		(property "Reference" "C19"
-			(at 240.03 118.1099 0)
+			(at 168.91 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1686,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 240.03 120.6499 0)
+			(at 168.91 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1695,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 237.1852 123.19 0)
+			(at 166.0652 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1704,7 +1704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 119.38 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1713,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 236.22 119.38 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1722,7 +1722,7 @@
 			)
 		)
 		(property "JLCPCB" "C1525"
-			(at 236.22 119.38 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 			)
 		)
 		(property "JLC Part" ""
-			(at 236.22 119.38 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1740,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 236.22 119.38 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1749,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 236.22 119.38 0)
+			(at 165.1 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

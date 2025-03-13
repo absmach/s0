@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "bf1a9acd-8cc9-4b45-b474-053874653a33")
-	(paper "A3")
+	(paper "A4")
 	(title_block
 		(title "IoT Gateway")
 		(date "2024-10-15")
