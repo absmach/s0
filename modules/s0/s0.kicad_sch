@@ -14,7 +14,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 21.59 138.43)
+		(at 43.18 140.97)
 		(size 93.98 43.18)
 		(stroke
 			(width 0.1524)
@@ -25,16 +25,18 @@
 		)
 		(uuid "3bbb84ad-503a-4b2d-9543-6ed81c985ce9")
 		(property "Sheetname" "WMBUS"
-			(at 47.244 162.56 0)
+			(at 68.834 165.1 0)
 			(effects
 				(font
 					(size 8 8)
+					(thickness 1.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "wmbus.kicad_sch"
-			(at 21.59 182.1946 0)
+			(at 43.18 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,7 +53,7 @@
 		)
 	)
 	(sheet
-		(at 21.59 78.74)
+		(at 43.18 81.28)
 		(size 92.71 46.99)
 		(stroke
 			(width 0.1524)
@@ -62,16 +64,18 @@
 		)
 		(uuid "5c610c02-cc6e-495f-915f-5f97a877cabd")
 		(property "Sheetname" "MCU"
-			(at 52.07 107.188 0)
+			(at 73.66 109.728 0)
 			(effects
 				(font
 					(size 8 8)
+					(thickness 1.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 21.59 126.3146 0)
+			(at 43.18 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 138.684 17.526)
+		(at 169.164 20.066)
 		(size 93.472 45.466)
 		(stroke
 			(width 0.1524)
@@ -99,7 +103,7 @@
 		)
 		(uuid "6cab89f1-e367-45d3-9508-6366c1d394b8")
 		(property "Sheetname" "SIM7080G"
-			(at 142.24 45.72 0)
+			(at 177.546 49.784 0)
 			(effects
 				(font
 					(size 10 10)
@@ -110,7 +114,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 138.684 63.5766 0)
+			(at 169.164 66.1166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -127,7 +131,7 @@
 		)
 	)
 	(sheet
-		(at 21.844 18.034)
+		(at 43.434 20.574)
 		(size 92.456 45.974)
 		(stroke
 			(width 0.1524)
@@ -138,7 +142,7 @@
 		)
 		(uuid "83e4a99f-78ba-41d9-bb2e-d560aa576bd6")
 		(property "Sheetname" "Connector"
-			(at 24.384 46.736 0)
+			(at 57.404 49.276 0)
 			(effects
 				(font
 					(size 8 8)
@@ -148,7 +152,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 21.844 64.5926 0)
+			(at 43.434 67.1326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,7 +169,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 76.2)
+		(at 170.18 78.74)
 		(size 92.71 52.07)
 		(stroke
 			(width 0.1524)
@@ -176,16 +180,18 @@
 		)
 		(uuid "a38a5424-854a-4628-876d-ce694417db1d")
 		(property "Sheetname" "LoRa"
-			(at 170.18 105.664 0)
+			(at 199.898 114.3 0)
 			(effects
 				(font
 					(size 8 8)
+					(thickness 1.6)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "lora.kicad_sch"
-			(at 139.7 128.8546 0)
+			(at 170.18 131.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)

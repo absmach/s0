@@ -1031,19 +1031,6 @@
 		)
 		(uuid "e48dfbfb-172a-4a1a-a3c1-a31fdb93c147")
 	)
-	(rectangle
-		(start 66.04 26.67)
-		(end 213.36 146.05)
-		(stroke
-			(width 1)
-			(type default)
-			(color 89 10 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 358f127d-6e27-47e7-a892-72b7bcf968b9)
-	)
 	(text "RC-S2LP-868 WMBUS "
 		(exclude_from_sim no)
 		(at 133.604 35.306 0)
