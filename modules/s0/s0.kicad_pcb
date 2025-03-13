@@ -20148,7 +20148,7 @@
 		(uuid "a37692f3-b7a1-48f3-9664-20cc58113f30")
 		(at 118 106.5 180)
 		(property "Reference" "U6"
-			(at -4.445 -13.335 360)
+			(at -4.445 -13.335 0)
 			(layer "F.SilkS")
 			(uuid "f2c32979-2d2a-4d5b-9dde-7bc00462c412")
 			(effects
@@ -20159,7 +20159,7 @@
 			)
 		)
 		(property "Value" "RC-S2LP-868"
-			(at 2.54 13.335 360)
+			(at 2.54 13.335 0)
 			(layer "F.Fab")
 			(uuid "4dc51af0-6e78-4e11-8ca3-5ffdacaeebb5")
 			(effects
@@ -20170,7 +20170,7 @@
 			)
 		)
 		(property "Footprint" "Module:XCVR_RC-S2LP-868"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc4c0fe3-2a42-4bfa-a893-e5dc985de18b")
@@ -20182,7 +20182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe16074c-cca7-4ed5-9b48-77c20d5e524c")
@@ -20194,7 +20194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b2cff6fb-3e41-4196-90a1-ccba65d9d4c8")
