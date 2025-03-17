@@ -921,6 +921,22 @@
 			)
 		)
 	)
+	(no_connect
+		(at 139.7 73.66)
+		(uuid "078e8c93-4f1e-4787-a45c-f88101622302")
+	)
+	(no_connect
+		(at 139.7 76.2)
+		(uuid "873a2ca5-2ca7-420e-8bea-15d985ee641b")
+	)
+	(no_connect
+		(at 139.7 81.28)
+		(uuid "98faa6e7-279a-44f9-9a36-38888c398ae6")
+	)
+	(no_connect
+		(at 139.7 78.74)
+		(uuid "f2b4c428-525b-449f-9eb4-11b431db8a67")
+	)
 	(wire
 		(pts
 			(xy 139.7 86.36) (xy 144.78 86.36)
