@@ -5007,6 +5007,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C27985238"
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "4fc8df7e-9950-4ad4-8f9c-4932f9bb6298")
 		)
@@ -5265,6 +5274,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C27985238"
 			(at 173.99 88.9 0)
 			(effects
 				(font
