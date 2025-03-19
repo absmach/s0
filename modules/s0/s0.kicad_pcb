@@ -391,11 +391,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "03127ada-08ad-4053-939a-79f66cd4d2dd")
-		(at 151.46 54.62)
+		(at 151.5 54.74)
 		(descr "Through hole straight pin header, 2x23, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x23 2.54mm double row")
 		(property "Reference" "J6"
-			(at 3.04 -2.62 0)
+			(at 3.04 -2.62 360)
 			(layer "F.SilkS")
 			(uuid "dd1d8bf9-5dee-426c-9c42-2b3c7ee775ef")
 			(effects
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Value" "Conn_02x23_Odd_Even"
-			(at 1.27 58.21 0)
+			(at 1.27 58.21 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f62d515-0a69-41ed-88c4-6fa4292be1fe")
@@ -1149,13 +1149,13 @@
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x23_P2.54mm_Vertical.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 180 0)
 			)
 		)
 	)
@@ -6730,7 +6730,7 @@
 		(at 145.765 102 180)
 		(descr "RAK4260 LoRaWAN module from RAKwireless.")
 		(property "Reference" "U5"
-			(at 6.765 0.455 360)
+			(at 6.765 0.455 0)
 			(layer "F.SilkS")
 			(uuid "0d4f4b99-aec0-42ba-be0a-66b56f1f0178")
 			(effects
@@ -6741,7 +6741,7 @@
 			)
 		)
 		(property "Value" "RAK3172"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "636d825a-ae95-4ed5-8c04-b6dfe4134e53")
 			(effects
@@ -6752,7 +6752,7 @@
 			)
 		)
 		(property "Footprint" "Module:RAK3172"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "726d4c16-9c20-45b1-8134-57299e5ca40c")
@@ -6764,7 +6764,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b06bf5d6-1f72-4cd1-bcac-b83bd2825993")
@@ -6776,7 +6776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "90df9660-d43b-4287-9813-180bc7de16bf")
@@ -18982,7 +18982,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "9d53563b-1ef6-41f9-9261-ab95ef6813d5")
-		(at 103.46 54.46)
+		(at 103.5 54.62)
 		(descr "Through hole straight pin header, 2x23, 2.54mm pitch, double rows")
 		(tags "Through hole pin header THT 2x23 2.54mm double row")
 		(property "Reference" "J4"
@@ -19734,13 +19734,13 @@
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x23_P2.54mm_Vertical.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 -1.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 180 0)
 			)
 		)
 	)
