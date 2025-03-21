@@ -1327,7 +1327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:XCVR_RC-S2LP-868"
+		(property "Footprint" "modules:XCVR_RC-S2LP-868"
 			(at 124.46 76.2 0)
 			(effects
 				(font

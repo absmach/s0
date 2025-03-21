@@ -2529,7 +2529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RAK3172"
+		(property "Footprint" "modules:RAK3172"
 			(at 67.056 123.19 0)
 			(effects
 				(font
