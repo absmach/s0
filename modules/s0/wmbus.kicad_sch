@@ -1179,7 +1179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05dc92df-97a8-45a2-9172-e8cb9e6c8f3c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR062"
 			(at 144.78 93.98 0)
 			(effects
 				(font
@@ -1229,7 +1229,7 @@
 		(instances
 			(project "s0"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/3bbb84ad-503a-4b2d-9543-6ed81c985ce9"
-					(reference "#PWR02")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -1245,7 +1245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0da4ab67-b2e8-47f3-9290-2e655c122b34")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR063"
 			(at 165.1 67.31 0)
 			(effects
 				(font
@@ -1295,7 +1295,7 @@
 		(instances
 			(project "s0"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/3bbb84ad-503a-4b2d-9543-6ed81c985ce9"
-					(reference "#PWR057")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1311,7 +1311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bf202c3-1fe5-4f29-8371-5479c0e6b892")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 		(instances
 			(project ""
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/3bbb84ad-503a-4b2d-9543-6ed81c985ce9"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1547,7 +1547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b19bc65f-fa56-484d-8653-c705e34106a9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR064"
 			(at 165.1 90.17 0)
 			(effects
 				(font
@@ -1597,7 +1597,7 @@
 		(instances
 			(project "s0"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/3bbb84ad-503a-4b2d-9543-6ed81c985ce9"
-					(reference "#PWR056")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1613,7 +1613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "caca6e4a-58eb-4140-b85f-c29c060b408d")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR061"
 			(at 143.51 64.77 0)
 			(effects
 				(font
@@ -1663,7 +1663,7 @@
 		(instances
 			(project "s0"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/3bbb84ad-503a-4b2d-9543-6ed81c985ce9"
-					(reference "#PWR01")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1679,7 +1679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d63c6e8a-55aa-4c15-85b8-4c90a4d00c76")
-		(property "Reference" "C19"
+		(property "Reference" "C18"
 			(at 168.91 73.6599 0)
 			(effects
 				(font
@@ -1715,7 +1715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 165.1 74.93 0)
 			(effects
 				(font
@@ -1769,7 +1769,7 @@
 		(instances
 			(project "s0"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/3bbb84ad-503a-4b2d-9543-6ed81c985ce9"
-					(reference "C19")
+					(reference "C18")
 					(unit 1)
 				)
 			)
