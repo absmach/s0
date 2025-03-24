@@ -5700,6 +5700,12 @@
 		(uuid "497771f4-9d3e-4597-951b-3d242138b100")
 	)
 	(junction
+		(at 208.28 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51c8bc54-1185-4ce6-a2a9-ea006686ab43")
+	)
+	(junction
 		(at 214.63 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5953,6 +5959,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 27.94) (xy 224.79 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fd344e-fc1d-4dba-98af-b9fc8320c87d")
+	)
+	(wire
+		(pts
 			(xy 269.24 129.54) (xy 262.89 129.54)
 		)
 		(stroke
@@ -6060,6 +6076,16 @@
 			(type default)
 		)
 		(uuid "3501f45e-be94-4c9e-9a8f-07b55be1b432")
+	)
+	(wire
+		(pts
+			(xy 212.09 27.94) (xy 208.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38242af4-1191-438b-b552-ea9756704ad5")
 	)
 	(wire
 		(pts
@@ -6353,7 +6379,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 29.21) (xy 208.28 22.86)
+			(xy 208.28 22.86) (xy 208.28 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6430,6 +6456,16 @@
 			(type default)
 		)
 		(uuid "93befe13-b3f1-4fb0-94f2-8ed95b9d5520")
+	)
+	(wire
+		(pts
+			(xy 208.28 27.94) (xy 208.28 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "964cfc50-cca6-4c9c-b512-8045f1a2c43d")
 	)
 	(wire
 		(pts
@@ -6610,6 +6646,16 @@
 			(type default)
 		)
 		(uuid "cb5fccfc-20e1-497e-914d-b9ed77cfae45")
+	)
+	(wire
+		(pts
+			(xy 219.71 27.94) (xy 224.79 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd215f4b-de5c-4640-89c3-ddadbe759eb4")
 	)
 	(wire
 		(pts
@@ -8891,6 +8937,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 224.79 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b453283-8ae9-4405-a937-f0197d63651f")
+		(property "Reference" "#PWR070"
+			(at 224.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b8dcce-8bf2-4e71-8282-1b955e29d240")
+		)
+		(instances
+			(project "s0"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/83e4a99f-78ba-41d9-bb2e-d560aa576bd6"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 153.67 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9082,6 +9194,83 @@
 			(project "s0"
 				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/83e4a99f-78ba-41d9-bb2e-d560aa576bd6"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD9B5.0ST5G")
+		(at 215.9 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b8b2a9d-ba6a-4633-891d-4e1a0485d4e6")
+		(property "Reference" "D8"
+			(at 215.9 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD9B5.0ST5G"
+			(at 215.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-923"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" " C111566"
+			(at 215.9 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ab7d9b6-ea21-4726-9601-16e174ef1d2a")
+		)
+		(pin "1"
+			(uuid "04f1da36-00e2-4853-90e7-fc019cabab67")
+		)
+		(instances
+			(project "s0"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15/83e4a99f-78ba-41d9-bb2e-d560aa576bd6"
+					(reference "D8")
 					(unit 1)
 				)
 			)
