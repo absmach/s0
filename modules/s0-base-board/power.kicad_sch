@@ -1265,6 +1265,150 @@
 				)
 			)
 		)
+		(symbol "Diode:BZV55C27"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZV55C27"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MiniMELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "27V, 500mW, 5%, Zener diode, MiniMELF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*MiniMELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZV55C27_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZV55C27_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Switching:LM2575-3.3BU"
 			(pin_names
 				(offset 0.254)
@@ -2445,6 +2589,12 @@
 		(uuid "36966394-a0a0-4364-984e-5f28dee6aeb5")
 	)
 	(junction
+		(at 74.93 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46e242ae-60c4-4293-9529-c6c92c78bf0d")
+	)
+	(junction
 		(at 269.24 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2509,6 +2659,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7bd4997-fddc-413f-be9e-3cca0bc1438c")
+	)
+	(junction
+		(at 48.26 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6af431f-1c7d-4528-8a73-60fb2b1d75ed")
 	)
 	(junction
 		(at 38.1 143.51)
@@ -2626,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 57.15) (xy 62.23 57.15)
+			(xy 39.37 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2643,6 +2799,16 @@
 			(type default)
 		)
 		(uuid "262783ac-6d8e-4676-b08e-79a9263439d2")
+	)
+	(wire
+		(pts
+			(xy 74.93 63.5) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27377b89-0556-4c46-9948-d5d751eba933")
 	)
 	(wire
 		(pts
@@ -2666,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 54.61) (xy 62.23 54.61)
+			(xy 39.37 50.8) (xy 49.53 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +3022,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 57.15) (xy 62.23 67.31)
+			(xy 48.26 53.34) (xy 48.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2893,6 +3059,16 @@
 			(type default)
 		)
 		(uuid "6c964157-6835-4c50-9797-c009de255e5d")
+	)
+	(wire
+		(pts
+			(xy 59.69 44.45) (xy 63.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eec4c6d-e26e-4fb4-a3aa-c81aec5ed1f0")
 	)
 	(wire
 		(pts
@@ -2933,6 +3109,16 @@
 			(type default)
 		)
 		(uuid "789817cb-4833-496e-91f2-6179e5ce1ea5")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c2cc20-d966-45a6-a01f-31b7e76ce0a2")
 	)
 	(wire
 		(pts
@@ -3016,6 +3202,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 44.45) (xy 52.07 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5cd244-9557-4ed1-ba3d-a7980b553f0d")
+	)
+	(wire
+		(pts
 			(xy 77.47 138.43) (xy 83.82 138.43)
 		)
 		(stroke
@@ -3023,6 +3219,16 @@
 			(type default)
 		)
 		(uuid "a0262ca2-288c-41af-9929-80b07fe1b6a1")
+	)
+	(wire
+		(pts
+			(xy 48.26 76.2) (xy 48.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45e7411-8e77-4d0c-8d9f-a69ccbf8c8c1")
 	)
 	(wire
 		(pts
@@ -3206,6 +3412,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d557a269-eda4-40fa-8a7c-adac1f3f4e3d")
+	)
+	(wire
+		(pts
 			(xy 269.24 120.65) (xy 269.24 125.73)
 		)
 		(stroke
@@ -3286,13 +3502,33 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 54.61) (xy 62.23 46.99)
+			(xy 74.93 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5cef5a-f8a8-40b4-abbe-86af3ecdc381")
+	)
+	(wire
+		(pts
+			(xy 49.53 50.8) (xy 49.53 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ef3df5f2-1d41-4ff2-adfc-0d8aded0b0f6")
+	)
+	(wire
+		(pts
+			(xy 74.93 44.45) (xy 74.93 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33d4555-726a-4bfb-8210-a8e61b4bd71b")
 	)
 	(wire
 		(pts
@@ -3345,8 +3581,8 @@
 		(uuid "fe52175c-5e36-435f-994d-4ab5fc539743")
 	)
 	(rectangle
-		(start 88.9 12.7)
-		(end 168.91 100.33)
+		(start 114.3 12.7)
+		(end 168.91 95.25)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -3359,7 +3595,7 @@
 	)
 	(rectangle
 		(start 12.7 12.7)
-		(end 88.9 100.33)
+		(end 114.3 100.33)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -3421,6 +3657,16 @@
 		)
 		(uuid "05d7fa0e-99ad-43e7-83d5-966ad2a1f493")
 	)
+	(text "Reverse Polarity Protection"
+		(exclude_from_sim no)
+		(at 56.642 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0dc77455-9f92-47ab-9a79-6e37cc54948b")
+	)
 	(text "Max 3.7V (1 LiPo Battery)"
 		(exclude_from_sim no)
 		(at 143.256 53.594 0)
@@ -3433,7 +3679,7 @@
 	)
 	(text "Max 24V\n"
 		(exclude_from_sim no)
-		(at 56.642 53.594 0)
+		(at 43.942 49.784 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,6 +3769,16 @@
 			)
 		)
 		(uuid "f7283bc7-133c-4f3f-a099-506cabf84070")
+	)
+	(text "OverVoltage Protection"
+		(exclude_from_sim no)
+		(at 61.468 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd78a4d6-3003-481a-ae77-ba20e4e09446")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3814,7 +4070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 67.31 0)
+		(at 48.26 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3823,7 +4079,7 @@
 		(fields_autoplaced yes)
 		(uuid "09c1e236-0038-44d6-b4a6-8b3bff4adcc2")
 		(property "Reference" "#PWR031"
-			(at 62.23 73.66 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +4088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 72.39 0)
+			(at 48.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +4096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 67.31 0)
+			(at 48.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 67.31 0)
+			(at 48.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +4114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 67.31 0)
+			(at 48.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,6 +4129,84 @@
 			(project "s0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55C27")
+		(at 74.93 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "169a4104-25ca-4c5e-bd16-ca86ed7c191c")
+		(property "Reference" "D6"
+			(at 77.47 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55C27"
+			(at 62.992 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 70.485 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "27V, 500mW, 5%, Zener diode, MiniMELF"
+			(at 74.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C545374"
+			(at 74.93 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e75e1b7-6742-426d-a946-45d26280825d")
+		)
+		(pin "2"
+			(uuid "b466186b-350e-4749-9e29-ed415b064a76")
+		)
+		(instances
+			(project ""
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3897,7 +4231,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF"
+		(property "Value" "330uF"
 			(at 260.35 64.7699 0)
 			(effects
 				(font
@@ -3924,7 +4258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "330uF 25V ±20% SMD,D8xL10.2mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 256.54 63.5 0)
 			(effects
 				(font
@@ -3933,7 +4267,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C412252"
+		(property "JLCPCB" "C74593"
 			(at 256.54 63.5 0)
 			(effects
 				(font
@@ -4003,7 +4337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "6.3V 220uF X5R ±20% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 269.24 134.62 0)
 			(effects
 				(font
@@ -4082,7 +4416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "25V 10uF X5R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 195.58 133.35 0)
 			(effects
 				(font
@@ -4293,7 +4627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF 63V ±20% SMD,D6.3xL5.4mm Aluminum Electrolytic Capacitors - SMD ROHS"
 			(at 182.88 62.23 0)
 			(effects
 				(font
@@ -4302,7 +4636,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C15850"
+		(property "JLCPCB" "C29199"
 			(at 182.88 62.23 0)
 			(effects
 				(font
@@ -4478,7 +4812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 93.98 157.48 0)
 			(effects
 				(font
@@ -4652,7 +4986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 109.22 157.48 0)
 			(effects
 				(font
@@ -4981,7 +5315,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 46.99 54.61 0)
+		(at 34.29 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4990,7 +5324,7 @@
 		(dnp no)
 		(uuid "844dc3eb-80e9-4285-ae8b-db59daccdfde")
 		(property "Reference" "J2"
-			(at 44.45 54.6099 0)
+			(at 31.75 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5333,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 59.69 60.706 0)
+			(at 46.99 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5342,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 46.99 54.61 0)
+			(at 34.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 54.61 0)
+			(at 34.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5360,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 46.99 54.61 0)
+			(at 34.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +5369,7 @@
 			)
 		)
 		(property "JLCPCB" "C8404"
-			(at 46.99 54.61 0)
+			(at 34.29 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,6 +5519,85 @@
 			(project "s0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 67.31 44.45 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "925a0fc7-442b-43cb-b22e-ead0e55b524b")
+		(property "Reference" "R2"
+			(at 66.0399 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 68.5799 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 67.31 46.228 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25531 "
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39c28191-1956-443b-a86b-d1b011038997")
+		)
+		(pin "1"
+			(uuid "c70b5ed5-6203-4ac8-bd71-2e9f5e31b164")
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5525,7 +5938,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "220"
 			(at 72.3901 135.89 0)
 			(effects
 				(font
@@ -5561,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22775"
+		(property "JLCPCB" "C1111"
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -5683,7 +6096,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 62.23 46.99 0)
+		(at 86.36 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5692,7 +6105,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0694bfe-86b1-4d5d-852c-4d13bfc621fa")
 		(property "Reference" "#PWR061"
-			(at 62.23 50.8 0)
+			(at 86.36 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +6114,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 62.23 41.91 0)
+			(at 86.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +6122,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 46.99 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5718,7 +6131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 46.99 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +6140,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 62.23 46.99 0)
+			(at 86.36 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +6351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 4.7uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 38.1 151.13 0)
 			(effects
 				(font
@@ -6164,6 +6577,103 @@
 			(project "s0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 55.88 44.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0d8acf7-c6bf-494f-b7ac-3ff98989142d")
+		(property "Reference" "D5"
+			(at 57.1501 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "40V 3A 550mV@3A Schottky"
+			(at 64.516 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 3A 550mV@3A Schottky"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8678"
+			(at 55.88 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c989cca7-a6d8-485a-a451-944251a5614d")
+		)
+		(pin "2"
+			(uuid "ada7fbf4-7d1c-4121-bb38-d887e3ffae83")
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6463,7 +6973,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 166.37 143.5099 0)
 			(effects
 				(font
@@ -6490,7 +7000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 168.91 142.24 0)
 			(effects
 				(font
@@ -6499,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25741"
+		(property "JLCPCB" "C25531 "
 			(at 168.91 142.24 0)
 			(effects
 				(font
