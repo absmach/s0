@@ -16761,7 +16761,7 @@
 		(descr "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF#page=4")
 		(tags "Diode SOD923")
 		(property "Reference" "D8"
-			(at 0 -1.2 360)
+			(at 0 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "b34d19b8-9894-437b-933e-76de6601f3cd")
 			(effects
@@ -16772,7 +16772,7 @@
 			)
 		)
 		(property "Value" "ESD9B5.0ST5G"
-			(at 0 1.2 360)
+			(at 0 1.2 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5378e0da-0bc4-4b82-9b2d-cc829d86be61")
@@ -17091,7 +17091,7 @@
 			(uuid "b7ca12d3-9a90-4914-8820-0a2adebbb3c4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.2 360)
+			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(uuid "64d8dec4-f829-42fe-9648-543ccc129efa")
 			(effects
