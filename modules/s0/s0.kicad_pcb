@@ -27457,7 +27457,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "ee2e8fe4-cd5e-422f-a695-c53233a98aad")
-		(at 132 112.6 180)
+		(at 131.5 109.5 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -27986,10 +27986,22 @@
 			(uuid "391941ba-838e-40f2-ac22-a5f42d37e84f")
 		)
 	)
-	(gr_text "https://abstractmachines.fr"
-		(at 147.4 128.1 0)
+	(gr_text "S0 IoT Gateway"
+		(at 139.763616 128 0)
 		(layer "B.SilkS")
 		(uuid "68423f9c-e210-4fc4-abe2-46b097b9ce1b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "https://abstractmachines.fr"
+		(at 146.942189 124.772838 0)
+		(layer "B.SilkS")
+		(uuid "897e228b-273a-46c8-ab51-09c73bb85d45")
 		(effects
 			(font
 				(size 1.5 1.5)
