@@ -5628,7 +5628,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" " C2620"
+		(property "JLCPCB" "C2620"
 			(at 78.74 53.34 90)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25531 "
+		(property "JLCPCB" "C25744"
 			(at 43.18 59.69 0)
 			(effects
 				(font
@@ -8276,7 +8276,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25531 "
+		(property "JLCPCB" "C25744"
 			(at 179.07 142.24 0)
 			(effects
 				(font
@@ -8351,6 +8351,15 @@
 		)
 		(property "Description" "0.5A Ic, 300V Vce, PNP High Voltage Transistor, TO-92"
 			(at 62.738 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C147293"
+			(at 62.23 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
