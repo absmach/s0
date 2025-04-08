@@ -5787,7 +5787,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C3105 "
+		(property "JLCPCB" "C3105"
 			(at 200.66 120.65 90)
 			(effects
 				(font

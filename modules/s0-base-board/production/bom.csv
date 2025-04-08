@@ -11,7 +11,7 @@
 "D1,D7","LED","LED_SMD:LED_0603_1608Metric","2","","C6848499"
 "D2,D3,D4,D5","40V 3A 550mV@3A Schottky","Diode_SMD:D_SMA-SMB_Universal_Handsoldering","4","","C8678"
 "D6","BZV55C27","Diode_SMD:D_MiniMELF","1","","C545374"
-"F1","Fuse","Module:FUSC3115X66N","1","","C3105 "
+"F1","Fuse","Module:FUSC3115X66N","1","","C3105"
 "J2","Screw_Terminal_01x02","TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm","1","","C8404"
 "J3","BAT_JST_01x02","Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical","1","","C20079"
 "J4","RJ45_Bel_SI-60062-F JLC","Connector_RJ:RJ45_Bel_SI-60062-F","1","","C34677"
