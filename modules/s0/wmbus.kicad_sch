@@ -1081,7 +1081,7 @@
 			)
 		)
 	)
-	(global_label "RC_CS"
+	(global_label "WMBUS_CS"
 		(shape input)
 		(at 106.68 73.66 180)
 		(fields_autoplaced yes)
@@ -1093,7 +1093,7 @@
 		)
 		(uuid "2486c06d-9534-433f-bf3f-f255c91a0c8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.7077 73.66 0)
+			(at 93.5349 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1125,7 @@
 			)
 		)
 	)
-	(global_label "RC_SDN"
+	(global_label "WMBUS_SDN"
 		(shape input)
 		(at 106.68 68.58 180)
 		(fields_autoplaced yes)
@@ -1137,7 +1137,7 @@
 		)
 		(uuid "864c0682-3fc3-4f19-9738-7cc26f34d2a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3772 68.58 0)
+			(at 92.2044 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

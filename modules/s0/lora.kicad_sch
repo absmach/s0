@@ -1418,6 +1418,10 @@
 		(uuid "8e15a864-9d8a-4664-b374-893b437231bd")
 	)
 	(no_connect
+		(at 60.96 80.01)
+		(uuid "91eb34a8-c8e1-4869-a73d-516ff6221dc4")
+	)
+	(no_connect
 		(at 60.96 102.87)
 		(uuid "9fe80b4a-1c41-46b7-b019-228e8766f0dc")
 	)
@@ -1440,6 +1444,10 @@
 	(no_connect
 		(at 111.76 107.95)
 		(uuid "ecf171ff-f2fa-44b5-97d9-57603aa5fb02")
+	)
+	(no_connect
+		(at 60.96 82.55)
+		(uuid "ef4f6e10-0ef3-4542-96c1-9f70da4cca27")
 	)
 	(no_connect
 		(at 60.96 95.25)

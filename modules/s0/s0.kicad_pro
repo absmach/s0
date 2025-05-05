@@ -780,6 +780,10 @@
     [
       "3bbb84ad-503a-4b2d-9543-6ed81c985ce9",
       "WMBUS"
+    ],
+    [
+      "310ecb84-34d7-40c7-af4a-64082051a5f6",
+      "power"
     ]
   ],
   "text_variables": {}
