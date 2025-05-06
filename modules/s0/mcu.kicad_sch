@@ -6099,6 +6099,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C6818"
+			(at 72.39 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "21c96a5b-2dbb-4a8f-b833-5234395d07a9")
 		)

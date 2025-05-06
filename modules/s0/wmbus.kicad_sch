@@ -1465,6 +1465,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C37069913"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "1d5c42a2-5682-4f0c-96cc-1acd60f00035")
 		)

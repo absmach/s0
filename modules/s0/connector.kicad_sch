@@ -3837,12 +3837,6 @@
 		(uuid "6c0d0909-6f5f-456c-ae57-f23e1cfdf256")
 	)
 	(junction
-		(at 121.92 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c94843fa-e5bf-4d01-ae66-7353b7bc7ac5")
-	)
-	(junction
 		(at 229.87 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3886,7 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 121.92 39.37)
+			(xy 118.11 39.37) (xy 125.73 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3913,16 +3907,6 @@
 			(type default)
 		)
 		(uuid "205e258e-e704-447a-a892-cf58d0de7e73")
-	)
-	(wire
-		(pts
-			(xy 118.11 36.83) (xy 121.92 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f44e5a-d52f-476b-b095-ebbf91c5524b")
 	)
 	(wire
 		(pts
@@ -4006,16 +3990,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 36.83) (xy 121.92 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e31890-d5e2-4f2c-a6e4-2a35b129c638")
-	)
-	(wire
-		(pts
 			(xy 240.03 39.37) (xy 236.22 39.37)
 		)
 		(stroke
@@ -4053,16 +4027,6 @@
 			(type default)
 		)
 		(uuid "5fb48624-f456-438f-b5d4-ec8c49011f04")
-	)
-	(wire
-		(pts
-			(xy 121.92 39.37) (xy 125.73 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71477ab8-a771-442c-8f00-fd6ee3719a7b")
 	)
 	(wire
 		(pts
@@ -5172,7 +5136,7 @@
 		(at 87.63 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
