@@ -716,6 +716,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -779,6 +785,14 @@
     [
       "5fd7a6a7-9e92-4e1d-8156-8c064725d4fa",
       "Connectors"
+    ],
+    [
+      "715e542c-ab65-47cd-8818-1fd83daf1c1f",
+      "wiredmbus"
+    ],
+    [
+      "f2854479-1356-4573-8b4e-a1726dc0bfe8",
+      "SDCard"
     ]
   ],
   "text_variables": {}
