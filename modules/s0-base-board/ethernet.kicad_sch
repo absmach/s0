@@ -8702,6 +8702,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad4203f6-4390-4d3e-823f-bd6d11bbc492")
 		)
@@ -8839,6 +8848,15 @@
 			)
 		)
 		(property "JLCPCB" "C1647"
+			(at 34.29 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 34.29 163.83 0)
 			(effects
 				(font
@@ -9057,6 +9075,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3ef98be-b49c-429b-9e55-7b992b576569")
 		)
@@ -9200,6 +9227,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d03aff5-88f7-4715-8938-5028e57cd55a")
 		)
@@ -9269,6 +9305,15 @@
 		)
 		(property "JLCPCB" "C25804"
 			(at 218.44 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 218.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,6 +9398,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 171.45 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "153c515f-15c3-45ba-a1a6-b6ec20e8ca34")
 		)
@@ -9415,6 +9469,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 218.44 149.86 0)
 			(effects
 				(font
@@ -9602,6 +9665,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1d93f0a7-e3f4-4009-a11f-e376c1eee60d")
 		)
@@ -9763,6 +9835,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 163.83 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e32a8549-f5f6-48da-b54b-48a21225a33a")
 		)
@@ -9908,6 +9989,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 130.81 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c505c41-f274-477d-b791-bbc26fde3e08")
 		)
@@ -9984,6 +10074,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b896985a-f572-4544-88ff-b9771534728f")
 		)
@@ -10052,6 +10151,15 @@
 			)
 		)
 		(property "JLCPCB" "C2925590"
+			(at 43.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 43.18 152.4 0)
 			(effects
 				(font
@@ -10239,6 +10347,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 81.28 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d4156e91-d6bd-45d6-a9e1-1e17e2995a15")
 		)
@@ -10401,6 +10518,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "352e1d16-e07f-4f6a-b914-bab6a05f3e95")
 		)
@@ -10472,6 +10598,15 @@
 			)
 		)
 		(property "JLCPCB" "C19666"
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 118.11 173.99 0)
 			(effects
 				(font
@@ -10691,6 +10826,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 209.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2de3d65-a3c3-4342-ae82-df9646705c59")
 		)
@@ -10779,6 +10923,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 212.09 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "497b6c5d-3da1-4075-b6b3-5484228d1063")
 		)
@@ -10850,6 +11003,15 @@
 			)
 		)
 		(property "JLCPCB" "C1525"
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 41.91 54.61 0)
 			(effects
 				(font
@@ -11134,6 +11296,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8aff70c3-3837-4bef-b843-34ef4fc2aa8d")
 		)
@@ -11278,6 +11449,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d6948c8-958b-456d-b63c-021b0e86b3c4")
 		)
@@ -11347,6 +11527,15 @@
 		)
 		(property "JLCPCB" "C25804"
 			(at 205.74 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 205.74 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,6 +11679,15 @@
 			)
 		)
 		(property "JLCPCB" "C1525"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -11644,6 +11842,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 52.07 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fcfa607d-3e4b-49cb-9964-4064ccad8f2e")
 		)
@@ -11722,6 +11929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 107.95 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5af60c4a-f887-423a-a6b8-392e3624b6b1")
 		)
@@ -11792,6 +12008,15 @@
 		)
 		(property "JLCPCB" "C22935"
 			(at 43.18 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 43.18 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,6 +12168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 275.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c38f0419-b6fa-405d-9b21-f8bb16f156b8")
 		)
@@ -12078,6 +12312,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 212.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e52a9e6-f960-4ce8-b17e-4770c51052e5")
 		)
@@ -12148,6 +12391,15 @@
 			)
 		)
 		(property "JLCPCB" "C15850"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -12291,6 +12543,15 @@
 		)
 		(property "JLCPCB" "C1631"
 			(at 181.61 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 181.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,6 +12703,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 80.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3f84708-a01e-45b1-b8d5-840353f54d67")
 		)
@@ -12518,6 +12788,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2a12d5d-1823-4b7c-a1e8-289911207b93")
 		)
@@ -12587,6 +12866,15 @@
 			)
 		)
 		(property "JLCPCB" "C34677"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -12756,6 +13044,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 205.74 149.86 0)
 			(effects
 				(font
@@ -12973,6 +13270,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 181.61 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6fe1f2c-8420-4fa6-9355-a6ff8b0662d7")
 		)
@@ -13117,6 +13423,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82a64034-1ba4-46eb-927a-e5beeb5c1cdd")
 		)
@@ -13188,6 +13503,15 @@
 			)
 		)
 		(property "JLCPCB" "C32843"
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 86.36 140.97 0)
 			(effects
 				(font
@@ -13478,6 +13802,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c00cab4d-7e4f-43d0-88d2-20f4b5a29b46")
 		)
@@ -13621,6 +13954,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a1f9fb8-e3fd-476e-b130-a282e877f838")
 		)
@@ -13690,6 +14032,15 @@
 		)
 		(property "JLCPCB" "C23197"
 			(at 179.07 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 179.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,6 +14119,15 @@
 		)
 		(property "JLCPCB" "C85834"
 			(at 99.06 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 99.06 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13920,6 +14280,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 275.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6002f78-fcea-403a-af99-1f742b24c09d")
 		)
@@ -13990,6 +14359,15 @@
 		)
 		(property "JLCPCB" "C23197"
 			(at 175.26 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,6 +14520,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fc081224-b4cf-4579-8f47-c9511ca27c19")
 		)
@@ -14218,6 +14605,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 171.45 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a65c5b88-3287-4e3b-917d-02f0bce6a1b5")
 		)
@@ -14287,6 +14683,15 @@
 		)
 		(property "JLCPCB" "C23140"
 			(at 163.83 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 163.83 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14495,6 +14900,15 @@
 		)
 		(property "JLCPCB" "C23197"
 			(at 184.15 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
