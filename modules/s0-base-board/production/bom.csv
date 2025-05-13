@@ -20,6 +20,7 @@
 "J6","P9","Connector_PinSocket_2.54mm:PinSocket_2x23_P2.54mm_Vertical","1","","C27985238"
 "J7","METER-BUS TRANSCEIVER","Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm","1","","C34958"
 "J8,J9","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","2","","C492401"
+"J10","Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","1","","C2691448"
 "L1,L2","47uH/2A","Inductor_SMD:L_Chilisin_BMRB00060624","2","","C5189938"
 "L3,L4","L_Ferrite","Inductor_SMD:L_0603_1608Metric","2","","C85834"
 "L5","Ferrite Bead","Module:BEADC3216X130N","1","","C668306"

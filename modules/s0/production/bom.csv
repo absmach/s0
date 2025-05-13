@@ -1,33 +1,33 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-C1,0805,1,10uF,
-C10,0603,1,33pF,
-"C12, C14, C15, C16, C17, C18, C6, C7, C8",0402,9,0.1uF,
-"C13, C3, C4, C5",0805,4,10uF,
-C2,0805,1,330uF,
-"D1, D2, D4, D9",D_SOD-923,4,ESD9B5.0ST5G,
-"D10, D5, D7, D8",0603,4,LED,
-D3,D_SMA-SMB_Universal_Handsoldering,1,40V 3A 550mV@3A Schottky,
-D6,SOT-23-5,1,ESDA6V1SC5,
-F1,1206,1,Fuse,
-FB1,1206,1,FerriteBead,
-J3,USB_C_Receptacle_G-Switch_GT-USB-7010ASV,1,USB_C_Receptacle_USB2.0_14P,
-J4,JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,1,BAT_JST_01x02,
-"J5, J6",U.FL_Hirose_U.FL-R-SMT-1_Vertical,2,Conn_Coaxial,
-L1,L_Chilisin_BMRB00060624,1,47uH/2A,
-"Q1, Q2, Q3",SOT-23,3,SS8050,
-"R1, R2",0603,2,5K1,
-"R10, R13, R14, R15, R3, R9",0402,6,100,
-"R11, R12, R8",0603,3,47K,
-"R16, R17, R4",0603,3,10K,
-"R5, R6, R7",0603,3,4.7K,
-"SW1, SW2",SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS,2,SW_Push,
-"TP1, TP2, TP3",TestPoint_Pad_D1.0mm,3,TestPoint,
-U1,BB_Cape,1,BEAGLEBONEBLACK,
-U2,TO-263-5_TabPin3,1,LM2575S-3.3(UMW),
-U3,XCVR_SIM7080G,1,SIM7080G,
-U4,Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm,1,TXB0108RGY,
-U5,SIM-SMD_NANO-SIM-XG6P-H1.35,1,NANO SIM XG6P H1.35,
-U6,XCVR_ESP32-C3-MINI-1U-N4,1,ESP32-C3-MINI-1U-H4,
-U7,RAK3172,1,RAK3172,
-U8,XCVR_RC-S2LP-868,1,RC-S2LP-868,
-U9,SOIC-16_3.9x9.9mm_P1.27mm,1,74HC138,
+"Reference","Value","Footprint","Qty","DNP","JLCPCB"
+"C1,C3,C4,C5,C13","10uF","Capacitor_SMD:C_0805_2012Metric","5","","C15850"
+"C2","330uF","Capacitor_SMD:C_0805_2012Metric","1","","C58277"
+"C6,C7,C8,C12,C14,C15,C16,C17,C18","0.1uF","Capacitor_SMD:C_0402_1005Metric","9","","C1525"
+"C10","33pF","Capacitor_SMD:C_0603_1608Metric","1","","C1663"
+"D1,D2,D4,D9","ESD9B5.0ST5G","Diode_SMD:D_SOD-923","4",""," C111566"
+"D3","40V 3A 550mV@3A Schottky","Diode_SMD:D_SMA-SMB_Universal_Handsoldering","1","","C8678"
+"D5,D7,D8,D10","LED","LED_SMD:LED_0603_1608Metric","4","","C6848499"
+"D6","ESDA6V1SC5","Package_TO_SOT_SMD:SOT-23-5","1","","C2935146"
+"F1","Fuse","Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder","1","","C3105"
+"FB1","FerriteBead","Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder","1","","C668306"
+"J1","P8","Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical","1","","C725895"
+"J2","P9","Connector_PinHeader_2.54mm:PinHeader_2x23_P2.54mm_Vertical","1","","C725895"
+"J3","USB_C_Receptacle_USB2.0_14P","Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV","1","","C2765186"
+"J4","BAT_JST_01x02","Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical","1","","C20079"
+"J5,J6","Conn_Coaxial","Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical","2","","C88373"
+"J7,J8","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","2","","C492401"
+"L1","47uH/2A","Inductor_SMD:L_Chilisin_BMRB00060624","1","","C5189938"
+"Q1,Q2,Q3","SS8050","Package_TO_SOT_SMD:SOT-23","3","","C2150"
+"R1,R2","5K1","Resistor_SMD:R_0603_1608Metric","2","","C23186"
+"R3,R9,R10,R13,R14,R15","100","Resistor_SMD:R_0402_1005Metric","6","","C22775"
+"R4,R16,R17","10K","Resistor_SMD:R_0603_1608Metric","3","","C25804"
+"R5,R6,R7","4.7K","Resistor_SMD:R_0603_1608Metric","3","","C23162"
+"R8,R11,R12","47K","Resistor_SMD:R_0603_1608Metric","3","","C25792"
+"SW1,SW2","SW_Push","Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS","2","","C318938"
+"U2","LM2575S-3.3(UMW)","Package_TO_SOT_SMD:TO-263-5_TabPin3","1","","C347404"
+"U3","SIM7080G","modules:XCVR_SIM7080G","1","","C2943992"
+"U4","TXB0108RGY","Package_DFN_QFN:Texas_RGY_R-PVQFN-N20_EP2.05x3.05mm","1","","C194701"
+"U5","NANO SIM XG6P H1.35","modules:SIM-SMD_NANO-SIM-XG6P-H1.35","1","","C77877"
+"U6","ESP32-C3-MINI-1U-H4","modules:XCVR_ESP32-C3-MINI-1U-N4","1","","C3013922"
+"U7","RAK3172","modules:RAK3172","1","","C19723909"
+"U8","RC-S2LP-868","modules:XCVR_RC-S2LP-868","1","","C37069913"
+"U9","74HC138","Package_SO:SOIC-16_3.9x9.9mm_P1.27mm","1","","C6818"
