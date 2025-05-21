@@ -301,8 +301,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 22.225 0)
+			(property "Reference" "J3"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -310,14 +310,14 @@
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0_14P"
-				(at 0 19.685 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 				(at 3.81 0 0)
 				(effects
 					(font
@@ -336,6 +336,15 @@
 				)
 			)
 			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" "C2765186"
 				(at 0 0 0)
 				(effects
 					(font
@@ -654,7 +663,7 @@
 				)
 			)
 			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
-				(pin passive line
+				(pin power_in line
 					(at 0 -22.86 90)
 					(length 5.08)
 					(name "GND"
@@ -762,7 +771,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 15.24 15.24 180)
 					(length 5.08) hide
 					(name "VBUS"
