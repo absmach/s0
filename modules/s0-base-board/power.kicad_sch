@@ -3026,6 +3026,12 @@
 		(uuid "1346a4a9-2bea-4967-ad7f-69c93755bc0f")
 	)
 	(junction
+		(at 82.55 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a4e147e-29fa-4b04-9441-78c79c385945")
+	)
+	(junction
 		(at 43.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3144,6 +3150,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c747bf67-1dc2-4089-865d-5b6f007f5fdd")
+	)
+	(junction
+		(at 82.55 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4cdbf1f-eaca-4efd-be8b-d65ee39f5463")
 	)
 	(junction
 		(at 208.28 120.65)
@@ -3365,7 +3377,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 50.8) (xy 93.98 50.8)
+			(xy 96.52 50.8) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3402,6 +3414,16 @@
 			(type default)
 		)
 		(uuid "3d1c9ba5-fd32-4277-bf6c-536457a83910")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 91.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d81a77d-360d-46e1-a9f7-5388949056db")
 	)
 	(wire
 		(pts
@@ -3442,6 +3464,16 @@
 			(type default)
 		)
 		(uuid "4181ff1e-0aa7-485d-93a8-b55320f3d302")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 82.55 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422aa0a1-4a91-44ef-bc6d-d67d3d18e7ab")
 	)
 	(wire
 		(pts
@@ -3545,7 +3577,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 50.8) (xy 73.66 50.8)
+			(xy 64.77 50.8) (xy 82.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3655,7 +3687,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 50.8) (xy 93.98 46.99)
+			(xy 101.6 50.8) (xy 101.6 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3672,6 +3704,16 @@
 			(type default)
 		)
 		(uuid "649fdd89-debb-48a4-8036-0ca293cda6cb")
+	)
+	(wire
+		(pts
+			(xy 82.55 63.5) (xy 82.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e3445a-7fbe-4c99-a98f-b6af013e39ca")
 	)
 	(wire
 		(pts
@@ -3835,6 +3877,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 50.8) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d51c942-44b0-4167-806d-300a4182075c")
+	)
+	(wire
+		(pts
 			(xy 38.1 147.32) (xy 38.1 143.51)
 		)
 		(stroke
@@ -3945,7 +3997,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 78.74 68.58)
+			(xy 72.39 68.58) (xy 82.55 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4245,7 +4297,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 58.42) (xy 78.74 68.58)
+			(xy 91.44 58.42) (xy 91.44 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4968,9 +5020,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 38.735 69.85 0)
 			(effects
 				(font
@@ -4997,7 +5050,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C545374"
+		(property "JLCPCB" "C688905"
 			(at 43.18 69.85 90)
 			(effects
 				(font
@@ -5631,7 +5684,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 78.74 53.34 270)
+		(at 91.44 53.34 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5640,7 +5693,7 @@
 		(dnp no)
 		(uuid "2a4d3c1a-a063-4444-8a47-f25c988e1899")
 		(property "Reference" "Q3"
-			(at 78.74 44.45 90)
+			(at 91.44 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,15 +5701,15 @@
 			)
 		)
 		(property "Value" "IRF4905STRLPBF"
-			(at 78.74 46.99 90)
+			(at 91.44 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Module:TRANS_IRF3205S"
-			(at 81.28 48.26 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 66.04 53.34 0)
+			(at 78.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5727,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 78.74 53.34 0)
+			(at 91.44 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5736,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 61.595 53.34 0)
+			(at 74.295 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5745,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 59.69 53.34 0)
+			(at 72.39 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5754,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 63.5 53.34 0)
+			(at 76.2 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,8 +5762,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2620"
-			(at 78.74 53.34 90)
+		(property "JLCPCB" "C397952"
+			(at 91.44 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5772,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 78.74 53.34 0)
+			(at 91.44 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +7553,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 93.98 46.99 0)
+		(at 101.6 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7509,7 +7562,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0694bfe-86b1-4d5d-852c-4d13bfc621fa")
 		(property "Reference" "#PWR061"
-			(at 93.98 50.8 0)
+			(at 101.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7571,7 @@
 			)
 		)
 		(property "Value" "VIN"
-			(at 93.98 41.91 0)
+			(at 101.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 46.99 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 46.99 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 93.98 46.99 0)
+			(at 101.6 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8259,6 +8312,94 @@
 			(project "s0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZV55C27")
+		(at 82.55 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d26c9146-9952-4d28-bc56-259facf708d7")
+		(property "Reference" "D8"
+			(at 76.708 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZV55C27"
+			(at 70.612 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 78.105 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "27V, 500mW, 5%, Zener diode, MiniMELF"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C151791"
+			(at 82.55 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14996330-d06a-4cb4-823c-338811e2ad25")
+		)
+		(pin "2"
+			(uuid "dd303fba-f30b-45ae-8ae5-fb27bf7661d8")
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/c8f0bed1-a3c6-4de4-ad0b-f2169564ca41"
+					(reference "D8")
 					(unit 1)
 				)
 			)
