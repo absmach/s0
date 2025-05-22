@@ -15,6 +15,7 @@
 "J4","BAT_JST_01x02","Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical","1","","C20079"
 "J5,J6","Conn_Coaxial","Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical","2","","C88373"
 "J7,J8","Conn_01x02","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","2","","C492401"
+"J9","Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","1","","C2691448"
 "J10","Conn_ARM_JTAG_SWD_10","Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical","1","","C2935953"
 "L1","47uH/2A","Inductor_SMD:L_Chilisin_BMRB00060624","1","","C5189938"
 "Q1,Q2,Q3","SS8050","Package_TO_SOT_SMD:SOT-23","3","","C2150"
