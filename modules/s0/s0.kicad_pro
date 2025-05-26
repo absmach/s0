@@ -482,7 +482,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "production/s0_step.step",
+      "step": "../../../../../Downloads/s0_step.step",
       "svg": "",
       "vrml": ""
     },

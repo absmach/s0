@@ -550,7 +550,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Downloads/s0-base-board.step",
       "svg": "",
       "vrml": ""
     },
