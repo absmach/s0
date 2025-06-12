@@ -14,7 +14,46 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 43.18 140.97)
+		(at 123.19 121.92)
+		(size 85.09 40.64)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 112 105 1.0000)
+		)
+		(uuid "310ecb84-34d7-40c7-af4a-64082051a5f6")
+		(property "Sheetname" "power"
+			(at 150.368 147.574 0)
+			(effects
+				(font
+					(size 8.001 8.001)
+					(thickness 1.6002)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 123.19 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "s0"
+				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 121.92)
 		(size 93.98 43.18)
 		(stroke
 			(width 0.1524)
@@ -25,7 +64,7 @@
 		)
 		(uuid "3bbb84ad-503a-4b2d-9543-6ed81c985ce9")
 		(property "Sheetname" "WMBUS"
-			(at 68.834 165.1 0)
+			(at 42.164 146.05 0)
 			(effects
 				(font
 					(size 8 8)
@@ -36,7 +75,7 @@
 			)
 		)
 		(property "Sheetfile" "wmbus.kicad_sch"
-			(at 43.18 184.7346 0)
+			(at 16.51 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 43.18 81.28)
+		(at 16.51 68.58)
 		(size 92.71 46.99)
 		(stroke
 			(width 0.1524)
@@ -64,7 +103,7 @@
 		)
 		(uuid "5c610c02-cc6e-495f-915f-5f97a877cabd")
 		(property "Sheetname" "MCU"
-			(at 73.66 109.728 0)
+			(at 46.99 97.028 0)
 			(effects
 				(font
 					(size 8 8)
@@ -75,7 +114,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 43.18 128.8546 0)
+			(at 16.51 116.1546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,7 +131,7 @@
 		)
 	)
 	(sheet
-		(at 169.164 20.066)
+		(at 119.634 16.256)
 		(size 93.472 45.466)
 		(stroke
 			(width 0.1524)
@@ -103,7 +142,7 @@
 		)
 		(uuid "6cab89f1-e367-45d3-9508-6366c1d394b8")
 		(property "Sheetname" "SIM7080G"
-			(at 177.546 49.784 0)
+			(at 128.016 45.974 0)
 			(effects
 				(font
 					(size 10 10)
@@ -114,7 +153,7 @@
 			)
 		)
 		(property "Sheetfile" "peripherals.kicad_sch"
-			(at 169.164 66.1166 0)
+			(at 119.634 62.3066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -131,18 +170,18 @@
 		)
 	)
 	(sheet
-		(at 43.434 20.574)
+		(at 16.764 15.494)
 		(size 92.456 45.974)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 194 0 0 0.5000)
+			(color 194 0 108 0.5000)
 		)
 		(uuid "83e4a99f-78ba-41d9-bb2e-d560aa576bd6")
 		(property "Sheetname" "Connector"
-			(at 57.404 49.276 0)
+			(at 30.734 44.196 0)
 			(effects
 				(font
 					(size 8 8)
@@ -152,7 +191,7 @@
 			)
 		)
 		(property "Sheetfile" "connector.kicad_sch"
-			(at 43.434 67.1326 0)
+			(at 16.764 62.0526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,8 +208,8 @@
 		)
 	)
 	(sheet
-		(at 170.18 78.74)
-		(size 92.71 52.07)
+		(at 120.65 67.31)
+		(size 88.9 46.99)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -180,7 +219,7 @@
 		)
 		(uuid "a38a5424-854a-4628-876d-ce694417db1d")
 		(property "Sheetname" "LoRa"
-			(at 199.898 114.3 0)
+			(at 150.368 102.87 0)
 			(effects
 				(font
 					(size 8 8)
@@ -191,7 +230,7 @@
 			)
 		)
 		(property "Sheetfile" "lora.kicad_sch"
-			(at 170.18 131.3946 0)
+			(at 120.65 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
