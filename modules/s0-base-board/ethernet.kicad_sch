@@ -9528,7 +9528,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Module:RESCAF80P320X160X60-8N"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 80.772 193.294 0)
 			(effects
 				(font
@@ -9656,7 +9656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25725"
+		(property "JLCPCB" "C425216"
 			(at 50.8 194.31 90)
 			(effects
 				(font
@@ -10210,7 +10210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Module:RESCAF80P320X160X60-8N"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 111.252 193.294 0)
 			(effects
 				(font

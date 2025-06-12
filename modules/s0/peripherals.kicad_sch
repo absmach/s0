@@ -8462,7 +8462,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25792"
+		(property "JLCPCB" "C25819"
 			(at 231.14 154.94 90)
 			(effects
 				(font
@@ -9617,7 +9617,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25792"
+		(property "JLCPCB" "C25819"
 			(at 231.14 81.28 90)
 			(effects
 				(font
@@ -9835,7 +9835,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22775"
+		(property "JLCPCB" "C25076"
 			(at 238.76 119.38 0)
 			(effects
 				(font
@@ -10548,7 +10548,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22775"
+		(property "JLCPCB" "C25076"
 			(at 226.06 119.38 0)
 			(effects
 				(font
@@ -11466,7 +11466,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22775"
+		(property "JLCPCB" "C25076"
 			(at 226.06 45.72 0)
 			(effects
 				(font
@@ -13214,7 +13214,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C25792"
+		(property "JLCPCB" "C25819"
 			(at 213.36 240.03 90)
 			(effects
 				(font
@@ -13452,7 +13452,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22775"
+		(property "JLCPCB" "C25076"
 			(at 238.76 45.72 0)
 			(effects
 				(font

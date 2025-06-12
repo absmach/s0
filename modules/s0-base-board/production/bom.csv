@@ -40,7 +40,7 @@
 "R20,R21","330","Resistor_SMD:R_0402_1005Metric","2","","C12246"
 "R24","30k","Resistor_SMD:R_0603_1608Metric","1","","C22984"
 "R27","100","Resistor_SMD:R_0603_1608Metric","1","","C22775"
-"RN1,RN2","4D02WGJ0103TCE","Module:RESCAF80P320X160X60-8N","2","","C25725"
+"RN1,RN2","4D02WGJ0103TCE","Resistor_SMD:R_Array_Convex_4x0603","2","","-- mixed values --"
 "U1","MCP73831-2-OT","Package_TO_SOT_SMD:SOT-23-5","1","","C14879"
 "U2","XL1509-5.0","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","1","","C61063"
 "U3","LM2575S-3.3(UMW)","Package_TO_SOT_SMD:TO-263-5_TabPin3","1","","C347404"
