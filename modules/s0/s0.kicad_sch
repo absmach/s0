@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9e4c0f80-14bc-451b-8b05-b2f0d1a90e15")
 	(paper "A4")
 	(title_block
@@ -16,6 +16,10 @@
 	(sheet
 		(at 123.19 121.92)
 		(size 85.09 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -55,6 +59,10 @@
 	(sheet
 		(at 16.51 121.92)
 		(size 93.98 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -94,6 +102,10 @@
 	(sheet
 		(at 16.51 68.58)
 		(size 92.71 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -133,6 +145,10 @@
 	(sheet
 		(at 119.634 16.256)
 		(size 93.472 45.466)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -172,6 +188,10 @@
 	(sheet
 		(at 16.764 15.494)
 		(size 92.456 45.974)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -207,48 +227,10 @@
 			)
 		)
 	)
-	(sheet
-		(at 120.65 67.31)
-		(size 88.9 46.99)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 163 255 202 1.0000)
-		)
-		(uuid "a38a5424-854a-4628-876d-ce694417db1d")
-		(property "Sheetname" "LoRa"
-			(at 150.368 102.87 0)
-			(effects
-				(font
-					(size 8 8)
-					(thickness 1.6)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lora.kicad_sch"
-			(at 120.65 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "s0"
-				(path "/9e4c0f80-14bc-451b-8b05-b2f0d1a90e15"
-					(page "5")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
