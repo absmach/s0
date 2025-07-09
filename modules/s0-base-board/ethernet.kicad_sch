@@ -8818,7 +8818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 60.96 0)
 			(effects
 				(font
@@ -8845,7 +8845,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -9191,7 +9191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.6452 105.41 0)
 			(effects
 				(font
@@ -9218,7 +9218,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 106.68 101.6 0)
 			(effects
 				(font
@@ -10462,7 +10462,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 120.3452 105.41 0)
 			(effects
 				(font
@@ -10489,7 +10489,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 119.38 101.6 0)
 			(effects
 				(font
@@ -10955,7 +10955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 58.42 0)
 			(effects
 				(font
@@ -10982,7 +10982,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 41.91 54.61 0)
 			(effects
 				(font
@@ -11393,7 +11393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 105.41 0)
 			(effects
 				(font
@@ -11420,7 +11420,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 113.03 101.6 0)
 			(effects
 				(font
@@ -11837,7 +11837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 126.6952 105.41 0)
 			(effects
 				(font
@@ -11864,7 +11864,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -12318,7 +12318,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 299.72 51.562 90)
 			(effects
 				(font
@@ -12345,7 +12345,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C12246"
+		(property "JLCPCB" "C22104"
 			(at 299.72 53.34 0)
 			(effects
 				(font
@@ -12853,7 +12853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.9752 60.96 0)
 			(effects
 				(font
@@ -12880,7 +12880,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 80.01 57.15 0)
 			(effects
 				(font
@@ -13573,7 +13573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.2952 105.41 0)
 			(effects
 				(font
@@ -13600,7 +13600,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 100.33 101.6 0)
 			(effects
 				(font
@@ -13952,7 +13952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.0452 105.41 0)
 			(effects
 				(font
@@ -13979,7 +13979,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1525"
+		(property "JLCPCB" "C1590 "
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -14430,7 +14430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 299.72 61.722 90)
 			(effects
 				(font
@@ -14457,7 +14457,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C12246"
+		(property "JLCPCB" "C22104"
 			(at 299.72 63.5 0)
 			(effects
 				(font
