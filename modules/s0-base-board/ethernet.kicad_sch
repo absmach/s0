@@ -8863,6 +8863,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad4203f6-4390-4d3e-823f-bd6d11bbc492")
 		)
@@ -9009,6 +9018,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 34.29 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 34.29 163.83 0)
 			(effects
 				(font
@@ -9236,6 +9254,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3ef98be-b49c-429b-9e55-7b992b576569")
 		)
@@ -9388,6 +9415,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 69.85 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d03aff5-88f7-4715-8938-5028e57cd55a")
 		)
@@ -9473,6 +9509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 218.44 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5a34e0a0-8202-4e26-b659-c77b1c8c0504")
 		)
@@ -9545,6 +9590,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 218.44 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 218.44 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,6 +9787,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 50.8 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 50.8 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,6 +10041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 130.81 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c505c41-f274-477d-b791-bbc26fde3e08")
 		)
@@ -10063,6 +10135,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 217.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b896985a-f572-4544-88ff-b9771534728f")
 		)
@@ -10140,6 +10221,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 43.18 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.18 152.4 0)
 			(effects
 				(font
@@ -10336,6 +10426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.28 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "d4156e91-d6bd-45d6-a9e1-1e17e2995a15")
 		)
@@ -10507,6 +10606,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "352e1d16-e07f-4f6a-b914-bab6a05f3e95")
 		)
@@ -10587,6 +10695,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 118.11 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 118.11 173.99 0)
 			(effects
 				(font
@@ -10815,6 +10932,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 233.68 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2de3d65-a3c3-4342-ae82-df9646705c59")
 		)
@@ -10912,6 +11038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "497b6c5d-3da1-4075-b6b3-5484228d1063")
 		)
@@ -10992,6 +11127,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 41.91 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 41.91 54.61 0)
 			(effects
 				(font
@@ -11285,6 +11429,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8aff70c3-3837-4bef-b843-34ef4fc2aa8d")
 		)
@@ -11438,6 +11591,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d6948c8-958b-456d-b63c-021b0e86b3c4")
 		)
@@ -11516,6 +11678,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,6 +11948,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7e84fdcf-3c97-4166-a1f1-87fae297f35b")
 		)
@@ -11874,6 +12054,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -12037,6 +12226,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 52.07 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fcfa607d-3e4b-49cb-9964-4064ccad8f2e")
 		)
@@ -12124,6 +12322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 107.95 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5af60c4a-f887-423a-a6b8-392e3624b6b1")
 		)
@@ -12203,6 +12410,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 43.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 43.18 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,6 +12579,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 299.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c38f0419-b6fa-405d-9b21-f8bb16f156b8")
 		)
@@ -12507,6 +12732,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e52a9e6-f960-4ce8-b17e-4770c51052e5")
 		)
@@ -12586,6 +12820,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 102.87 0)
 			(effects
 				(font
@@ -12738,6 +12981,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 208.28 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12898,6 +13150,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 80.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3f84708-a01e-45b1-b8d5-840353f54d67")
 		)
@@ -12983,6 +13244,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 196.85 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2a12d5d-1823-4b7c-a1e8-289911207b93")
 		)
@@ -13061,6 +13331,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 269.24 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 269.24 58.42 0)
 			(effects
 				(font
@@ -13240,6 +13519,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 205.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13465,6 +13753,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 208.28 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c6fe1f2c-8420-4fa6-9355-a6ff8b0662d7")
 		)
@@ -13618,6 +13915,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82a64034-1ba4-46eb-927a-e5beeb5c1cdd")
 		)
@@ -13698,6 +14004,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 86.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 86.36 140.97 0)
 			(effects
 				(font
@@ -13997,6 +14312,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c00cab4d-7e4f-43d0-88d2-20f4b5a29b46")
 		)
@@ -14149,6 +14473,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a1f9fb8-e3fd-476e-b130-a282e877f838")
 		)
@@ -14227,6 +14560,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 203.2 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14314,6 +14656,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 99.06 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14475,6 +14826,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 299.72 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6002f78-fcea-403a-af99-1f742b24c09d")
 		)
@@ -14554,6 +14914,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 201.93 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 201.93 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14707,6 +15076,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 29.21 54.61 0)
 			(effects
 				(font
@@ -14925,6 +15303,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 208.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 208.28 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
