@@ -9,8 +9,8 @@
 		(date "2025-02-26")
 		(rev "v0.1.0")
 		(company "Abstract Machines")
-		(comment 1 "Deigned By: Rodney Osodo")
-		(comment 2 "Approved By: Jones Kisaka")
+		(comment 1 "Deigned By: Jones Kisaka")
+		(comment 2 "Approved By: Rodney Osodo")
 	)
 	(lib_symbols)
 	(sheet
