@@ -8152,28 +8152,6 @@
 			)
 		)
 	)
-	(global_label "RST"
-		(shape input)
-		(at 62.23 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1d5ca813-843b-473c-b912-6f4d4d0edf77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.7977 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TXP"
 		(shape input)
 		(at 113.03 118.11 0)
@@ -8262,9 +8240,9 @@
 			)
 		)
 	)
-	(global_label "INT"
+	(global_label "ETH_RST"
 		(shape input)
-		(at 62.23 125.73 180)
+		(at 62.23 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8272,9 +8250,9 @@
 			)
 			(justify right)
 		)
-		(uuid "525ef9dd-5b91-4b72-8c02-dfabafdfac95")
+		(uuid "5105f117-f5e1-44c4-89c4-6cd7d131e5ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.3419 125.73 0)
+			(at 51.383 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8407,6 +8385,28 @@
 		(uuid "9aea4b9d-04b8-49e3-a336-12748b2f7d06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 51.5644 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ETH_INT"
+		(shape input)
+		(at 62.23 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa0f9d5f-b8b8-45ec-88a9-e1ccb9125532")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.9272 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

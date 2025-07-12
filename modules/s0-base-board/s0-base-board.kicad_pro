@@ -540,7 +540,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.45,
+        "clearance": 0.35,
         "diff_pair_gap": 0.24,
         "diff_pair_width": 0.22,
         "name": "UART",

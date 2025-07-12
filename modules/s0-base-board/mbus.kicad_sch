@@ -1936,7 +1936,7 @@
 				)
 				(uuid "b345327e-55c1-4731-98c7-b5540fd51580")
 			)
-			(table_cell "TXI"
+			(table_cell "MBUS_TX"
 				(exclude_from_sim no)
 				(at 68.58 106.68 0)
 				(size 24.13 2.54)
@@ -2242,7 +2242,7 @@
 				)
 				(uuid "aee896f3-e20c-4c87-8fdf-ebc57e6f6e73")
 			)
-			(table_cell "RXI"
+			(table_cell "MBUS_RX"
 				(exclude_from_sim no)
 				(at 68.58 121.92 0)
 				(size 24.13 2.54)
@@ -2431,7 +2431,7 @@
 			)
 		)
 	)
-	(global_label "TXI"
+	(global_label "MBUS_TX"
 		(shape input)
 		(at 82.55 66.04 180)
 		(fields_autoplaced yes)
@@ -2443,7 +2443,7 @@
 		)
 		(uuid "2538bdfb-0088-4284-9394-b6559044591d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7829 66.04 0)
+			(at 71.1587 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +2541,7 @@
 			)
 		)
 	)
-	(global_label "RXI"
+	(global_label "MBUS_RX"
 		(shape input)
 		(at 105.41 58.42 0)
 		(fields_autoplaced yes)
@@ -2553,7 +2553,7 @@
 		)
 		(uuid "fdb76e9c-a37d-43fd-a092-f788f1c70f93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.4795 58.42 0)
+			(at 117.1037 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
