@@ -1485,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 101.6 58.42)
+			(xy 104.14 58.42) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 115.57 63.5)
+			(xy 107.95 63.5) (xy 118.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2543,7 @@
 	)
 	(global_label "MBUS_RX"
 		(shape input)
-		(at 105.41 58.42 0)
+		(at 104.14 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2553,7 +2553,7 @@
 		)
 		(uuid "fdb76e9c-a37d-43fd-a092-f788f1c70f93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.1037 58.42 0)
+			(at 115.8337 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 115.57 63.5 0)
+		(at 118.11 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2768,7 +2768,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f2a9334-3732-42e8-91b1-99a703b41b70")
 		(property "Reference" "#PWR027"
-			(at 115.57 67.31 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2777,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 115.57 58.42 0)
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 63.5 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 63.5 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 115.57 63.5 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
