@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "daa1691b-10f9-435f-98c2-75a310e5202f")
 	(paper "A4")
 	(title_block
@@ -9,13 +9,15 @@
 		(date "2025-02-26")
 		(rev "v0.1.0")
 		(company "Abstract Machines")
-		(comment 1 "Deigned By: Rodney Osodo")
-		(comment 2 "Approved By: Jones Kisaka")
+		(comment 1 "Deigned By: Jones Kisaka")
+		(comment 2 "Approved By: Rodney Osodo")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -92,9 +94,10 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -117,7 +120,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
 					)
 					(stroke
 						(width 0.1524)
@@ -139,10 +142,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
+				(circle
+					(center 0 0)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -152,7 +154,7 @@
 					)
 				)
 				(circle
-					(center 0 0)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -199,10 +201,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector_Generic:Conn_02x08_Counter_Clockwise"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -269,63 +274,19 @@
 			)
 			(symbol "Conn_02x08_Counter_Clockwise_1_1"
 				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
+					(start -1.27 8.89)
+					(end 3.81 -11.43)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -346,8 +307,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -357,19 +318,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 8.89)
-					(end 3.81 -11.43)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 3.81 -10.033)
-					(end 2.54 -10.287)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -379,8 +329,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -7.493)
-					(end 2.54 -7.747)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -390,8 +340,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -4.953)
-					(end 2.54 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -401,8 +351,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 -2.413)
-					(end 2.54 -2.667)
+					(start -1.27 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -412,8 +362,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 0.127)
-					(end 2.54 -0.127)
+					(start -1.27 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -423,8 +373,8 @@
 					)
 				)
 				(rectangle
-					(start 3.81 2.667)
-					(end 2.54 2.413)
+					(start 3.81 7.747)
+					(end 2.54 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -445,8 +395,63 @@
 					)
 				)
 				(rectangle
-					(start 3.81 7.747)
-					(end 2.54 7.493)
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -7.493)
+					(end 2.54 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -10.033)
+					(end 2.54 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -466,132 +471,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 3.81)
-					(name "Pin_10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 3.81)
-					(name "Pin_12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 2.54 180)
-					(length 3.81)
-					(name "Pin_14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 180)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 7.62 180)
-					(length 3.81)
-					(name "Pin_16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -726,6 +605,132 @@
 					)
 				)
 				(pin passive line
+					(at 7.62 7.62 180)
+					(length 3.81)
+					(name "Pin_16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -7.62 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_9"
@@ -744,9 +749,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -819,7 +827,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -831,7 +839,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -880,9 +888,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1001,12 +1012,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1078,7 +1094,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1090,7 +1106,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1121,12 +1137,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1217,6 +1238,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -1463,7 +1485,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 101.6 58.42)
+			(xy 104.14 58.42) (xy 101.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +1505,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 115.57 63.5)
+			(xy 107.95 63.5) (xy 118.11 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1511,18 +1533,905 @@
 		)
 		(uuid "f705f3ce-8cc3-4346-9216-f258586e0c60")
 	)
-	(text "1 - BUSL2 - Meter-Bus\n2 - VB - Differential bus voltage after rectifier\n3 - STC - Support capacitor\n4 - RIDD - Current adjustment input\n5 - PF - Power fail output\n6 - SC - Sampling capacitor\n7 - TXI - Data output inverted\n8 - TX - Data output\n9 - BAT - Logic level adjust\n10 - VS - Switch for bus or battery supply output\n11 - VDD - Voltage regulator output\n12 - RX - Data input\n13 - RXI - Data input inverted\n14 - RIS - Adjust input for modulation current\n15 - GND - Ground\n16 - BUSL1 - Meter-Bus"
-		(exclude_from_sim no)
-		(at 80.264 102.362 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
 			)
-			(justify left)
 		)
-		(uuid "0e823b9b-c6d6-4f81-bfa7-2084c930eee9")
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 10.16 24.13 41.91)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54
+			2.54 2.54 2.54 2.54 2.54
+		)
+		(cells
+			(table_cell "PIN"
+				(exclude_from_sim no)
+				(at 58.42 88.9 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.4 1.4)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "15f03ac4-c7f6-4903-af68-c75e67aa327b")
+			)
+			(table_cell "NAME"
+				(exclude_from_sim no)
+				(at 68.58 88.9 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.4 1.4)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "ce94a980-6a5c-4593-ab2d-685e6bc49dad")
+			)
+			(table_cell "DESCRIPTION"
+				(exclude_from_sim no)
+				(at 92.71 88.9 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.4 1.4)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify top)
+				)
+				(uuid "e452e208-6049-4870-b8a4-adda13fc2e3b")
+			)
+			(table_cell "1"
+				(exclude_from_sim no)
+				(at 58.42 91.44 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "b9fe3757-4010-4a10-b75a-ee09ec36e1af")
+			)
+			(table_cell "BUSL2"
+				(exclude_from_sim no)
+				(at 68.58 91.44 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "36222bb3-6d9f-470a-a22f-e3c5b3ef9d36")
+			)
+			(table_cell "Meter-Bus"
+				(exclude_from_sim no)
+				(at 92.71 91.44 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e255b126-4f73-49b4-ae3b-b260df6f4504")
+			)
+			(table_cell "2"
+				(exclude_from_sim no)
+				(at 58.42 93.98 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "29e6cdbb-348e-4843-9ef3-18a25c48855e")
+			)
+			(table_cell "VB"
+				(exclude_from_sim no)
+				(at 68.58 93.98 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "f5f46659-be9f-48aa-9f17-eed185979ca1")
+			)
+			(table_cell "Differential Bus Voltage after Rectifier"
+				(exclude_from_sim no)
+				(at 92.71 93.98 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "0fef1056-f1d4-4907-b317-c81108a5862c")
+			)
+			(table_cell "3"
+				(exclude_from_sim no)
+				(at 58.42 96.52 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "fba8324b-91a9-4285-b0f8-6d5ef53e9003")
+			)
+			(table_cell "STC"
+				(exclude_from_sim no)
+				(at 68.58 96.52 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "21f2bb6b-1408-4fae-89de-7282bed160c7")
+			)
+			(table_cell "Support Capacitor"
+				(exclude_from_sim no)
+				(at 92.71 96.52 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "69187d75-950d-47a1-879e-709aed0148e2")
+			)
+			(table_cell "4"
+				(exclude_from_sim no)
+				(at 58.42 99.06 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "bb694909-944c-4f6e-a08a-45a113acee63")
+			)
+			(table_cell "RIDD"
+				(exclude_from_sim no)
+				(at 68.58 99.06 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e02b2935-d2bd-4e97-b3b3-f2aa5b6251ff")
+			)
+			(table_cell "Current Adjust Input"
+				(exclude_from_sim no)
+				(at 92.71 99.06 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "ac3ebc02-a86d-45c3-8213-21f4e984a9ed")
+			)
+			(table_cell "5"
+				(exclude_from_sim no)
+				(at 58.42 101.6 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "de5acaad-9691-4bdd-a60d-eeb88a73a2f5")
+			)
+			(table_cell "PF"
+				(exclude_from_sim no)
+				(at 68.58 101.6 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "7d1e97a2-6094-464b-91ee-d35deb39d17e")
+			)
+			(table_cell "Power Fail Output"
+				(exclude_from_sim no)
+				(at 92.71 101.6 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "01891138-7121-4cab-839a-2abb334ab537")
+			)
+			(table_cell "6"
+				(exclude_from_sim no)
+				(at 58.42 104.14 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "9f5d6ada-1549-46b7-a159-1426c52b5a53")
+			)
+			(table_cell "SC"
+				(exclude_from_sim no)
+				(at 68.58 104.14 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "f163d736-46de-4ffc-8215-7b75cf74b965")
+			)
+			(table_cell "Sampling Capacitor"
+				(exclude_from_sim no)
+				(at 92.71 104.14 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "c19e7a39-680c-46de-9032-37bbc2beb332")
+			)
+			(table_cell "7"
+				(exclude_from_sim no)
+				(at 58.42 106.68 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "b345327e-55c1-4731-98c7-b5540fd51580")
+			)
+			(table_cell "MBUS_TX"
+				(exclude_from_sim no)
+				(at 68.58 106.68 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "5cda2b64-b689-4f8c-9a2e-b835b98d7878")
+			)
+			(table_cell "Data Output Inverted"
+				(exclude_from_sim no)
+				(at 92.71 106.68 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "af32b233-c9d2-419f-bf93-ec7a338570fd")
+			)
+			(table_cell "8"
+				(exclude_from_sim no)
+				(at 58.42 109.22 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "86184180-5377-4df9-a3cd-521e5cac17a8")
+			)
+			(table_cell "TX"
+				(exclude_from_sim no)
+				(at 68.58 109.22 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "de417d19-474b-4393-b052-4b6622c1953d")
+			)
+			(table_cell "Data Output"
+				(exclude_from_sim no)
+				(at 92.71 109.22 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "200d1cab-fd0d-4441-bb69-9e3c3c13c5e5")
+			)
+			(table_cell "9"
+				(exclude_from_sim no)
+				(at 58.42 111.76 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "f3c9493e-db0d-4448-a748-31c62a1fc614")
+			)
+			(table_cell "BAT"
+				(exclude_from_sim no)
+				(at 68.58 111.76 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "b7f2008a-1280-4dfe-b596-22c1a8e1f5c7")
+			)
+			(table_cell "Logic Level Adjust"
+				(exclude_from_sim no)
+				(at 92.71 111.76 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "5b89f5e3-fcd8-44fb-8f8f-bb338767d7e8")
+			)
+			(table_cell "10"
+				(exclude_from_sim no)
+				(at 58.42 114.3 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "bd854f35-7ebd-45c4-9140-fd25570f521a")
+			)
+			(table_cell "VS"
+				(exclude_from_sim no)
+				(at 68.58 114.3 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "a3bb7c09-3a22-4735-8dd5-9625bb1f4b3b")
+			)
+			(table_cell "Switch for Bus or Battery Supply output"
+				(exclude_from_sim no)
+				(at 92.71 114.3 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "b3ed3214-afd3-4bd9-a77f-fb58f152e05a")
+			)
+			(table_cell "11"
+				(exclude_from_sim no)
+				(at 58.42 116.84 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "6a0015db-f05f-4b4f-8775-d4f5cb25225c")
+			)
+			(table_cell "VDD"
+				(exclude_from_sim no)
+				(at 68.58 116.84 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "ab3bee53-1cc4-4136-bf01-a158213341a1")
+			)
+			(table_cell "Voltage Regulator Output"
+				(exclude_from_sim no)
+				(at 92.71 116.84 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "53f178db-0e70-42dc-acb2-4c36740373ef")
+			)
+			(table_cell "12"
+				(exclude_from_sim no)
+				(at 58.42 119.38 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "6a19a49e-88c4-46ef-bd5b-07128fd76527")
+			)
+			(table_cell "RX"
+				(exclude_from_sim no)
+				(at 68.58 119.38 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "5758316b-3326-49df-9141-473bc86f340a")
+			)
+			(table_cell "Data Input"
+				(exclude_from_sim no)
+				(at 92.71 119.38 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "05437f14-3332-42d7-bcf0-8a22545fb340")
+			)
+			(table_cell "13"
+				(exclude_from_sim no)
+				(at 58.42 121.92 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "aee896f3-e20c-4c87-8fdf-ebc57e6f6e73")
+			)
+			(table_cell "MBUS_RX"
+				(exclude_from_sim no)
+				(at 68.58 121.92 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "479f5555-d7b2-47a5-9539-fd4f379ab8a8")
+			)
+			(table_cell "Data Input Inverted"
+				(exclude_from_sim no)
+				(at 92.71 121.92 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "d067f82e-3837-485f-92a4-b5e8b04ae805")
+			)
+			(table_cell "14"
+				(exclude_from_sim no)
+				(at 58.42 124.46 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e9bd4420-c13d-4594-a676-ccd3924691a9")
+			)
+			(table_cell "RIS"
+				(exclude_from_sim no)
+				(at 68.58 124.46 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "e8c80f85-484c-4992-ad15-49fc5f1e52c1")
+			)
+			(table_cell "Adjust input for modulation current"
+				(exclude_from_sim no)
+				(at 92.71 124.46 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "ec74ea78-87f9-4355-ace9-af4223b0b929")
+			)
+			(table_cell "15"
+				(exclude_from_sim no)
+				(at 58.42 127 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "c23303e8-1a0a-4383-bf4d-2527d42c8f36")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 68.58 127 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "1217cc33-3703-4bbe-b5cd-a05fa5aeeebc")
+			)
+			(table_cell "Ground"
+				(exclude_from_sim no)
+				(at 92.71 127 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "fc5ac0a3-777b-4788-bd1f-8adb3c1e486a")
+			)
+			(table_cell "16"
+				(exclude_from_sim no)
+				(at 58.42 129.54 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "b56a72a8-56c6-4c0b-bb0c-91804f58b5fa")
+			)
+			(table_cell "BUSL1"
+				(exclude_from_sim no)
+				(at 68.58 129.54 0)
+				(size 24.13 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "f3e3bf72-a1a3-4403-8a34-820b3bea4e14")
+			)
+			(table_cell "Meter-Bus"
+				(exclude_from_sim no)
+				(at 92.71 129.54 0)
+				(size 41.91 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+				)
+				(uuid "0ef5012f-eba7-478d-9d6c-7fd4ee501412")
+			)
+		)
 	)
-	(global_label "TXI"
+	(global_label "MBUS_TX"
 		(shape input)
 		(at 82.55 66.04 180)
 		(fields_autoplaced yes)
@@ -1534,7 +2443,7 @@
 		)
 		(uuid "2538bdfb-0088-4284-9394-b6559044591d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.7829 66.04 0)
+			(at 71.1587 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,9 +2541,9 @@
 			)
 		)
 	)
-	(global_label "RXI"
+	(global_label "MBUS_RX"
 		(shape input)
-		(at 105.41 58.42 0)
+		(at 104.14 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1644,7 +2553,7 @@
 		)
 		(uuid "fdb76e9c-a37d-43fd-a092-f788f1c70f93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.4795 58.42 0)
+			(at 115.8337 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1719,6 +2628,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 49.53 63.5 0)
 			(effects
 				(font
@@ -1814,6 +2732,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "545ff3cb-cf10-4654-9868-71b3ee391864")
 		)
@@ -1831,7 +2758,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 115.57 63.5 0)
+		(at 118.11 63.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1841,7 +2768,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f2a9334-3732-42e8-91b1-99a703b41b70")
 		(property "Reference" "#PWR027"
-			(at 115.57 67.31 0)
+			(at 118.11 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +2777,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 115.57 58.42 0)
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 63.5 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +2794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 63.5 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +2803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 115.57 63.5 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,6 +2889,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 124.46 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,6 +2994,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 177.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "480049cc-1ed7-4c0e-bae9-eacb424affb5")
 		)
@@ -2101,7 +3046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 49.022 90)
 			(effects
 				(font
@@ -2128,7 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1111"
+		(property "JLCPCB" "C22962"
 			(at 114.3 50.8 0)
 			(effects
 				(font
@@ -2139,6 +3084,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 114.3 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +3143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 77.47 49.022 90)
 			(effects
 				(font
@@ -2216,7 +3170,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C1111"
+		(property "JLCPCB" "C22962"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -2227,6 +3181,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,7 +3229,7 @@
 				)
 			)
 		)
-		(property "Value" "METER-BUS TRANSCEIVER"
+		(property "Value" "TSS721ADR"
 			(at 95.25 46.99 0)
 			(effects
 				(font
@@ -2310,6 +3273,15 @@
 			)
 		)
 		(property "LCSC Part" ""
+			(at 93.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 93.98 58.42 0)
 			(effects
 				(font
@@ -2441,6 +3413,15 @@
 		)
 		(property "LCSC Part" ""
 			(at 66.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.04 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
