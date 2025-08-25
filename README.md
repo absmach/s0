@@ -5,7 +5,7 @@ S0 is a modular **IoT gateway** built around the **ESP32-C6 (RISC-V)** platform,
 Optimized for **low-power, battery-powered operation** and modular expansion, S0 integrates **secure communication**, **local storage**, and multiple radio interfaces to serve as a versatile edge gateway in modern **IoT ecosystems**. While it includes support for **Wireless and Wired M-Bus**, its primary focus is on broad **IoT connectivity** and **interoperability**.
 
 <p align="center">
-  <img src="docs/img/s0.png" alt="S0 Board" width="300"/>
+  <img src="s0.png" alt="S0 Board" width="300"/>
 </p>
 
 ## 🌟 Features
@@ -22,7 +22,6 @@ Optimized for **low-power, battery-powered operation** and modular expansion, S0
 - 🖥️ **WebAssembly Runtime**: Runs lightweight, portable edge logic with **WAMR** (WebAssembly Micro Runtime).
 - 🌀 **Propeller Orchestrator Integration**: Works with [**Propeller**](https://github.com/absmach/propeller) for secure, policy-driven orchestration of IoT workloads across the edge-cloud continuum.
 - 📈 **Future-Ready for IoT Ecosystems**: Designed for interoperability in **smart buildings**, **industrial IoT**, and **city-scale deployments**.
-
 
 ## 🛠️ How It Works
 
@@ -44,7 +43,6 @@ Optimized for **low-power, battery-powered operation** and modular expansion, S0
 6. **Manage Remotely**  
    Perform **OTA updates**, monitor device health, and manage configurations through connected IoT management tools.
 
-
 ## 📖 Documentation
 
 For setup instructions, pinouts, and integration guides, see the full documentation:  
@@ -57,10 +55,10 @@ For setup instructions, pinouts, and integration guides, see the full documentat
 - 🌍 **Smart Cities**: Enable large-scale metering infrastructure with NB-IoT and LoRa connectivity.
 - 🔐 **Secure Data Acquisition**: Ensure encrypted communication from edge devices to the cloud.
 
-
 ## 🔧 Hardware Highlights
 
 - **Core Board**:
+
   - MCU: **ESP32-C6** (RISC-V architecture)
   - Connectivity: **Wi-Fi 6**, **Bluetooth 5**, **IEEE 802.15.4**, **Wireless M-Bus (RC-S2LP)**, **NB-IoT/LTE-M + GNSS (SIM7080G)**
   - Security: **Secure Boot**, **Flash Encryption**, **TEE**, Hardware Crypto Accelerators
