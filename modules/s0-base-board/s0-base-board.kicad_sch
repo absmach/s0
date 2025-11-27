@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "S0 Base Board")
-		(date "2025-02-26")
-		(rev "v0.1.0")
+		(date "2025-11-26")
+		(rev "v0.3.0")
 		(company "Abstract Machines")
-		(comment 1 "Deigned By: Jones Kisaka")
+		(comment 1 "Designed By: Jones Kisaka")
 		(comment 2 "Approved By: Rodney Osodo")
 	)
 	(lib_symbols)

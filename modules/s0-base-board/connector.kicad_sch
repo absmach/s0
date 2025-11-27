@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "S0 Base Board")
-		(date "2025-02-26")
-		(rev "v0.1.0")
+		(date "2025-11-26")
+		(rev "v0.3.0")
 		(company "Abstract Machines")
-		(comment 1 "Deigned By: Jones Kisaka")
+		(comment 1 "Designed By: Jones Kisaka")
 		(comment 2 "Approved By: Rodney Osodo")
 	)
 	(lib_symbols
@@ -4491,16 +4491,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 168.91 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f2a7929-b168-4649-ad52-680fcfe09831")
-	)
-	(wire
-		(pts
 			(xy 255.27 57.15) (xy 255.27 54.61)
 		)
 		(stroke
@@ -4511,23 +4501,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 157.48 106.68)
+			(xy 151.13 91.44) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "856c67be-c555-4730-8844-bd9160e85847")
-	)
-	(wire
-		(pts
-			(xy 195.58 106.68) (xy 181.61 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7d1ad1-2c96-406d-97fa-aebf73cecafa")
 	)
 	(wire
 		(pts
@@ -4551,13 +4531,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 106.68) (xy 198.12 106.68)
+			(xy 199.39 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9013665d-9f87-4033-ab48-a52f0145d56b")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 168.91 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92212a1b-3463-4b9c-af81-ba78beda7116")
 	)
 	(wire
 		(pts
@@ -4731,6 +4721,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4f1580-a999-4da5-a505-d840b469eb23")
+	)
+	(wire
+		(pts
 			(xy 245.11 60.96) (xy 257.81 60.96)
 		)
 		(stroke
@@ -4783,7 +4783,7 @@
 	)
 	(global_label "MBUS_RX"
 		(shape input)
-		(at 207.01 106.68 0)
+		(at 199.39 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4793,7 +4793,7 @@
 		)
 		(uuid "1998eada-97f6-45b6-8faa-50163822269a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7037 106.68 0)
+			(at 211.0837 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5157,7 @@
 	)
 	(global_label "MBUS_TX"
 		(shape input)
-		(at 148.59 106.68 180)
+		(at 151.13 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5167,7 +5167,7 @@
 		)
 		(uuid "d5996791-f335-4df5-92b3-7b34e2bca4ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.1987 106.68 0)
+			(at 139.7387 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,7 +6577,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 157.48 101.6 90)
+		(at 160.02 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6586,7 +6586,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f9cba2d-d44a-4299-9044-fe40a50a9c15")
 		(property "Reference" "J8"
-			(at 162.56 100.3299 90)
+			(at 165.1 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6595,7 +6595,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 162.56 102.8699 90)
+			(at 165.1 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6605,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 157.48 101.6 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6614,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 101.6 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6623,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 157.48 101.6 0)
+			(at 160.02 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6632,7 +6632,7 @@
 			)
 		)
 		(property "JLCPCB" "C492401"
-			(at 157.48 101.6 90)
+			(at 160.02 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6641,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 157.48 101.6 90)
+			(at 160.02 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7328,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 195.58 101.6 90)
+		(at 187.96 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7337,7 +7337,7 @@
 		(fields_autoplaced yes)
 		(uuid "e67a49e0-7e25-40e4-80a6-4dd02414ca26")
 		(property "Reference" "J9"
-			(at 200.66 100.3299 90)
+			(at 193.04 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7346,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 200.66 102.8699 90)
+			(at 193.04 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 195.58 101.6 0)
+			(at 187.96 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7365,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 101.6 0)
+			(at 187.96 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,7 +7374,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 101.6 0)
+			(at 187.96 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,7 +7383,7 @@
 			)
 		)
 		(property "JLCPCB" "C492401"
-			(at 195.58 101.6 90)
+			(at 187.96 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7392,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 195.58 101.6 90)
+			(at 187.96 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
