@@ -5859,6 +5859,12 @@
 		(uuid "08134833-785e-4a83-b78e-cc8828195650")
 	)
 	(junction
+		(at 68.58 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d22a623-5f8d-43ba-b4bc-a85da16084d5")
+	)
+	(junction
 		(at 100.33 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6055,6 +6061,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8122d6d-48a3-40c5-860e-baca982d6326")
+	)
+	(junction
+		(at 48.26 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e03844-4760-4221-a6b8-284455f62a29")
 	)
 	(junction
 		(at 63.5 219.71)
@@ -6337,6 +6349,16 @@
 			(type default)
 		)
 		(uuid "0c503fb8-53b2-4c37-b6d1-df436fa30e1b")
+	)
+	(wire
+		(pts
+			(xy 57.15 113.03) (xy 57.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5c0f41-0c33-4ac0-a290-d80c787a6d57")
 	)
 	(wire
 		(pts
@@ -7000,7 +7022,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 71.12 115.57)
+			(xy 38.1 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8130,6 +8152,26 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 113.03) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf136afb-494f-4d10-a4d7-57ff3f5ef04e")
+	)
+	(wire
+		(pts
+			(xy 48.26 99.06) (xy 68.58 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0505026-2046-4979-9404-c0e1f229673b")
+	)
+	(wire
+		(pts
 			(xy 88.9 175.26) (xy 83.82 175.26)
 		)
 		(stroke
@@ -8390,6 +8432,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 115.57) (xy 71.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e716031e-1b76-455c-8752-0f1bec620601")
+	)
+	(wire
+		(pts
 			(xy 218.44 58.42) (xy 218.44 66.04)
 		)
 		(stroke
@@ -8477,6 +8529,16 @@
 			(type default)
 		)
 		(uuid "f2fe3f9c-158f-41a3-8aeb-bf214b591903")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3212f24-d420-41b7-8c3a-cd7016cc3b8d")
 	)
 	(wire
 		(pts
@@ -8824,7 +8886,7 @@
 	)
 	(global_label "ETH_CS"
 		(shape input)
-		(at 62.23 115.57 180)
+		(at 38.1 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8834,7 +8896,7 @@
 		)
 		(uuid "7a312fe1-97b5-4695-81c9-bb92d01cc8a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.3506 115.57 0)
+			(at 28.2206 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14615,6 +14677,103 @@
 			(project ""
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2d57d19-665e-40e6-b103-ba18575e1824")
+		(property "Reference" "R2"
+			(at 45.72 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 45.72 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 46.482 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "125mW Thick Film Resistors 150V ±100ppm/℃ ±1% 10kΩ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17414 "
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 48.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "887671ed-3e0d-4e7b-a735-322ef0a03d03")
+		)
+		(pin "1"
+			(uuid "ffca2b7a-2b04-4b19-a8af-ac6741e82693")
+		)
+		(instances
+			(project "s0-base-board"
+				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
+					(reference "R2")
 					(unit 1)
 				)
 			)
