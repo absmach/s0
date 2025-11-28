@@ -4452,6 +4452,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C6186"
+			(at 237.49 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0df70a12-cdc8-41d4-bbb1-71c8d9dd229b")
 		)
@@ -6232,6 +6241,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C6186"
 			(at 237.49 137.16 0)
 			(effects
 				(font
