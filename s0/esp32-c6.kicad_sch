@@ -3811,6 +3811,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17414"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b409b13b-e6ef-48cb-9719-0f1d472d9240")
 		)
@@ -3947,6 +3956,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15850"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a5a914e-ae41-4066-b312-974cdea8a505")
 		)
@@ -4017,6 +4035,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C45783"
+			(at 177.8 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03dcbb06-e0fd-4331-a473-23429de05821")
 		)
@@ -4079,6 +4106,15 @@
 			)
 		)
 		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 58.42 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2935953"
 			(at 58.42 158.75 0)
 			(effects
 				(font
@@ -4173,6 +4209,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17414"
 			(at 25.4 38.1 0)
 			(effects
 				(font
@@ -4383,6 +4428,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C720477"
+			(at 25.4 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed05b062-cb3a-4694-87f1-3fafb65fa1ec")
 		)
@@ -4519,6 +4573,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C720477"
+			(at 66.04 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4823cdcb-1060-4fad-9ecf-54bae598a5de")
 		)
@@ -4589,6 +4652,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32f3dce6-97ee-49fe-be8e-135b48a88a84")
 		)
@@ -4632,7 +4704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Espressif:ESP32-C6-MINI-1"
+		(property "Footprint" "modules:XCVR_ESP32-C3-MINI-1U-N4"
 			(at 226.06 131.445 0)
 			(effects
 				(font
@@ -4651,6 +4723,15 @@
 			)
 		)
 		(property "Description" "ESP32-C6-MINI-1 is a module that supports 2.4 GHz Wi-Fi 6 (802.11 ax), Bluetooth® 5 (LE), Zigbee and Thread (802.15.4)"
+			(at 226.06 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C20627095"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -4948,6 +5029,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 80.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c7886438-a929-4366-b16a-40de6e67661a")
 		)
@@ -5142,6 +5232,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17414"
 			(at 66.04 38.1 0)
 			(effects
 				(font

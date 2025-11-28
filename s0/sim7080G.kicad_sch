@@ -7395,6 +7395,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1804"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7304ee72-92e3-4439-9a60-e2a840777b28")
 		)
@@ -7438,7 +7447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 355.2952 38.1 0)
 			(effects
 				(font
@@ -7457,6 +7466,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 354.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15008"
 			(at 354.33 34.29 0)
 			(effects
 				(font
@@ -7527,6 +7545,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 102.87 213.36 0)
 			(effects
 				(font
@@ -7661,6 +7688,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17561"
+			(at 228.6 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,6 +7915,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C6848499"
+			(at 276.86 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "221e1987-14b4-431a-a705-1df4c7073f7e")
 		)
@@ -7968,6 +8013,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 274.32 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2150"
 			(at 274.32 209.55 0)
 			(effects
 				(font
@@ -8108,6 +8162,15 @@
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
 			(at 373.38 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C111566"
+			(at 373.38 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,6 +8370,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17561"
+			(at 228.6 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,6 +8652,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17673"
+			(at 332.74 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "548d5cbb-52b4-4f73-8815-047e5da4b65e")
 		)
@@ -8716,6 +8797,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C88373"
+			(at 243.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06e753c5-b05d-4eff-b235-4619d7eb19ce")
 		)
@@ -8843,6 +8933,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 247.65 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17673"
+			(at 247.65 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,6 +9143,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15850"
 			(at 135.89 46.99 0)
 			(effects
 				(font
@@ -9319,6 +9427,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1804"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9fc5d17e-95cf-4d87-a471-bdebcd831ff4")
 		)
@@ -9380,6 +9497,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 346.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17673"
+			(at 346.71 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,6 +9575,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 368.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 368.3 34.29 0)
 			(effects
 				(font
@@ -9594,6 +9729,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 82.55 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c197b7a-fb8b-440d-9648-63939a3f9d49")
 		)
@@ -9730,6 +9874,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ac548f5-9318-4af0-ade2-a9c8f9583907")
 		)
@@ -9829,7 +9982,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47K"
 			(at 351.79 119.38 90)
 			(effects
 				(font
@@ -9857,6 +10010,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 351.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17713"
+			(at 351.79 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +10067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SIM7080G:XCVR_SIM7080G"
+		(property "Footprint" "modules:XCVR_SIM7080G"
 			(at 87.63 76.2 0)
 			(effects
 				(font
@@ -9970,6 +10132,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2943992"
+			(at 87.63 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10268,6 +10439,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2150"
+			(at 373.38 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a2364f24-e303-4d8b-8029-d4d217d0f7ce")
 		)
@@ -10341,6 +10521,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C88373"
+			(at 243.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a272c8a4-9d05-4a8c-a915-dfb999936d30")
 		)
@@ -10403,6 +10592,15 @@
 			)
 		)
 		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, VQFN-20"
+			(at 93.98 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C194701"
 			(at 93.98 242.57 0)
 			(effects
 				(font
@@ -10530,6 +10728,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17713"
 			(at 260.35 219.71 0)
 			(effects
 				(font
@@ -10874,6 +11081,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17414"
+			(at 25.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f47956e2-0b53-4ea2-94c5-8c0a8a7bc0e3")
 		)
@@ -10963,6 +11179,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 359.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2150"
 			(at 359.41 110.49 0)
 			(effects
 				(font
@@ -11244,6 +11469,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17713"
+			(at 359.41 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdbed06d-d488-458c-9b0d-34894e0c0968")
 		)
@@ -11306,6 +11540,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 381 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 381 34.29 0)
 			(effects
 				(font
@@ -11450,6 +11693,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15850"
+			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6bd322a3-1ae3-4dc5-89ce-b471cbc47ea1")
 		)
@@ -11557,7 +11809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SIM-SMD_NANO-SIM-XG6P-H1.35"
+		(property "Footprint" "modules:SIM-SMD_NANO-SIM-XG6P-H1.35"
 			(at 270.51 128.27 0)
 			(effects
 				(font
@@ -11586,6 +11838,15 @@
 		)
 		(property "LCSC Part" "C7529386"
 			(at 270.51 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C77877"
+			(at 270.51 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,6 +11950,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 375.92 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C6848499"
+			(at 375.92 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,6 +12103,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 340.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "659f4b88-c870-4ac0-b8cc-4d76a44114c3")
 		)
@@ -11893,6 +12172,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17561"
+			(at 228.6 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12101,6 +12389,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C1804"
+			(at 254 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53b48ad8-7cad-44b9-abfb-d5edb3c0bfba")
 		)
@@ -12229,6 +12526,15 @@
 			)
 		)
 		(property "Description" "Quad TVS Diode Array, 6.1V Standoff, 4 Channels, 400W, ±30kV, SOT-23-5"
+			(at 214.63 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2935146"
 			(at 214.63 130.81 0)
 			(effects
 				(font
@@ -12382,6 +12688,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C111566"
+			(at 25.4 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "03f0e758-8c06-4e57-9506-9aa73435d040")
 		)
@@ -12510,6 +12825,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 276.86 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17408"
 			(at 276.86 195.58 0)
 			(effects
 				(font
@@ -12786,6 +13110,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 393.7 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "882cefb1-8608-4c84-acd9-ae0a6f4b5f81")
 		)
@@ -12848,6 +13181,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 375.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17408"
 			(at 375.92 193.04 0)
 			(effects
 				(font

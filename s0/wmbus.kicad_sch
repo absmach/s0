@@ -1570,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RC-S2LP-868:XCVR_RC-S2LP-868"
+		(property "Footprint" "modules:XCVR_RC-S2LP-868"
 			(at 138.43 88.9 0)
 			(effects
 				(font
@@ -1708,6 +1708,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C37069913"
+			(at 138.43 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "506d35cb-1f80-46eb-a415-a45cc15dca25")
 		)
@@ -1833,6 +1842,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17408"
+			(at 85.09 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90fbe9ee-0264-4806-9477-57bb36f25428")
 		)
@@ -1903,6 +1921,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C17414"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "09c27f2b-cffa-47e7-b1b8-d338c53b8fdf")
 		)
@@ -1965,6 +1992,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 173.99 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 173.99 81.28 0)
 			(effects
 				(font

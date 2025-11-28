@@ -3097,6 +3097,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5544,6 +5651,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0175ccf3-6705-44ce-abaf-511da536c8eb")
+		(property "Reference" "#PWR087"
+			(at 76.2 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d101112-0b79-4a6f-8d66-ce308cf3db55")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 82.55 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5655,6 +5828,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 41.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C20079"
 			(at 41.91 100.33 0)
 			(effects
 				(font
@@ -5855,6 +6037,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C725895"
 			(at 248.92 124.46 0)
 			(effects
 				(font
@@ -6129,6 +6320,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2765186"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1"
 			(uuid "9fa57b71-bee1-4c1c-b4f5-94088ce4f30b")
 		)
@@ -6370,6 +6570,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C111566"
+			(at 170.18 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5365910-7b00-499d-9263-f5fb419d6bf1")
 		)
@@ -6380,6 +6589,73 @@
 			(project "s0"
 				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 76.2 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "312d38a8-7d93-4959-9847-190bc1568011")
+		(property "Reference" "H3"
+			(at 74.93 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 78.74 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66cf538b-15fc-45cc-8190-e76f04426dc7")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6432,6 +6708,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 193.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C27834"
 			(at 193.04 50.8 0)
 			(effects
 				(font
@@ -6510,6 +6795,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C27834"
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8340472d-4c79-42c9-8b96-eac7a8c9597a")
 		)
@@ -6572,6 +6866,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C49678"
 			(at 88.9 140.97 0)
 			(effects
 				(font
@@ -6716,6 +7019,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C111566"
+			(at 72.39 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64fbf687-d716-485b-a263-e172c76f570e")
 		)
@@ -6798,6 +7110,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 71.12 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b84292d-bd31-4f15-97de-53501b82b21c")
+		(property "Reference" "H2"
+			(at 69.85 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 73.66 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34bfb73a-ecad-479d-bb51-32b1a33687d7")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B5.0ST5G")
 		(at 163.83 25.4 90)
 		(unit 1)
@@ -6852,6 +7231,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C111566"
+			(at 163.83 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d4166b5-f738-4a24-8176-84b54cae6b07")
 		)
@@ -6862,6 +7250,72 @@
 			(project "s0"
 				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50f9f293-bfc4-4f15-88b2-5f78da7c3ffb")
+		(property "Reference" "#PWR086"
+			(at 71.12 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20d2b0b4-4958-45c7-9361-954b9be07f6d")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6914,6 +7368,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C27834"
 			(at 184.15 50.8 0)
 			(effects
 				(font
@@ -6984,6 +7447,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17540"
 			(at 110.49 142.24 0)
 			(effects
 				(font
@@ -7392,6 +7864,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C49678"
+			(at 54.61 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0fa989d7-67b4-40dc-8376-ea49426e4329")
 		)
@@ -7452,6 +7933,15 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 68.58 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C6186"
 			(at 68.58 133.35 0)
 			(effects
 				(font
@@ -7533,6 +8023,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C15850"
+			(at 82.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "436fcac9-7378-4757-a8f2-8e5e6c46f983")
 		)
@@ -7574,7 +8073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.22x1.90mm_HandSolder"
 			(at 100.33 135.128 90)
 			(effects
 				(font
@@ -7594,6 +8093,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C668306"
+			(at 100.33 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +8282,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 35.56 135.128 90)
 			(effects
 				(font
@@ -7794,6 +8302,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 35.56 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C3105"
+			(at 35.56 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,6 +8460,73 @@
 			(project ""
 				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 66.04 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "90a6e2d0-63a9-453d-a50c-49d0a1917cc7")
+		(property "Reference" "H1"
+			(at 64.77 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 68.58 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 66.04 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb2d5db7-8f53-427d-b81a-0fcd00efc748")
+		)
+		(instances
+			(project ""
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8135,6 +8719,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C27834"
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef2746fd-98c3-4581-b359-6dd5c881b1ee")
 		)
@@ -8264,6 +8857,15 @@
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
 			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C111566"
+			(at 76.2 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8471,6 +9073,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C2765186"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B1"
 			(uuid "396c8084-3db9-4959-ba36-7052722df20a")
 		)
@@ -8592,6 +9203,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb0ec9b4-84b9-4c1d-aa50-588121b9f8e8")
+		(property "Reference" "#PWR088"
+			(at 81.28 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f49ebe3c-095e-45cc-87b8-7952e54471dd")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 48.26 140.97 0)
 		(mirror y)
@@ -8638,6 +9315,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15850"
 			(at 48.26 140.97 0)
 			(effects
 				(font
@@ -8788,6 +9474,72 @@
 			(project "s0"
 				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be65c052-fd85-4848-b015-89e07b8c0503")
+		(property "Reference" "#PWR085"
+			(at 66.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "868c23d6-42a8-4105-a08c-3ca7149cf49a")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8992,6 +9744,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 81.28 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d04a0d81-c70f-45bc-82b3-69a98dbe3d0b")
+		(property "Reference" "H4"
+			(at 80.01 175.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 83.82 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad6ff558-5753-47d5-b107-e89ed0c57c63")
+		)
+		(instances
+			(project "s0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d/00da1598-1c74-4cf4-b668-90491b2de46e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD9B5.0ST5G")
 		(at 166.37 74.93 270)
 		(mirror x)
@@ -9039,6 +9858,15 @@
 		)
 		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
 			(at 166.37 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C111566"
+			(at 166.37 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,6 +10066,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C725895"
 			(at 205.74 125.73 0)
 			(effects
 				(font
@@ -9448,6 +10285,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C111566"
+			(at 69.85 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27d0798c-d79f-4ccc-a3c4-14f026d284f8")
 		)
@@ -9520,6 +10366,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 110.49 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C6848499"
+			(at 110.49 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
