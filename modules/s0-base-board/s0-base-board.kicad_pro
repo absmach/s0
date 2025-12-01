@@ -849,7 +849,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "production/",
+    "plot_directory": "/home/kisaka_the_jones/ULTRAVIOLET/Absmach",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
