@@ -499,7 +499,7 @@
         "microvia_drill": 0.1,
         "name": "3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -516,12 +516,18 @@
         "microvia_drill": 0.1,
         "name": "5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.55,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "ETH_UART",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "bus_width": 12,
@@ -533,7 +539,7 @@
         "microvia_drill": 0.1,
         "name": "HV",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.7,
         "via_diameter": 0.6,
@@ -541,12 +547,12 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.35,
+        "clearance": 0.1,
         "diff_pair_gap": 0.24,
         "diff_pair_width": 0.22,
         "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2
       }
