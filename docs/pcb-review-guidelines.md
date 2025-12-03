@@ -1,188 +1,208 @@
-# PCB Design Review Guide
+# PCB design review guide
 
-# Schematic Validation - “Is the electrical design correct?”
+This guide is formatted to be compatible with common markdownlint rules and can be used as a reusable PCB review checklist.
 
-Validate the schematic before beginning layout work. Most PCB issues originate from schematic errors rather than routing.
+## Schematic validation: electrical design correctness
 
-## 1. Electrical Rules Check (ERC)
+Validate the schematic before beginning layout work. Many PCB issues originate from schematic errors rather than routing.
 
-- Run the ERC tool in your CAD platform. It detects unconnected pins, incorrect pin types, missing power flags, and structural issues
-- Only ignore “Not Connected” warnings when the pin is purposefully marked NC.
-- Confirm all IC power pins are connected.
+### 1. Electrical rules check
 
-## 2. Pinout and Footprint Orientation Review
+* Run the ERC tool in your CAD platform to detect:
+
+  * Unconnected pins
+  * Incorrect pin types
+  * Missing power flags
+  * Structural issues
+* Only ignore “not connected” warnings when the pin is purposefully marked as not connected.
+* Confirm all IC power pins are connected.
+
+### 2. Pinout and footprint orientation review
 
 A common source of design failure is incorrect footprint orientation.
 
 Frequent issues include:
 
-- Pin 1 mismatch between schematic and footprint
-- Mirrored connectors
-- Incorrect transistor/MOSFET pinouts
-- Using the wrong footprint library entry
+* Pin 1 mismatch between schematic and footprint
+* Mirrored connectors
+* Incorrect transistor or MOSFET pinouts
+* Using the wrong footprint library entry
 
-Verify orientation visually against component datasheets.
+Visually verify the orientation of each footprint against the component datasheet.
 
-## 3. Power Path and Load Analysis
+### 3. Power path and load analysis
 
 Confirm all power rails and devices are adequately sized.
 
 Checklist:
 
-* Estimate maximum current draw
-* Validate regulator headroom
-* Check diode polarity
-* Confirm power sequencing when required
+* Estimate maximum current draw for the whole board and for each rail
+* Validate regulator headroom for voltage and current
+* Check diode polarity and ratings
+* Confirm power sequencing where required
 
-Consider worst-case conditions.
+Always consider worst case environmental and load conditions.
 
 ---
 
-## 4. Safety and Protection Components
+### 4. Safety and protection components
 
 Confirm appropriate protection measures exist:
 
 * ESD protection on external interfaces
 * Series resistors on sensitive signals
-* Fuses on external power inputs
-* Input filtering on noisy rails
+* Fuses or resettable protection on external power inputs
+* Input filtering and surge suppression on noisy or exposed rails
 
-## 5. Stackup and Impedance Planning
+### 5. Stackup and impedance planning
 
-Important for high-speed or RF designs.
+This is important for high speed or RF designs.
 
 Verify:
 
-* Trace widths
-* Via sizes
-* Return paths
+* Trace widths and spacing for controlled impedance lines
+* Via sizes and types suitable for the stackup
+* Clean and continuous return paths under high speed traces
 
-**Tool:** Saturn PCB Toolkit.
-Use your manufacturer’s default 4-layer stackup if unsure.
+Use tools such as Saturn PCB Toolkit and your manufacturer’s stackup data.
+If unsure, start from your manufacturer’s default four layer stackup.
 
-## 6. Mechanical and 3D Fit Verification
+### 6. Mechanical and 3D fit verification
 
 Import the board into a 3D tool to detect:
 
-* Height conflicts
-* Misaligned connectors
-* Incorrect button or mechanical placements
-* Blocked mounting holes
+* Height conflicts with enclosures or other boards
+* Misaligned connectors relative to panel cut outs
+* Incorrect button and mechanical placements
+* Blocked or mislocated mounting holes
 
-When uncertain, print the PCB outline at 1:1 scale to validate fit.
+When uncertain, print the PCB outline at one to one scale and place it in the enclosure to validate the fit.
 
-# Layout and Routing Review
+## Layout and routing review
 
-## 7. Physical Footprint Validation (“Paper Test”)
+### 7. Physical footprint validation (paper test)
 
-If possible, print the PCB at 1:1 scale and place components on it. This quickly exposes footprint errors, incorrect spacing, or misalignment.
+If possible, print the PCB at one to one scale and place the actual components on it.
 
-## Design Rules Check (DRC) Throughout Layout
+This helps expose:
 
-Run DRC frequently rather than at the end.
+* Footprint errors
+* Incorrect spacing
+* Mechanical interference
+* Misalignment of connectors and buttons
+
+### 8. Design rules check during layout
+
+Run design rules checks frequently rather than only at the end.
 
 Configure and verify:
 
-* Minimum clearance and safety margin
-* Via/annular ring settings
-* Constraints for high-speed signals
+* Minimum clearance and additional safety margin where needed
+* Via, annular ring and hole size settings
+* Constraints and classes for high speed signals and special nets
 
-The board must reach **zero DRC errors** before generating Gerbers.
+The board should reach zero design rules errors before generating manufacturing files.
 
-## Power and Ground Integrity Review
+### 9. Power and ground integrity review
 
 Inspect highlighted power nets and ground planes.
 
 Check for:
 
-* Undersized traces
+* Undersized traces on power nets
 * Long or broken return paths
-* Ground plane gaps under high-speed lines
-* Insufficient stitching vias
-* Potential thermal bottlenecks
+* Ground plane gaps under high speed or sensitive lines
+* Insufficient stitching vias between ground planes
+* Potential thermal bottlenecks on high current devices
 
-## High-Speed Signal Routing Checks
+### 10. High speed signal routing checks
 
-Verify fundamentals:
+Verify the fundamentals:
 
-* Differential pair length matching
-* Use 45° corners
-* Avoid routing over ground-plane gaps
-* Keep clocks short
-* Separate noisy digital lines from analog circuits
+* Apply length matching for differential pairs where required
+* Maintain consistent spacing and reference planes
+* Prefer 45 degree or gentle routing over sharp angles
+* Avoid routing over ground plane gaps or splits
+* Keep clock lines short and well referenced to ground
+* Separate noisy digital lines from sensitive analog circuits
 
-# Manufacturing Output Verification
+## Manufacturing output verification
 
 Ensure the exported files accurately represent the intended design.
 
-## External Gerber Verification
+### 11. External Gerber verification
 
-Use an external viewer (e.g., Gerbv) to review:
+Use an external viewer to review:
 
-* Pad-to-drill alignment
-* Board outline integrity
-* Silkscreen clearance
-* Text orientation and polarity
+* Pad to drill alignment and hole positions
+* Board outline and any internal cutouts
+* Silkscreen clearance from pads and solder mask openings
+* Text orientation and polarity on all layers
 
-Zoom in significantly to catch subtle issues.
+Zoom in significantly to catch subtle alignment and clearance issues.
 
-# Final Human Review - “Checks tools cannot perform”
+## Final human review: checks tools cannot perform
 
 These items frequently escape automated checks and require manual inspection.
 
-## Common Errors to Review
+### 12. Common errors to review
 
-### Connectivity and Orientation
+#### 12.1 Connectivity and orientation
 
-* Swapped RX/TX
-* Reversed MOSFETs, diodes, LEDs
+* Swapped receive and transmit signals
+* Reversed MOSFETs, diodes and LEDs
 * Incorrect connector pin orientation
+* Inconsistent pin numbering between schematic and layout
 
-### Power Integrity
+#### 12.2 Power integrity
 
-* Missing bulk capacitors
-* Regulator thermal issues
-* Missing ground pours
-* Incorrect placement of ferrite beads
+* Missing bulk capacitors near major loads
+* Regulator thermal issues and insufficient copper area
+* Missing ground pours in key areas
+* Incorrect placement or use of ferrite beads
 
-### Analog and Mixed-Signal
+#### 12.3 Analog and mixed signal
 
-* Long analog paths near switching regulators
-* Improper filtering on ADC references
+* Long analog paths routed near switching regulators or digital clocks
+* Improper filtering or layout on ADC references
+* Sensitive nodes crossing splits or noisy ground returns
 
-### Digital Design
+#### 12.4 Digital design
 
-* Missing pull-ups for I²C
-* Floating reset or boot-mode pins
+* Missing pull ups or pull downs for buses such as I2C
+* Floating reset or boot mode pins
+* Overloaded or heavily shared GPIOs
 
-### RF and Wireless
+#### 12.5 RF and wireless
 
-* Incorrect antenna placement
-* Inadequate ground clearance
-* Failure to follow manufacturer layout guidelines
+* Incorrect antenna placement relative to ground and enclosure
+* Inadequate ground clearance under or around antennas
+* Failure to follow manufacturer layout guidelines and keep out zones
+* Ground cuts or copper near antenna areas where they should be clear
 
-### Manufacturability and Assembly
+#### 12.6 Manufacturability and assembly
 
-* Silkscreen covering pads
-* Missing fiducials
-* Lack of test pads
-* Components placed too close (risk of tombstoning)
-* Via-in-pad without filling
+* Silkscreen covering pads or solder mask openings
+* Missing global or local fiducials
+* Lack of test pads for key signals and rails
+* Components placed too close, increasing risk of solder defects
+* Via in pad without filling or capping where it can cause solder wicking
 
-### Mechanical Checks
+#### 12.7 Mechanical checks
 
-* Misaligned connectors and buttons
-* Incorrect battery holder orientation
-* Mounting hole clearance issues
+* Misaligned connectors and buttons relative to enclosure features
+* Incorrect battery holder orientation and polarity marking
+* Mounting hole clearance issues and interference with hardware
+* Keep out violations around mounting hardware and edges
 
-# Pre-Submission Checklist
+## Pre submission checklist
 
 Confirm the following before sending the design to fabrication:
 
 1. The board can be assembled by hand if necessary.
-2. All polarized components are clearly indicated.
-3. PCB and connector orientations have been double-checked.
-4. Critical test points are accessible.
-5. A debugging plan exists for first prototypes.
+2. All polarized components are clearly indicated and oriented.
+3. PCB and connector orientations have been double checked.
+4. Critical test points are accessible for probing.
+5. A debugging and bring up plan exists for the first prototypes.
 
-Any “No” requires correction before submission.
+Any answer of “no” to these points requires correction before submission.
