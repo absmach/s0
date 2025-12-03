@@ -1,4 +1,4 @@
-# S0 and Baseboard Bring-Up Suite
+# S0 and Baseboard Peripheral Testing Suite
 
 This document contains all electrical and functional tests required to validate the S0 module and its baseboard after PCB fabrication.
 
@@ -174,10 +174,12 @@ This document contains all electrical and functional tests required to validate 
 
 ## ESP32-C6 Bring-Up Firmware Template (ESP-IDF)
 
-Below is a minimal and clean template suitable for executing all tests above.
+Below is a minimal and clean template suitable for executing all tests above. You can drop this straight into `main.c` and adapt pin mappings and actual driver code as needed.
 
 ```c
 #include <string.h>
+#include <stdio.h>
+
 #include "driver/gpio.h"
 #include "driver/i2c.h"
 #include "driver/spi_master.h"
@@ -195,6 +197,8 @@ Below is a minimal and clean template suitable for executing all tests above.
 #define UART_MODEM_TX   20
 #define UART_MODEM_RX   21
 #define UART_MODEM_NUM  UART_NUM_1
+
+#define UART_CMD_NUM    UART_NUM_0
 
 #define I2C_SCL         7
 #define I2C_SDA         6
@@ -220,6 +224,16 @@ static const char *TAG = "BRINGUP";
 static spi_device_handle_t spi_dev_w5500;
 static spi_device_handle_t spi_dev_sd;
 static spi_device_handle_t spi_dev_s2lp;
+
+typedef enum {
+    TEST_PASS = 0,
+    TEST_FAIL = 1
+} test_result_t;
+
+typedef struct {
+    const char *name;
+    test_result_t (*fn)(void);
+} test_case_t;
 
 static void init_gpio(void)
 {
@@ -272,42 +286,23 @@ static void init_uart_modem(void)
     ESP_LOGI(TAG, "Modem UART initialized");
 }
 
-static void modem_send_cmd(const char *cmd)
+static void init_uart_cmd(void)
 {
-    uart_write_bytes(UART_MODEM_NUM, cmd, strlen(cmd));
-}
+    uart_config_t cfg = {
+        .baud_rate = 115200,
+        .data_bits = UART_DATA_8_BITS,
+        .stop_bits = UART_STOP_BITS_1,
+        .parity    = UART_PARITY_DISABLE,
+        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+        .source_clk = UART_SCLK_DEFAULT
+    };
 
-static int modem_read_line(char *buf, int max_len, TickType_t timeout_ticks)
-{
-    int idx = 0;
-    TickType_t start = xTaskGetTickCount();
+    uart_param_config(UART_CMD_NUM, &cfg);
+    uart_set_pin(UART_CMD_NUM, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE,
+                 UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+    uart_driver_install(UART_CMD_NUM, 4096, 0, 0, NULL, 0);
 
-    while (idx < max_len - 1) {
-        uint8_t ch;
-        int len = uart_read_bytes(UART_MODEM_NUM, &ch, 1, pdMS_TO_TICKS(10));
-        if (len > 0) {
-            if (ch == '\n') {
-                break;
-            }
-            if (ch != '\r') {
-                buf[idx++] = (char)ch;
-            }
-        }
-        if ((xTaskGetTickCount() - start) > timeout_ticks) {
-            break;
-        }
-    }
-    buf[idx] = '\0';
-    return idx;
-}
-
-static void modem_power_on(void)
-{
-    ESP_LOGI(TAG, "Powering on modem");
-    gpio_set_level(MODEM_PWR_GPIO, 1);
-    vTaskDelay(pdMS_TO_TICKS(1000));
-    gpio_set_level(MODEM_PWR_GPIO, 0);
-    vTaskDelay(pdMS_TO_TICKS(5000));
+    ESP_LOGI(TAG, "CMD UART initialized");
 }
 
 static void init_i2c(void)
@@ -371,6 +366,44 @@ static void init_spi_bus(void)
     ESP_LOGI(TAG, "SPI bus and devices initialized");
 }
 
+static void modem_send_cmd(const char *cmd)
+{
+    uart_write_bytes(UART_MODEM_NUM, cmd, strlen(cmd));
+}
+
+static int modem_read_line(char *buf, int max_len, TickType_t timeout_ticks)
+{
+    int idx = 0;
+    TickType_t start = xTaskGetTickCount();
+
+    while (idx < max_len - 1) {
+        uint8_t ch;
+        int len = uart_read_bytes(UART_MODEM_NUM, &ch, 1, pdMS_TO_TICKS(10));
+        if (len > 0) {
+            if (ch == '\n') {
+                break;
+            }
+            if (ch != '\r') {
+                buf[idx++] = (char)ch;
+            }
+        }
+        if ((xTaskGetTickCount() - start) > timeout_ticks) {
+            break;
+        }
+    }
+    buf[idx] = '\0';
+    return idx;
+}
+
+static void modem_power_on(void)
+{
+    ESP_LOGI(TAG, "Powering on modem");
+    gpio_set_level(MODEM_PWR_GPIO, 1);
+    vTaskDelay(pdMS_TO_TICKS(1000));
+    gpio_set_level(MODEM_PWR_GPIO, 0);
+    vTaskDelay(pdMS_TO_TICKS(5000));
+}
+
 static esp_err_t w5500_hw_reset(void)
 {
     gpio_set_level(W5500_RST_GPIO, 0);
@@ -408,60 +441,10 @@ static esp_err_t w5500_basic_init(void)
     return ESP_OK;
 }
 
-static void w5500_test_task(void *arg)
-{
-    ESP_LOGI(TAG, "W5500 test task starting");
-    ESP_ERROR_CHECK(w5500_basic_init());
-
-    while (1) {
-        ESP_LOGI(TAG, "W5500 test heartbeat");
-        vTaskDelay(pdMS_TO_TICKS(5000));
-    }
-}
-
 static esp_err_t sdcard_init_spi(void)
 {
     ESP_LOGI(TAG, "SD card SPI init (skeleton)");
     return ESP_OK;
-}
-
-static void sdcard_test_task(void *arg)
-{
-    ESP_LOGI(TAG, "SD card test task starting");
-    ESP_ERROR_CHECK(sdcard_init_spi());
-
-    while (1) {
-        ESP_LOGI(TAG, "SD card test heartbeat");
-        vTaskDelay(pdMS_TO_TICKS(10000));
-    }
-}
-
-static void modem_at_test_task(void *arg)
-{
-    char line[128];
-
-    modem_power_on();
-    ESP_LOGI(TAG, "Sending AT");
-    modem_send_cmd("AT\r\n");
-
-    while (1) {
-        int len = modem_read_line(line, sizeof(line), pdMS_TO_TICKS(2000));
-        if (len > 0) {
-            ESP_LOGI(TAG, "Modem: %s", line);
-            if (strstr(line, "OK") != NULL) {
-                ESP_LOGI(TAG, "AT link is alive");
-                break;
-            }
-        } else {
-            ESP_LOGW(TAG, "No response, retrying...");
-            modem_send_cmd("AT\r\n");
-        }
-    }
-
-    while (1) {
-        vTaskDelay(pdMS_TO_TICKS(10000));
-        modem_send_cmd("AT+CSQ\r\n");
-    }
 }
 
 static void s2lp_hw_wakeup(void)
@@ -494,14 +477,139 @@ static esp_err_t s2lp_basic_init(void)
     return ESP_OK;
 }
 
-static void s2lp_test_task(void *arg)
+static test_result_t test_gpio_led(void)
 {
-    ESP_LOGI(TAG, "S2LP test task starting");
-    ESP_ERROR_CHECK(s2lp_basic_init());
+    ESP_LOGI(TAG, "[TEST] GPIO_LED");
+    gpio_set_level(LED_GPIO, 1);
+    vTaskDelay(pdMS_TO_TICKS(50));
+    gpio_set_level(LED_GPIO, 0);
+    return TEST_PASS;
+}
+
+static test_result_t test_w5500_basic(void)
+{
+    ESP_LOGI(TAG, "[TEST] W5500_BASIC");
+    if (w5500_basic_init() == ESP_OK) {
+        return TEST_PASS;
+    }
+    return TEST_FAIL;
+}
+
+static test_result_t test_sdcard_basic(void)
+{
+    ESP_LOGI(TAG, "[TEST] SDCARD_BASIC");
+    if (sdcard_init_spi() == ESP_OK) {
+        return TEST_PASS;
+    }
+    return TEST_FAIL;
+}
+
+static test_result_t test_modem_at_basic(void)
+{
+    ESP_LOGI(TAG, "[TEST] MODEM_AT");
+    char line[128];
+
+    modem_power_on();
+    modem_send_cmd("AT\r\n");
+
+    TickType_t timeout = pdMS_TO_TICKS(8000);
+    TickType_t start = xTaskGetTickCount();
+
+    while ((xTaskGetTickCount() - start) < timeout) {
+        int len = modem_read_line(line, sizeof(line), pdMS_TO_TICKS(1000));
+        if (len > 0) {
+            ESP_LOGI(TAG, "Modem: %s", line);
+            if (strstr(line, "OK") != NULL) {
+                ESP_LOGI(TAG, "[TEST] MODEM_AT PASS");
+                return TEST_PASS;
+            }
+        }
+    }
+
+    ESP_LOGE(TAG, "[TEST] MODEM_AT FAIL (no OK)");
+    return TEST_FAIL;
+}
+
+static test_result_t test_s2lp_basic(void)
+{
+    ESP_LOGI(TAG, "[TEST] S2LP_BASIC");
+    if (s2lp_basic_init() == ESP_OK) {
+        return TEST_PASS;
+    }
+    return TEST_FAIL;
+}
+
+static const test_case_t g_tests[] = {
+    { "GPIO_LED",   test_gpio_led },
+    { "W5500_BASIC", test_w5500_basic },
+    { "SDCARD_BASIC", test_sdcard_basic },
+    { "MODEM_AT",   test_modem_at_basic },
+    { "S2LP_BASIC", test_s2lp_basic }
+};
+
+static const size_t g_test_count = sizeof(g_tests) / sizeof(g_tests[0]);
+
+static void send_result_line(const char *name, test_result_t res)
+{
+    printf("{\"type\":\"result\",\"name\":\"%s\",\"result\":\"%s\"}\n",
+           name,
+           (res == TEST_PASS) ? "PASS" : "FAIL");
+}
+
+static void handle_command(const char *cmd)
+{
+    if (strcmp(cmd, "LIST") == 0) {
+        for (size_t i = 0; i < g_test_count; i++) {
+            printf("{\"type\":\"test\",\"name\":\"%s\"}\n", g_tests[i].name);
+        }
+        return;
+    }
+
+    if (strncmp(cmd, "RUN ", 4) == 0) {
+        const char *name = cmd + 4;
+
+        if (strcmp(name, "ALL") == 0) {
+            for (size_t i = 0; i < g_test_count; i++) {
+                test_result_t r = g_tests[i].fn();
+                send_result_line(g_tests[i].name, r);
+            }
+            return;
+        }
+
+        for (size_t i = 0; i < g_test_count; i++) {
+            if (strcmp(name, g_tests[i].name) == 0) {
+                test_result_t r = g_tests[i].fn();
+                send_result_line(g_tests[i].name, r);
+                return;
+            }
+        }
+
+        printf("{\"type\":\"error\",\"msg\":\"UNKNOWN_TEST\"}\n");
+        return;
+    }
+
+    printf("{\"type\":\"error\",\"msg\":\"UNKNOWN_CMD\"}\n");
+}
+
+static void command_task(void *arg)
+{
+    char buf[128];
+    int idx = 0;
 
     while (1) {
-        ESP_LOGI(TAG, "S2LP test heartbeat");
-        vTaskDelay(pdMS_TO_TICKS(7000));
+        uint8_t ch;
+        int len = uart_read_bytes(UART_CMD_NUM, &ch, 1, pdMS_TO_TICKS(50));
+        if (len > 0) {
+            if (ch == '\n' || ch == '\r') {
+                buf[idx] = '\0';
+                if (idx > 0) {
+                    handle_command(buf);
+                }
+                idx = 0;
+            } else if (idx < (int)sizeof(buf) - 1) {
+                buf[idx++] = (char)ch;
+            }
+        }
     }
 }
 
@@ -521,15 +629,22 @@ void app_main(void)
 
     init_gpio();
     init_uart_modem();
+    init_uart_cmd();
     init_i2c();
     init_spi_bus();
 
     xTaskCreate(blink_task, "blink", 2048, NULL, 1, NULL);
-    xTaskCreate(w5500_test_task, "w5500_test", 4096, NULL, 5, NULL);
-    xTaskCreate(sdcard_test_task, "sdcard_test", 4096, NULL, 4, NULL);
-    xTaskCreate(modem_at_test_task, "modem_at_test", 4096, NULL, 5, NULL);
-    xTaskCreate(s2lp_test_task, "s2lp_test", 4096, NULL, 4, NULL);
+    xTaskCreate(command_task, "cmd", 4096, NULL, 4, NULL);
 
-    ESP_LOGI(TAG, "Tasks started");
+    ESP_LOGI(TAG, "Ready. Commands: LIST, RUN <name>, RUN ALL");
 }
 ```
+
+### How to use this from your PC
+
+1. Connect to the board’s **UART0** (same as default console) at 115200.
+2. Type commands followed by newline:
+
+* `LIST` → board prints available tests as JSON lines
+* `RUN ALL` → runs all tests, prints JSON result lines
+* `RUN MODEM_AT` → runs just the modem test
