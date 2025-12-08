@@ -20,7 +20,6 @@ This document contains all electrical and functional tests required to validate 
 * [ ] Battery input ↔ GND high resistance
 * [ ] No unexpected continuity between high-current nets
 
-
 ## 2. Power-up and rail validation
 
 ### 2.1 S0 USB-C power
