@@ -176,6 +176,138 @@ This document contains all electrical and functional tests required to validate 
 
 ## ESP32-C6 Bring-Up Firmware Template (ESP-IDF)
 
+This firmware template is used to validate all electrical and functional subsystems of the S0 module and its baseboard. It must be compiled with the official Espressif toolchain.
+
+### **Build Framework / Toolchain Requirements**
+
+**Framework:**
+
+* ESP-IDF (Espressif IoT Development Framework), version **5.x or later**
+
+**Compiler Toolchain:**
+
+* Xtensa-ESP32-C6 GCC toolchain (installed automatically by ESP-IDF)
+
+**Why ESP-IDF is required:**
+
+* Uses native FreeRTOS integration
+* Uses ESP-IDF drivers for GPIO, UART, SPI, I2C
+* Uses ESP logging system (`esp_log.h`)
+* Uses ESP-IDF startup & build system (CMake)
+* Arduino Core is **NOT compatible** with this code
+
+### **Install ESP-IDF**
+
+Follow Espressif’s official guide for ESP32-C6:
+
+```bash
+git clone -b v5.2 https://github.com/espressif/esp-idf.git
+cd esp-idf
+./install.sh esp32c6
+```
+
+### **Export Environment**
+
+Before building:
+
+```bash
+. $HOME/esp/esp-idf/export.sh
+```
+
+This sets the PATH, compiler toolchain, and IDF environment variables.
+
+### **Recommended Project Structure**
+
+```shell
+firmware/
+│
+├── CMakeLists.txt
+├── sdkconfig
+└── main/
+    ├── CMakeLists.txt
+    └── main.c     ← place bring-up firmware here
+```
+
+**Top-level CMakeLists.txt:**
+
+```cmake
+cmake_minimum_required(VERSION 3.16)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(s0_bringup)
+```
+
+**main/CMakeLists.txt:**
+
+```cmake
+idf_component_register(SRCS "main.c" INCLUDE_DIRS ".")
+```
+
+This is all you need to compile the provided bring-up code.
+
+### **Build Firmware**
+
+Inside the project folder:
+
+```bash
+idf.py build
+```
+
+### **Flash Firmware**
+
+Replace `/dev/ttyACM0` with the correct USB device:
+
+```bash
+idf.py -p /dev/ttyACM0 flash
+```
+
+### **Flash + Monitor**
+
+```bash
+idf.py -p /dev/ttyACM0 flash monitor
+```
+
+Exit monitor with:
+`Ctrl + ]`
+
+### **Serial Console Use**
+
+The firmware accepts commands over **UART0** (USB CDC), running at **115200 baud**.
+
+Commands:
+
+| Command             | Description                |
+| ------------------- | -------------------------- |
+| `LIST`              | Prints all test names      |
+| `RUN ALL`           | Runs the entire test suite |
+| `RUN <NAME>`        | Runs a specific test       |
+| Any invalid command | Returns JSON error         |
+
+### **Output Format**
+
+Each test prints structured JSON:
+
+```json
+{"type":"result","name":"W5500_BASIC","result":"PASS"}
+```
+
+This enables automated factory testing and Python integration.
+
+### **Additional Instructions**
+
+1. Flash the firmware using:
+
+   ```bash
+   idf.py -p /dev/ttyACM0 flash monitor
+   ```
+
+2. Open the USB serial console at **115200 baud**.
+3. Issue commands:
+
+   * `LIST`
+   * `RUN ALL`
+   * `RUN MODEM_AT`
+4. All results are printed as JSON for easy machine parsing.
+
 Below is a minimal and clean template suitable for executing all tests above. You can drop this straight into `main.c` and adapt pin mappings and actual driver code as needed.
 
 ```c
