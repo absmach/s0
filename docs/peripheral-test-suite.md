@@ -15,9 +15,11 @@ This document contains all electrical and functional tests required to validate 
 ### 1.2 Continuity tests
 
 * [ ] 3V3 ↔ GND not shorted
+* [ ] **1V8 ↔ GND not shorted**
 * [ ] 5V ↔ GND not shorted
 * [ ] Battery input ↔ GND high resistance
 * [ ] No unexpected continuity between high-current nets
+
 
 ## 2. Power-up and rail validation
 
