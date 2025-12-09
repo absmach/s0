@@ -432,6 +432,7 @@
 		(property "Reference" "C6"
 			(at 0 -5.2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8c3242c6-0f65-42ec-bd66-1ae6de99f1e1")
 			(effects
 				(font
@@ -4158,6 +4159,7 @@
 		(property "Reference" "R27"
 			(at -3.557474 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dc93016b-c0c9-4ae6-b4b1-0414418ce08d")
 			(effects
 				(font
@@ -4397,6 +4399,7 @@
 		(property "Reference" "U7"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e59153f1-1c7b-47e0-9595-3851273a6515")
 			(effects
 				(font
@@ -5660,6 +5663,7 @@
 		(property "Reference" "R12"
 			(at 3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "00bfb7f3-af5b-489f-8a26-ba7b5c29c5e1")
 			(effects
 				(font
@@ -6036,6 +6040,7 @@
 		(property "Reference" "R15"
 			(at 3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7308b386-3ffd-4f95-b4f8-a604f2068b45")
 			(effects
 				(font
@@ -6671,6 +6676,7 @@
 		(property "Reference" "R25"
 			(at 3.5 1 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d47a2eed-f1a1-44ed-8d11-57b6fc2a9d33")
 			(effects
 				(font
@@ -6910,6 +6916,7 @@
 		(property "Reference" "C11"
 			(at -3.592474 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b9c13e04-e81d-4e35-a342-efb90c7fddfb")
 			(effects
 				(font
@@ -7149,6 +7156,7 @@
 		(property "Reference" "R9"
 			(at -0.5 1.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "debbc262-9b7c-41ab-bf2f-47d41937c088")
 			(effects
 				(font
@@ -9448,8 +9456,9 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C30"
-			(at 3.5 0 270)
+			(at 3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ebcad6f4-5f77-432a-8583-7355184e9dfd")
 			(effects
 				(font
@@ -9689,6 +9698,7 @@
 		(property "Reference" "C15"
 			(at 3.60228 -0.137474 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c7add82d-a2ce-4e43-9579-399f8f852218")
 			(effects
 				(font
@@ -9928,6 +9938,7 @@
 		(property "Reference" "C1"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "eea6b661-d12c-4fd8-b324-5031ecb4b24e")
 			(effects
 				(font
@@ -10278,8 +10289,9 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R21"
-			(at 0.5 2 270)
+			(at 0.5 2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "516e8a1e-2b03-4456-85a3-7bec58af9b42")
 			(effects
 				(font
@@ -10289,7 +10301,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 0 1.65 270)
+			(at 0 1.65 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f510ff00-469f-4910-93c3-cfc457736cf4")
@@ -10301,7 +10313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25481a4d-2d4e-4b0b-afb2-8effb6f818da")
@@ -10313,7 +10325,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 330Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3e8bd0c-d600-4707-ab49-fef634b9ecb6")
@@ -10469,7 +10481,7 @@
 			(uuid "8ebc0d86-7b8e-458e-8388-a7978a6beede")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "67158d10-e052-4a21-9f75-a768840ee2b8")
 			(effects
@@ -10805,6 +10817,7 @@
 		(property "Reference" "R3"
 			(at 3 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "244f421a-9e5e-401f-9ebc-1935682be3d7")
 			(effects
 				(font
@@ -11652,6 +11665,7 @@
 		(property "Reference" "U9"
 			(at 0 2.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "48ae6b80-86d7-4e2c-b356-68059502969c")
 			(effects
 				(font
@@ -11928,6 +11942,7 @@
 		(property "Reference" "R18"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f2cc38c3-ed4c-444b-ae8a-5900f0987a7a")
 			(effects
 				(font
@@ -12165,8 +12180,9 @@
 		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L3"
-			(at -3 0 270)
+			(at -3 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f6a919fa-ff1f-4152-87d8-6b081299a17a")
 			(effects
 				(font
@@ -12176,7 +12192,7 @@
 			)
 		)
 		(property "Value" "L_Ferrite"
-			(at 0 1.55 270)
+			(at 0 1.55 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "72bfc752-6edb-4fa9-bc47-772d0605e91f")
@@ -12188,7 +12204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f07df0de-5450-4a8e-b165-ade3ae33c3d7")
@@ -12200,7 +12216,7 @@
 			)
 		)
 		(property "Description" "Inductor with ferrite core"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "063c2877-ac65-472f-bcef-57ca140301bd")
@@ -12356,7 +12372,7 @@
 			(uuid "f41841f7-6a38-4f8b-90fd-b079f5daf324")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "d76c3ee9-b209-443e-81be-a081d5bec0ae")
 			(effects
@@ -12528,6 +12544,7 @@
 		(property "Reference" "U8"
 			(at -4 1 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bc103e95-c846-462c-883c-810d9ae79036")
 			(effects
 				(font
@@ -12804,6 +12821,7 @@
 		(property "Reference" "C10"
 			(at 3.5 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "442ab079-7ef5-44b8-9226-3b9f31832527")
 			(effects
 				(font
@@ -13043,6 +13061,7 @@
 		(property "Reference" "R4"
 			(at 3 -0.5 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8fcabd6c-7782-4987-bb2e-2f8db8ab24c5")
 			(effects
 				(font
@@ -13282,6 +13301,7 @@
 		(property "Reference" "R17"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a257479b-d76f-4372-90e7-2ae11c6b2d43")
 			(effects
 				(font
@@ -13519,8 +13539,9 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
-			(at -3.5 0 270)
+			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cfd10a6f-d885-43eb-ad65-5193ac502483")
 			(effects
 				(font
@@ -13530,7 +13551,7 @@
 			)
 		)
 		(property "Value" "22nF"
-			(at 0 1.68 270)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1ac927b-7336-42d7-b179-5915badeccad")
@@ -13542,7 +13563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17515bc9-3b0c-4444-a7d5-8db37f1ca058")
@@ -13554,7 +13575,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56dff17b-3424-4cc1-9378-e43dd5000fa9")
@@ -13710,7 +13731,7 @@
 			(uuid "fe00fd52-ae4b-4e14-a173-25d6f521e96a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "246f388b-6556-43d6-8fa6-b9960c0752bf")
 			(effects
@@ -13760,6 +13781,7 @@
 		(property "Reference" "C3"
 			(at -2.9625 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ec2b9e5a-bfc9-4e6f-b26a-8c343261b8b6")
 			(effects
 				(font
@@ -14098,6 +14120,7 @@
 		(property "Reference" "C25"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f7da9594-f263-4a40-aab1-7107a3e90ad3")
 			(effects
 				(font
@@ -14447,6 +14470,7 @@
 		(property "Reference" "C7"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "56b06d37-ed09-4726-ac1e-5ce4a8b347e4")
 			(effects
 				(font
@@ -15361,6 +15385,7 @@
 		(property "Reference" "R24"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a94c79cb-6d28-44cb-9bdc-87d160d252c9")
 			(effects
 				(font
@@ -17229,6 +17254,7 @@
 		(property "Reference" "RN4"
 			(at 0 -2.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "de0a7a9a-1b53-44fc-a835-61d67bb1f31f")
 			(effects
 				(font
@@ -17645,6 +17671,7 @@
 		(property "Reference" "C21"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ece434e1-2946-453e-945b-7a2a11ee3073")
 			(effects
 				(font
@@ -18712,6 +18739,7 @@
 		(property "Reference" "C17"
 			(at 3.5 -0.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "58c227f8-9bc5-4f7a-98be-2e5a3c8b3b62")
 			(effects
 				(font
@@ -18951,6 +18979,7 @@
 		(property "Reference" "C8"
 			(at -3 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bf167100-8ce0-4fb6-bd2f-73703a7bdb13")
 			(effects
 				(font
@@ -19316,7 +19345,7 @@
 			(at 4.445 -5.49 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c735aeb-b853-46ce-8dc9-ec8a099e7f63")
+			(uuid "7f3f2510-ed96-44e0-925d-bd5d600d605e")
 			(effects
 				(font
 					(size 1 1)
@@ -19327,7 +19356,7 @@
 		(property "Value" "RJ45_Bel_SI-60062-F JLC"
 			(at 4.44 18.23 0)
 			(layer "F.Fab")
-			(uuid "d53924fc-b205-48ff-8ca3-b34722c56137")
+			(uuid "357a300e-2ba1-4b17-8894-dc603387e6ed")
 			(effects
 				(font
 					(size 1 1)
@@ -19340,7 +19369,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19f48aa4-66dc-466b-a835-a0dcc3e0f270")
+			(uuid "4198f4f1-b8f5-4b8f-8b7c-658458058358")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19353,7 +19382,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "928049e3-0539-4e58-9912-ca4c7c0cdb0d")
+			(uuid "a67fe92f-af63-40b8-8ce1-5986d0cf8402")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19759,6 +19788,7 @@
 		(property "Reference" "C16"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "638b4e81-de01-405b-aec4-ab98831adcf3")
 			(effects
 				(font
@@ -20194,6 +20224,7 @@
 		(property "Reference" "C26"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "84243e39-7802-4e1e-b78a-02ff5cb6190c")
 			(effects
 				(font
@@ -20535,8 +20566,9 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R20"
-			(at 0 -1.65 270)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "10d79e3e-20ee-40c3-b673-97316b4425d0")
 			(effects
 				(font
@@ -20546,7 +20578,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 0 1.65 270)
+			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "e498cd61-237d-44e7-9591-f2416b1657dd")
 			(effects
@@ -20557,7 +20589,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "abf8b67e-db91-4abe-896a-9878108777ef")
@@ -20569,7 +20601,7 @@
 			)
 		)
 		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±5% 330Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a6f4b34-8a74-41c6-9f7f-01f67460a2c8")
@@ -20725,7 +20757,7 @@
 			(uuid "228f185a-f571-45bc-9732-cfcfba8877d9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "527931f4-0fca-441f-914a-4e9c7e45d25a")
 			(effects
@@ -20775,6 +20807,7 @@
 		(property "Reference" "C23"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b2dcca4d-6174-4c8d-9223-301e1ac39e36")
 			(effects
 				(font
@@ -21014,6 +21047,7 @@
 		(property "Reference" "C14"
 			(at 3.5 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f12e0460-6891-40bc-b87a-35e56b6de813")
 			(effects
 				(font
@@ -21669,6 +21703,7 @@
 		(property "Reference" "R19"
 			(at 3.5 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9fe1ad41-ae7b-4fef-8197-3088978ba09e")
 			(effects
 				(font
@@ -23484,6 +23519,7 @@
 		(property "Reference" "C24"
 			(at -3.4625 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b0db68cf-fb4c-407b-8492-4932f4991e98")
 			(effects
 				(font
@@ -25241,6 +25277,7 @@
 		(property "Reference" "C22"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9e88d739-4091-4f3f-8a5f-625ae6944051")
 			(effects
 				(font
@@ -25480,6 +25517,7 @@
 		(property "Reference" "R16"
 			(at -3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d466970b-db3f-432a-93e8-af171ef17e06")
 			(effects
 				(font
@@ -25824,6 +25862,7 @@
 		(property "Reference" "R1"
 			(at -3 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0f18d241-723a-4d40-b4a9-2b447ce6934e")
 			(effects
 				(font
@@ -26415,6 +26454,7 @@
 		(property "Reference" "C9"
 			(at 3 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9edda1d9-9ddb-4c3e-9d94-a134f800de24")
 			(effects
 				(font
@@ -26654,6 +26694,7 @@
 		(property "Reference" "C2"
 			(at -2 1.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3ca518f9-d464-4e76-9fb1-78c1dfe36164")
 			(effects
 				(font
@@ -26893,6 +26934,7 @@
 		(property "Reference" "C18"
 			(at 3.4625 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c8d9f88d-a324-4c58-917f-e4bcb77393ac")
 			(effects
 				(font
@@ -27132,6 +27174,7 @@
 		(property "Reference" "L4"
 			(at -3.5 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4795865d-cf8d-4458-a019-c638b49a3b4c")
 			(effects
 				(font
@@ -27659,6 +27702,7 @@
 		(property "Reference" "R26"
 			(at -0.5 1.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4b96fcbd-be84-4050-b6da-31257d16cbd6")
 			(effects
 				(font
@@ -27898,6 +27942,7 @@
 		(property "Reference" "U3"
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "261fc571-1dfd-4cce-8c92-ae81d6dbcc1c")
 			(effects
 				(font
@@ -28441,6 +28486,7 @@
 		(property "Reference" "C19"
 			(at 3.4625 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "aee23821-1308-4301-b0f3-32bf4316f2fa")
 			(effects
 				(font
@@ -28805,8 +28851,9 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C31"
-			(at 3.5 0 270)
+			(at 3.5 0 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8ffd0f2f-25ea-4597-b7c8-f25426033e1b")
 			(effects
 				(font
@@ -29829,6 +29876,7 @@
 		(property "Reference" "R8"
 			(at 0 -1.65 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fc98a792-8743-4e5c-a010-a89bb4bcb190")
 			(effects
 				(font
@@ -30434,7 +30482,7 @@
 	(footprint "LOGO"
 		(layer "B.Cu")
 		(uuid "8b6698f2-f53a-4fd0-9a55-ea7b95552fc7")
-		(at 136.525819 110.778779 180)
+		(at 135 109.5 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -170189,7 +170237,7 @@
 		)
 		(polygon
 			(pts
-				(xy 106.5 49) (xy 106.5 141) (xy 165 141) (xy 165.5 49.5)
+				(xy 106.5 49) (xy 106.5 141) (xy 164.5 141) (xy 165 49.5)
 			)
 		)
 		(filled_polygon
@@ -173662,7 +173710,7 @@
 		)
 		(polygon
 			(pts
-				(xy 96.5 42.5) (xy 97 150.5) (xy 172.5 150.5) (xy 172.5 41.5)
+				(xy 96.5 42.5) (xy 97 150.5) (xy 171.5 150.5) (xy 171.5 41.5)
 			)
 		)
 		(filled_polygon
@@ -175670,7 +175718,7 @@
 		)
 		(polygon
 			(pts
-				(xy 103 46.5) (xy 103 143.5) (xy 167 143.5) (xy 167 46)
+				(xy 103 46.5) (xy 103 143.5) (xy 166.5 143.5) (xy 166.5 46)
 			)
 		)
 		(filled_polygon
@@ -177527,7 +177575,7 @@
 		)
 		(polygon
 			(pts
-				(xy 100 44.5) (xy 100.5 147) (xy 169.5 147.5) (xy 169.5 44.5)
+				(xy 100 44.5) (xy 100.5 147) (xy 168.5 147.5) (xy 168.5 44.5)
 			)
 		)
 		(filled_polygon
