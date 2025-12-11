@@ -6,10 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "S0 Base Board")
-		(date "2025-02-26")
-		(rev "v0.1.0")
+		(date "2025-11-26")
+		(rev "v0.3.0")
 		(company "Abstract Machines")
-		(comment 1 "Deigned By: Jones Kisaka")
+		(comment 1 "Designed By: Jones Kisaka")
 		(comment 2 "Approved By: Rodney Osodo")
 	)
 	(lib_symbols
@@ -2851,7 +2851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 54.102 90)
 			(effects
 				(font
@@ -2878,7 +2878,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22775"
+		(property "JLCPCB" "C17408"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -3046,7 +3046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 114.3 49.022 90)
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C17557"
 			(at 114.3 50.8 0)
 			(effects
 				(font
@@ -3143,7 +3143,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 77.47 49.022 90)
 			(effects
 				(font
@@ -3170,7 +3170,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C17557"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 66.04 56.642 90)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22984"
+		(property "JLCPCB" "C17621"
 			(at 66.04 58.42 0)
 			(effects
 				(font
