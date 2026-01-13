@@ -12764,7 +12764,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C12018 "
+		(property "JLCPCB" "C102664"
 			(at 173.99 58.42 90)
 			(effects
 				(font
