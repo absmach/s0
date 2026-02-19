@@ -123,8 +123,7 @@
 			(effects
 				(font
 					(size 10 10)
-					(thickness 1.016)
-					(bold yes)
+					(thickness 1.25)
 				)
 				(justify left bottom)
 			)
