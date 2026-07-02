@@ -1,11 +1,11 @@
-# 🔌 S0 Gateway
+# 🔌 A0 Gateway
 
-S0 is a modular **IoT gateway** built around the **ESP32-C6 (RISC-V)** platform, offering advanced wireless capabilities such as **Wi-Fi 6**, **Bluetooth 5**, and **802.15.4**. It supports multiple connectivity options including **NB-IoT/LTE-M** and optional **Ethernet**, enabling secure and scalable IoT deployments across **smart buildings**, **industrial environments**, and **city infrastructure**.
+a0 is a modular **IoT gateway** built around the **ESP32-C6 (RISC-V)** platform, offering advanced wireless capabilities such as **Wi-Fi 6**, **Bluetooth 5**, and **802.15.4**. It supports multiple connectivity options including **NB-IoT/LTE-M** and optional **Ethernet**, enabling secure and scalable IoT deployments across **smart buildings**, **industrial environments**, and **city infrastructure**.
 
-Optimized for **low-power, battery-powered operation** and modular expansion, S0 integrates **secure communication**, **local storage**, and multiple radio interfaces to serve as a versatile edge gateway in modern **IoT ecosystems**. While it includes support for **Wireless and Wired M-Bus**, its primary focus is on broad **IoT connectivity** and **interoperability**.
+Optimized for **low-power, battery-powered operation** and modular expansion, A0 integrates **secure communication**, **local storage**, and multiple radio interfaces to serve as a versatile edge gateway in modern **IoT ecosystems**. While it includes support for **Wireless and Wired M-Bus**, its primary focus is on broad **IoT connectivity** and **interoperability**.
 
 <p align="center">
-  <img src="img/s0.png" alt="S0 Board" width="300"/>
+  <img src="img/s0.png" alt="A0 Board" width="300"/>
 </p>
 
 ## 🌟 Features
@@ -46,7 +46,7 @@ Optimized for **low-power, battery-powered operation** and modular expansion, S0
 ## 📖 Documentation
 
 For setup instructions, pinouts, and integration guides, see the full documentation:  
-🔗 [S0 Documentation](https://github.com/absmach/s0-docs)
+🔗 [A0 Documentation](https://www.absmach.eu/docs/hardware/s1-gateway/)
 
 ## 💡 Use Cases
 
@@ -76,4 +76,4 @@ Contributions are welcome! Please check the [CONTRIBUTING.md](#) for details on 
 
 ## 📜 License
 
-S0 is licensed under the **Apache-2.0 License**. See the [LICENSE](LICENSE) file for more details.
+A0 is licensed under the **Apache-2.0 License**. See the [LICENSE](LICENSE) file for more details.
