@@ -6,172 +6,172 @@ This document contains all electrical and functional tests required to validate 
 
 ### 1.1 Visual inspection
 
-* [ ] All connectors aligned (USB-C, RJ45, terminal blocks)
-* [ ] No solder bridges on ESP32-C6, SIM7080G, W5500, S2LP
-* [ ] No missing components on regulator networks
-* [ ] No polarity errors on diodes, LEDs, electrolytic caps
-* [ ] No cracked MLCCs or lifted pads
+- [ ] All connectors aligned (USB-C, RJ45, terminal blocks)
+- [ ] No solder bridges on ESP32-C6, SIM7080G, W5500, S2LP
+- [ ] No missing components on regulator networks
+- [ ] No polarity errors on diodes, LEDs, electrolytic caps
+- [ ] No cracked MLCCs or lifted pads
 
 ### 1.2 Continuity tests
 
-* [ ] 3V3 ↔ GND not shorted
-* [ ] **1V8 ↔ GND not shorted**
-* [ ] 5V ↔ GND not shorted
-* [ ] Battery input ↔ GND high resistance
-* [ ] No unexpected continuity between high-current nets
+- [ ] 3V3 ↔ GND not shorted
+- [ ] **1V8 ↔ GND not shorted**
+- [ ] 5V ↔ GND not shorted
+- [ ] Battery input ↔ GND high resistance
+- [ ] No unexpected continuity between high-current nets
 
 ## 2. Power-up and rail validation
 
 ### 2.1 S0 USB-C power
 
-* [ ] 5 V measured at TP1 ≈ 5.0 V
-* [ ] 3.3 V measured at TP3 ≈ 3.3 V
-* [ ] No components overheating
-* [ ] USB enumeration visible on PC
+- [ ] 5 V measured at TP1 ≈ 5.0 V
+- [ ] 3.3 V measured at TP3 ≈ 3.3 V
+- [ ] No components overheating
+- [ ] USB enumeration visible on PC
 
 ### 2.2 S0 battery input power
 
-* [ ] 7.0 V applied correctly to JST battery input
-* [ ] 3.3 V rail stable
-* [ ] Idle current within expected range
-* [ ] No thermal hotspots
+- [ ] 7.0 V applied correctly to JST battery input
+- [ ] 3.3 V rail stable
+- [ ] Idle current within expected range
+- [ ] No thermal hotspots
 
 ### 2.3 Baseboard power (no S0 installed)
 
-* [ ] TP1 = 3.3 V
-* [ ] TP2 = 5 V
-* [ ] TP3 = GND
-* [ ] Regulators warm but not hot
+- [ ] TP1 = 3.3 V
+- [ ] TP2 = 5 V
+- [ ] TP3 = GND
+- [ ] Regulators warm but not hot
 
 ### 2.4 S0 powered from baseboard
 
-* [ ] S0 boots normally from baseboard input
-* [ ] USB log available
-* [ ] No resets or brownouts
+- [ ] S0 boots normally from baseboard input
+- [ ] USB log available
+- [ ] No resets or brownouts
 
 ## 3. ESP32-C6 core bring-up
 
 ### 3.1 USB console
 
-* [ ] Boot messages observed at 115200 baud
-* [ ] No continuous reboot loop
+- [ ] Boot messages observed at 115200 baud
+- [ ] No continuous reboot loop
 
 ### 3.2 Flash bring-up firmware
 
-* [ ] Flashing successful via USB
-* [ ] LED blinks according to firmware
-* [ ] UART prints periodic heartbeat
+- [ ] Flashing successful via USB
+- [ ] LED blinks according to firmware
+- [ ] UART prints periodic heartbeat
 
 ### 3.3 JTAG scan
 
-* [ ] MTCK / MTMS / MTDI / MTDO connected
-* [ ] JTAG probe detects single ESP32-C6
-* [ ] No unstable connection
+- [ ] MTCK / MTMS / MTDI / MTDO connected
+- [ ] JTAG probe detects single ESP32-C6
+- [ ] No unstable connection
 
 ## 4. S0 onboard peripheral tests
 
 ### 4.1 GPIO and LED
 
-* [ ] EXT_GPIO1 toggles normally
-* [ ] EXT_GPIO2 toggles normally
-* [ ] EXT_GPIO3 toggles normally
-* [ ] LED pin toggles observable
+- [ ] EXT_GPIO1 toggles normally
+- [ ] EXT_GPIO2 toggles normally
+- [ ] EXT_GPIO3 toggles normally
+- [ ] LED pin toggles observable
 
 ### 4.2 I2C test
 
-* [ ] Bus scan detects connected device
-* [ ] No SDA/SCL stuck low
-* [ ] Clean SCL/SDA waveforms
+- [ ] Bus scan detects connected device
+- [ ] No SDA/SCL stuck low
+- [ ] Clean SCL/SDA waveforms
 
 ### 4.3 SPI test
 
-* [ ] MOSI/MISO/SCK functional
-* [ ] Loopback or flash readback correct
-* [ ] Clean 1–4 MHz clock waveform
+- [ ] MOSI/MISO/SCK functional
+- [ ] Loopback or flash readback correct
+- [ ] Clean 1–4 MHz clock waveform
 
 ### 4.4 SIM7080G tests
 
 #### Power control
 
-* [ ] SIM7080_PWR toggles modem on/off
-* [ ] Current draw changes appropriately
+- [ ] SIM7080_PWR toggles modem on/off
+- [ ] Current draw changes appropriately
 
 #### UART AT-link
 
-* [ ] “AT” returns “OK”
-* [ ] “ATI” returns modem info
-* [ ] “AT+CSQ” returns valid RSSI
+- [ ] “AT” returns “OK”
+- [ ] “ATI” returns modem info
+- [ ] “AT+CSQ” returns valid RSSI
 
 #### Network attach
 
-* [ ] APN configured
-* [ ] Attach success
-* [ ] GNSS valid (outdoors)
+- [ ] APN configured
+- [ ] Attach success
+- [ ] GNSS valid (outdoors)
 
 ### 4.5 Wireless M-Bus (S2LP)
 
-* [ ] Driver initializes
-* [ ] Transmit test packet successful
-* [ ] Remote receiver or RF tool detects frame
+- [ ] Driver initializes
+- [ ] Transmit test packet successful
+- [ ] Remote receiver or RF tool detects frame
 
 ### 4.6 USB-C stability
 
-* [ ] Device enumerates
-* [ ] High-rate serial spam test stable
-* [ ] No disconnects
+- [ ] Device enumerates
+- [ ] High-rate serial spam test stable
+- [ ] No disconnects
 
 ## 5. Baseboard peripheral tests
 
 ### 5.1 SPI link between S0 and baseboard
 
-* [ ] Baseboard SPI activity visible
-* [ ] No contention or stuck lines
+- [ ] Baseboard SPI activity visible
+- [ ] No contention or stuck lines
 
 ### 5.2 Ethernet (W5500)
 
-* [ ] PHY reset functional
-* [ ] DHCP or static IP obtained
-* [ ] Ping success
-* [ ] TCP transfer stable
+- [ ] PHY reset functional
+- [ ] DHCP or static IP obtained
+- [ ] Ping success
+- [ ] TCP transfer stable
 
 ### 5.3 SD card slot
 
-* [ ] SD card detected
-* [ ] Filesystem mount OK
-* [ ] Read/write/delete cycle successful
+- [ ] SD card detected
+- [ ] Filesystem mount OK
+- [ ] Read/write/delete cycle successful
 
 ### 5.4 Wired M-Bus
 
-* [ ] TXI/RXI waveforms correct
-* [ ] Request frames sent
-* [ ] Meter responds
+- [ ] TXI/RXI waveforms correct
+- [ ] Request frames sent
+- [ ] Meter responds
 
 ### 5.5 Rail robustness
 
-* [ ] 3V3 holds under 100 mA added load
-* [ ] No thermal runaway
+- [ ] 3V3 holds under 100 mA added load
+- [ ] No thermal runaway
 
 ## 6. System-level tests
 
 ### 6.1 End-to-end data path
 
-* [ ] Read sensor or M-Bus input
-* [ ] ESP32 processes packet
-* [ ] Data forwarded via NB-IoT or Ethernet
-* [ ] Backend receives correct data
+- [ ] Read sensor or M-Bus input
+- [ ] ESP32 processes packet
+- [ ] Data forwarded via NB-IoT or Ethernet
+- [ ] Backend receives correct data
 
 ### 6.2 Sleep modes
 
-* [ ] Light sleep reachable
-* [ ] Deep sleep current matches datasheet values
-* [ ] Wake reliably from GPIO/RTC
+- [ ] Light sleep reachable
+- [ ] Deep sleep current matches datasheet values
+- [ ] Wake reliably from GPIO/RTC
 
 ### 6.3 Long-run soak test (24–72 hours)
 
-* [ ] SD card logging stable
-* [ ] Ethernet or NB-IoT heartbeat stable
-* [ ] No memory leaks or crashes
-* [ ] No unexplained resets
+- [ ] SD card logging stable
+- [ ] Ethernet or NB-IoT heartbeat stable
+- [ ] No memory leaks or crashes
+- [ ] No unexplained resets
 
 ## ESP32-C6 Bring-Up Firmware Template (ESP-IDF)
 
@@ -181,19 +181,19 @@ This firmware template is used to validate all electrical and functional subsyst
 
 **Framework:**
 
-* ESP-IDF (Espressif IoT Development Framework), version **5.x or later**
+- ESP-IDF (Espressif IoT Development Framework), version **5.x or later**
 
 **Compiler Toolchain:**
 
-* Xtensa-ESP32-C6 GCC toolchain (installed automatically by ESP-IDF)
+- Xtensa-ESP32-C6 GCC toolchain (installed automatically by ESP-IDF)
 
 **Why ESP-IDF is required:**
 
-* Uses native FreeRTOS integration
-* Uses ESP-IDF drivers for GPIO, UART, SPI, I2C
-* Uses ESP logging system (`esp_log.h`)
-* Uses ESP-IDF startup & build system (CMake)
-* Arduino Core is **NOT compatible** with this code
+- Uses native FreeRTOS integration
+- Uses ESP-IDF drivers for GPIO, UART, SPI, I2C
+- Uses ESP logging system (`esp_log.h`)
+- Uses ESP-IDF startup & build system (CMake)
+- Arduino Core is **NOT compatible** with this code
 
 ### **Install ESP-IDF**
 
@@ -286,7 +286,7 @@ Commands:
 Each test prints structured JSON:
 
 ```json
-{"type":"result","name":"W5500_BASIC","result":"PASS"}
+{ "type": "result", "name": "W5500_BASIC", "result": "PASS" }
 ```
 
 This enables automated factory testing and Python integration.
@@ -302,9 +302,10 @@ This enables automated factory testing and Python integration.
 2. Open the USB serial console at **115200 baud**.
 3. Issue commands:
 
-   * `LIST`
-   * `RUN ALL`
-   * `RUN MODEM_AT`
+   - `LIST`
+   - `RUN ALL`
+   - `RUN MODEM_AT`
+
 4. All results are printed as JSON for easy machine parsing.
 
 Below is a minimal and clean template suitable for executing all tests above. You can drop this straight into `main.c` and adapt pin mappings and actual driver code as needed.
@@ -778,6 +779,6 @@ void app_main(void)
 1. Connect to the board’s **UART0** (same as default console) at 115200.
 2. Type commands followed by newline:
 
-* `LIST` → board prints available tests as JSON lines
-* `RUN ALL` → runs all tests, prints JSON result lines
-* `RUN MODEM_AT` → runs just the modem test
+- `LIST` → board prints available tests as JSON lines
+- `RUN ALL` → runs all tests, prints JSON result lines
+- `RUN MODEM_AT` → runs just the modem test
