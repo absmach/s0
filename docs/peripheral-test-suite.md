@@ -1,6 +1,6 @@
-# S0 and Baseboard Peripheral Testing Suite
+# A0 and Baseboard Peripheral Testing Suite
 
-This document contains all electrical and functional tests required to validate the S0 module and its baseboard after PCB fabrication.
+This document contains all electrical and functional tests required to validate the A0 module and its baseboard after PCB fabrication.
 
 ## 1. Visual and continuity checks
 
@@ -22,30 +22,30 @@ This document contains all electrical and functional tests required to validate 
 
 ## 2. Power-up and rail validation
 
-### 2.1 S0 USB-C power
+### 2.1 A0 USB-C power
 
 - [ ] 5 V measured at TP1 ≈ 5.0 V
 - [ ] 3.3 V measured at TP3 ≈ 3.3 V
 - [ ] No components overheating
 - [ ] USB enumeration visible on PC
 
-### 2.2 S0 battery input power
+### 2.2 A0 battery input power
 
 - [ ] 7.0 V applied correctly to JST battery input
 - [ ] 3.3 V rail stable
 - [ ] Idle current within expected range
 - [ ] No thermal hotspots
 
-### 2.3 Baseboard power (no S0 installed)
+### 2.3 Baseboard power (no A0 installed)
 
 - [ ] TP1 = 3.3 V
 - [ ] TP2 = 5 V
 - [ ] TP3 = GND
 - [ ] Regulators warm but not hot
 
-### 2.4 S0 powered from baseboard
+### 2.4 A0 powered from baseboard
 
-- [ ] S0 boots normally from baseboard input
+- [ ] A0 boots normally from baseboard input
 - [ ] USB log available
 - [ ] No resets or brownouts
 
@@ -68,7 +68,7 @@ This document contains all electrical and functional tests required to validate 
 - [ ] JTAG probe detects single ESP32-C6
 - [ ] No unstable connection
 
-## 4. S0 onboard peripheral tests
+## 4. A0 onboard peripheral tests
 
 ### 4.1 GPIO and LED
 
@@ -122,7 +122,7 @@ This document contains all electrical and functional tests required to validate 
 
 ## 5. Baseboard peripheral tests
 
-### 5.1 SPI link between S0 and baseboard
+### 5.1 SPI link between A0 and baseboard
 
 - [ ] Baseboard SPI activity visible
 - [ ] No contention or stuck lines
@@ -175,7 +175,7 @@ This document contains all electrical and functional tests required to validate 
 
 ## ESP32-C6 Bring-Up Firmware Template (ESP-IDF)
 
-This firmware template is used to validate all electrical and functional subsystems of the S0 module and its baseboard. It must be compiled with the official Espressif toolchain.
+This firmware template is used to validate all electrical and functional subsystems of the A0 module and its baseboard. It must be compiled with the official Espressif toolchain.
 
 ### **Build Framework / Toolchain Requirements**
 
@@ -232,7 +232,7 @@ firmware/
 ```cmake
 cmake_minimum_required(VERSION 3.16)
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(s0_bringup)
+project(a0_bringup)
 ```
 
 **main/CMakeLists.txt:**
