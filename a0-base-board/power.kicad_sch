@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "A0 Base Board")
-		(date "2025-11-26")
-		(rev "v0.3.0")
+		(date "2026-07-03")
+		(rev "v0.4.0")
 		(company "Abstract Machines")
 		(comment 1 "Designed By: Jones Kisaka")
-		(comment 2 "Approved By: Rodney Osodo")
+		(comment 2 "Approved By: Osodo Rodney")
+		(comment 3 "Approved By: Jeff Mboya")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
@@ -2563,18 +2564,6 @@
 			(type none)
 		)
 		(uuid c6fe2d47-b9c9-4d58-ada9-434b9329fe1c)
-	)
-	(rectangle
-		(start 13.97 86.36)
-		(end 137.16 196.85)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid da038c06-9a1a-4fc5-acf6-102fda4ad50f)
 	)
 	(rectangle
 		(start 142.24 86.36)

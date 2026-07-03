@@ -6,11 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "A0 Base Board")
-		(date "2025-11-26")
-		(rev "v0.3.0")
+		(date "2026-07-03")
+		(rev "v0.4.0")
 		(company "Abstract Machines")
 		(comment 1 "Designed By: Jones Kisaka")
-		(comment 2 "Approved By: Rodney Osodo")
+		(comment 2 "Approved By: Osodo Rodney")
+		(comment 3 "Approved By: Jeff Mboya")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
