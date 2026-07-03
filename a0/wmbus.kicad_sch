@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "06833b28-c52c-4922-b54d-2b3f726202d1")
 	(paper "A4")
+	(title_block
+		(title "A0")
+		(date "2026-07-03")
+		(rev "v0.4.0")
+		(company "Abstract Machines")
+		(comment 1 "Designed By: Osodo Rodney")
+		(comment 2 "Approved By: Jones Kisaka")
+		(comment 3 "Approved By: Jeff Mboya")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1072,6 +1081,19 @@
 			(justify left)
 		)
 		(uuid "323e6ad0-657c-4a60-9dc4-c1cbd1b2d4bc")
+	)
+	(text "WMBUS"
+		(exclude_from_sim no)
+		(at 119.888 50.546 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "338c10ed-80dc-4f2a-ba82-94370a71664e")
 	)
 	(text "Limits current\nduring switching"
 		(exclude_from_sim no)

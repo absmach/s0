@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "0ceabfe0-439b-45ca-b804-d1d856d0c97d")
 	(paper "A4")
+	(title_block
+		(title "A0")
+		(date "2026-07-03")
+		(rev "v0.4.0")
+		(company "Abstract Machines")
+		(comment 1 "Designed By: Osodo Rodney")
+		(comment 2 "Approved By: Jones Kisaka")
+		(comment 3 "Approved By: Jeff Mboya")
+	)
 	(lib_symbols)
 	(sheet
 		(at 128.27 78.74)
@@ -12,20 +21,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 0 0 0.3000)
 		)
 		(uuid "00da1598-1c74-4cf4-b668-90491b2de46e")
 		(property "Sheetname" "power"
-			(at 128.27 78.0284 0)
+			(at 152.654 107.696 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -54,20 +64,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 229 191 1.0000)
 		)
 		(uuid "72b1662b-618a-47af-b530-ed91f7b2df04")
 		(property "Sheetname" "ESP32-C6"
-			(at 31.75 25.9584 0)
+			(at 36.068 50.8 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -96,20 +107,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "7f6c1b73-56aa-49c8-a7cf-f8ce13793633")
 		(property "Sheetname" "sim7080G"
-			(at 127 24.6884 0)
+			(at 134.62 50.292 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -138,20 +150,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 255 0.3000)
 		)
 		(uuid "8e304c19-59aa-4a8e-b8c1-7e87ddd672fd")
 		(property "Sheetname" "wmbus"
-			(at 33.02 80.5684 0)
+			(at 47.752 109.474 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
