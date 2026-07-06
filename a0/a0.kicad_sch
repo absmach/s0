@@ -1,0 +1,195 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0ceabfe0-439b-45ca-b804-d1d856d0c97d")
+	(paper "A4")
+	(title_block
+		(title "A0")
+		(date "2026-07-03")
+		(rev "v0.4.0")
+		(company "Abstract Machines")
+		(comment 1 "Designed By: Osodo Rodney")
+		(comment 2 "Approved By: Jones Kisaka")
+		(comment 3 "Approved By: Jeff Mboya")
+	)
+	(lib_symbols)
+	(sheet
+		(at 128.27 78.74)
+		(size 82.55 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 0 0 0.3000)
+		)
+		(uuid "00da1598-1c74-4cf4-b668-90491b2de46e")
+		(property "Sheetname" "power"
+			(at 152.654 107.696 0)
+			(effects
+				(font
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 128.27 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "a0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 26.67)
+		(size 72.39 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "72b1662b-618a-47af-b530-ed91f7b2df04")
+		(property "Sheetname" "ESP32-C6"
+			(at 36.068 50.8 0)
+			(effects
+				(font
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32-c6.kicad_sch"
+			(at 31.75 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "a0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 25.4)
+		(size 80.01 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "7f6c1b73-56aa-49c8-a7cf-f8ce13793633")
+		(property "Sheetname" "sim7080G"
+			(at 134.62 50.292 0)
+			(effects
+				(font
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sim7080G.kicad_sch"
+			(at 127 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "a0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 81.28)
+		(size 71.12 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 255 0.3000)
+		)
+		(uuid "8e304c19-59aa-4a8e-b8c1-7e87ddd672fd")
+		(property "Sheetname" "wmbus"
+			(at 47.752 109.474 0)
+			(effects
+				(font
+					(size 7.9756 7.9756)
+					(thickness 1.5951)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "wmbus.kicad_sch"
+			(at 33.02 128.8546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "a0"
+				(path "/0ceabfe0-439b-45ca-b804-d1d856d0c97d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
