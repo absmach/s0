@@ -2374,7 +2374,7 @@
 			(uuid "1f8e16b7-f740-44c2-a013-dd88c2c5f76b")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/f2854479-1356-4573-8b4e-a1726dc0bfe8"
 					(reference "Card1")
 					(unit 1)
@@ -2526,7 +2526,7 @@
 			(uuid "2a5e8f41-9b1c-42ad-9855-2ee6f9ce667c")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/f2854479-1356-4573-8b4e-a1726dc0bfe8"
 					(reference "U8")
 					(unit 1)

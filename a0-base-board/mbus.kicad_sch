@@ -3340,7 +3340,7 @@
 			(uuid "b3a25d4c-5a9c-42a8-b745-b828c57c3b33")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/715e542c-ab65-47cd-8818-1fd83daf1c1f"
 					(reference "J7")
 					(unit 1)
