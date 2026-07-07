@@ -10804,7 +10804,7 @@
 			(uuid "5c646dd8-0c4d-41d4-9d4a-4d76f9acab24")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR017")
 					(unit 1)
@@ -11692,7 +11692,7 @@
 			(uuid "69ad1986-f62e-4d35-953d-b801520f596c")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "Y1")
 					(unit 1)
@@ -12427,7 +12427,7 @@
 			(uuid "6b8b4774-6c08-4431-bac7-b1b67e0d2bfb")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "U5")
 					(unit 1)
@@ -12602,7 +12602,7 @@
 			(uuid "effe4b76-a5b4-4fc0-95b8-3a27466b774a")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "C14")
 					(unit 1)
@@ -14338,7 +14338,7 @@
 			(uuid "b350dec0-0d02-4be7-86a4-caca89355783")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "R8")
 					(unit 1)
@@ -14371,7 +14371,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "330"
 			(at 297.1801 50.8 0)
 			(effects
 				(font
@@ -14407,7 +14407,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17634"
+		(property "JLCPCB" "C17630"
 			(at 298.45 53.34 0)
 			(effects
 				(font
@@ -14512,7 +14512,7 @@
 			(uuid "220c79f5-cab8-43c3-b690-c42e0040b94d")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR03")
 					(unit 1)
@@ -15518,7 +15518,7 @@
 			(uuid "ce0242ee-7ae4-46d4-8a9c-e4037b07f26f")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "J4")
 					(unit 1)
@@ -15684,7 +15684,7 @@
 			(uuid "d5909e3d-350a-4c24-8d83-f89431063127")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "JP1")
 					(unit 1)
@@ -15756,7 +15756,7 @@
 			(uuid "db0aecac-a0f1-4a5d-b1b9-6ba1a0ab4496")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR08")
 					(unit 1)
@@ -15828,7 +15828,7 @@
 			(uuid "2bbec2b3-77db-4c13-8772-a0421b1a0829")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR06")
 					(unit 1)
@@ -16344,7 +16344,7 @@
 			(uuid "5de1f9d8-a3a9-4a26-9005-24d0ffc6e276")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "U4")
 					(unit 1)
@@ -16776,7 +16776,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "330"
 			(at 297.434 61.976 0)
 			(effects
 				(font
@@ -16812,7 +16812,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C17634"
+		(property "JLCPCB" "C17630"
 			(at 298.45 63.5 0)
 			(effects
 				(font
@@ -17152,7 +17152,7 @@
 			(uuid "efb29203-ba91-4e33-9c6e-e60c735e6ab2")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "C12")
 					(unit 1)
@@ -17224,7 +17224,7 @@
 			(uuid "4f23385e-2891-4215-b1d7-48ec7c8f5605")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR01")
 					(unit 1)
@@ -17296,7 +17296,7 @@
 			(uuid "8d2796d9-620a-4200-b730-eaae43712949")
 		)
 		(instances
-			(project ""
+			(project "a0-base-board"
 				(path "/30a07aa9-a4c6-42ad-8aa6-f5766a70e64f/b1694f27-1acf-4a7e-8289-2ed952927141"
 					(reference "#PWR07")
 					(unit 1)
