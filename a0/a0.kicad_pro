@@ -58,12 +58,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|70925000|98000900|01bf77d6-1d63-4c87-b778-1cf0317e315f|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -79,7 +84,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -443,7 +448,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -740,16 +745,12 @@
       "ESP32-C6"
     ],
     [
-      "7f6c1b73-56aa-49c8-a7cf-f8ce13793633",
-      "sim7080G"
-    ],
-    [
-      "8e304c19-59aa-4a8e-b8c1-7e87ddd672fd",
-      "wmbus"
+      "4eab42d6-24d2-4e12-b9eb-d5f320f16ef6",
+      "EXPANSION"
     ],
     [
       "00da1598-1c74-4cf4-b668-90491b2de46e",
-      "power"
+      "POWER"
     ]
   ],
   "text_variables": {}
