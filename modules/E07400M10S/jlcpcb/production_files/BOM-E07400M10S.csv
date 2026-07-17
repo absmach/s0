@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC,Quantity
+0.1uF,C1,C_0805_2012Metric,C49678,1
+Conn_01x08,"J1,J2",PinHeader_1x08_P2.54mm_Vertical,C492407,2
+E07-400M10S,U1,C2965513,C2965513,1

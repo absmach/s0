@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,0.1uF,C_0805_2012Metric,47.6,-66.2,180.0,top
+J1,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,41.1,-55.3,0.0,bottom
+J2,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,63.96,-55.3,0.0,bottom
+U1,E07-400M10S,C2965513,52.9,-54.0,180.0,top
