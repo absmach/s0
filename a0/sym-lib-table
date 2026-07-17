@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "C99413")(type "KiCad")(uri "${KIPRJMOD}/modules/C99413.kicad_sym")(options "")(descr ""))
   (lib (name "C99421")(type "KiCad")(uri "${KIPRJMOD}/modules/C99421.kicad_sym")(options "")(descr ""))
+  (lib (name "C3293147")(type "KiCad")(uri "${KIPRJMOD}/modules/C3293147.kicad_sym")(options "")(descr ""))
+  (lib (name "C5439767")(type "KiCad")(uri "${KIPRJMOD}/modules/C5439767.kicad_sym")(options "")(descr ""))
+  (lib (name "C5439761")(type "KiCad")(uri "${KIPRJMOD}/modules/C5439761.kicad_sym")(options "")(descr ""))
 )
