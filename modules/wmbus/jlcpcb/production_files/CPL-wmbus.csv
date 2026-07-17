@@ -1,7 +1,7 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-C1,0.1uF,C_0805_2012Metric,57.45,-129.5,0.0,top
-J1,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,50.505,-118.015,0.0,bottom
-J2,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,73.485,-118.015,0.0,bottom
-R1,100,R_0805_2012Metric,66.5,-129.53,180.0,top
-R2,10K,R_0805_2012Metric,62.0,-129.53,180.0,top
-U2,RC-S2LP-868,RC-S2LP-868,62.22,-114.815,0.0,top
+C1,0.1uF,C_0805_2012Metric,64.8,-129.4,180.0,top
+J1,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,49.3,-118.3,0.0,bottom
+J2,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,72.16,-118.3,0.0,bottom
+R1,100,R_0805_2012Metric,55.7,-129.43,0.0,top
+R2,10K,R_0805_2012Metric,60.2,-129.43,0.0,top
+U2,RC-S2LP-868,RC-S2LP-868,60.8,-114.775,0.0,top
